@@ -42,11 +42,11 @@ export default function Navbar() {
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src="/images/logo.png" 
-              alt="PGC Dhamyal" 
+              alt="PGC Jhang" 
               className="h-8 w-auto"
             />
             <span className="font-display font-bold text-xl text-brand-secondary-700">
-              PGC Dhamyal
+              PGC Jhang
             </span>
           </Link>
 

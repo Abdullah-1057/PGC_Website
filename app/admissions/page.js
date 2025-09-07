@@ -79,7 +79,7 @@ export default function Admissions() {
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
                 Start your journey towards academic excellence. Apply now for admission 
-                to PGC Dhamyal and join thousands of successful students.
+                to PGC Jhang and join thousands of successful students.
               </p>
             </div>
           </Reveal>
@@ -232,9 +232,9 @@ export default function Admissions() {
                   </h3>
                   <div className="space-y-3 text-brand-muted-700">
                     <p><strong>Phone:</strong> +92 51 123 4567</p>
-                    <p><strong>Email:</strong> admissions@pgcdhamyal.edu.pk</p>
+                    <p><strong>Email:</strong> admissions@pgcJhang.edu.pk</p>
                     <p><strong>Office Hours:</strong> Mon-Fri 9:00 AM - 4:00 PM</p>
-                    <p><strong>Address:</strong> Dhamyal Campus, Rawalpindi, Punjab</p>
+                    <p><strong>Address:</strong> Jhang Campus, Rawalpindi, Punjab</p>
                   </div>
                 </div>
               </Reveal>

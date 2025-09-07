@@ -58,14 +58,14 @@ export default function Navbar() {
               <div className="relative">
                 <Image 
                   src="/images/logo.png" 
-                  alt="PGC Dhamyal" 
+                  alt="PGC Jhang" 
                   width={32}
                   height={32}
                   className="h-8 w-auto transition-transform group-hover:scale-110"
                 />
               </div>
               <span className="font-display font-bold text-xl text-brand-secondary-700 group-hover:text-brand-primary-500 transition-colors">
-                PGC Dhamyal
+                PGC Jhang
               </span>
             </Link>
           </motion.div>

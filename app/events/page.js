@@ -6,7 +6,7 @@ import { eventsData } from '@/data/events'
 
 export const metadata = {
   title: 'Events & Activities',
-  description: 'Stay updated with our latest events, workshops, seminars, and co-curricular activities at PGC Dhamyal.',
+  description: 'Stay updated with our latest events, workshops, seminars, and co-curricular activities at PGC Jhang.',
 }
 
 export default function Events() {
@@ -21,7 +21,7 @@ export default function Events() {
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
                 Stay updated with our latest events, workshops, seminars, and 
-                co-curricular activities happening at PGC Dhamyal.
+                co-curricular activities happening at PGC Jhang.
               </p>
             </div>
           </Reveal>

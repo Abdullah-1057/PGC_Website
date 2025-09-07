@@ -94,7 +94,7 @@ export default function WhyPGC() {
           <div className="bg-gradient-to-r from-brand-primary-500 to-brand-accent-500 rounded-3xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-6">Ready to Join Our Success Story?</h3>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Join thousands of successful alumni who started their journey at PGC Dhamyal
+              Join thousands of successful alumni who started their journey at PGC Jhang
             </p>
             <motion.div
               whileHover={{ scale: 1.05 }}

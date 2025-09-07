@@ -7,7 +7,7 @@ import AdmissionsCTA from '@/components/sections/AdmissionsCTA'
 
 export const metadata = {
   title: 'Home',
-  description: 'PGC Dhamyal - Excellence in Education Since 1958. Join thousands of successful students in our comprehensive intermediate programs.',
+  description: 'PGC Jhang - Excellence in Education Since 1958. Join thousands of successful students in our comprehensive intermediate programs.',
 }
 
 export default function Home() {

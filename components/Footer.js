@@ -54,14 +54,14 @@ export default function Footer() {
                 >
                   <Image 
                     src="/images/logo.png" 
-                    alt="PGC Dhamyal" 
+                    alt="PGC Jhang" 
                     width={40}
                     height={40}
                     className="h-10 w-auto"
                   />
                 </motion.div>
                 <span className="font-display font-bold text-2xl group-hover:text-brand-primary-400 transition-colors">
-                  PGC Dhamyal
+                  PGC Jhang
                 </span>
               </Link>
               <p className="text-brand-muted-300 leading-relaxed mb-6">
@@ -155,7 +155,7 @@ export default function Footer() {
                 {[
                   {
                     icon: MapPinIcon,
-                    content: 'Dhamyal Campus, Rawalpindi, Punjab, Pakistan'
+                    content: 'Jhang Campus, Rawalpindi, Punjab, Pakistan'
                   },
                   {
                     icon: PhoneIcon,
@@ -163,7 +163,7 @@ export default function Footer() {
                   },
                   {
                     icon: EnvelopeIcon,
-                    content: 'info@pgcdhamyal.edu.pk'
+                    content: 'info@pgcJhang.edu.pk'
                   },
                   {
                     icon: ClockIcon,
@@ -197,7 +197,7 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <p className="text-brand-muted-400 text-sm">
-              © {new Date().getFullYear()} Punjab Group of Colleges, Dhamyal. All rights reserved.
+              © {new Date().getFullYear()} Punjab Group of Colleges, Jhang. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 sm:mt-0">
               <Link href="/privacy" className="text-brand-muted-400 hover:text-white text-sm transition-colors">

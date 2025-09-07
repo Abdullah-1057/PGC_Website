@@ -35,7 +35,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              At PGC Dhamyal, we're not just means to education but a family that cares, 
+              At PGC Jhang, we're not just means to education but a family that cares, 
               grooms and helps unlock the true potential of our students.
             </motion.p>
             
@@ -74,7 +74,7 @@ export default function Hero() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src="/placeholder-2bx2y.png"
-                alt="PGC Dhamyal Campus" 
+                alt="PGC Jhang Campus" 
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

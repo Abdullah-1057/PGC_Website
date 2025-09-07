@@ -7,7 +7,7 @@ import { pricingData } from '@/data/pricing'
 
 export const metadata = {
   title: 'Fee Structure',
-  description: 'Transparent and affordable fee structure for all our programs at PGC Dhamyal. Quality education made accessible.',
+  description: 'Transparent and affordable fee structure for all our programs at PGC Jhang. Quality education made accessible.',
 }
 
 export default function Pricing() {

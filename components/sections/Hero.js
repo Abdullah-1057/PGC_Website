@@ -96,7 +96,7 @@ export default function Hero() {
                   ease: "easeInOut"
                 }}
               >
-                PGC Dhamyal
+                PGC Jhang
               </motion.span>
             </motion.h1>
             
@@ -176,7 +176,7 @@ export default function Hero() {
               >
                 <Image 
                   src="https://sjc.microlink.io/9oQGX8qOyonHR1hG6sFnwEfEXSexcJs5Yociecf1E6mQppjkkxbYGvbtD154B43dPk4xJZJHJMocihvRxOBPPA.jpeg"
-                  alt="PGC Dhamyal Campus" 
+                  alt="PGC Jhang Campus" 
                   width={600}
                   height={400}
                   className="w-full h-auto"

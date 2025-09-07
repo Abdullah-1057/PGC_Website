@@ -34,11 +34,11 @@ export default function Footer() {
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <img 
                 src="/images/logo.png" 
-                alt="PGC Dhamyal" 
+                alt="PGC Jhang" 
                 className="h-8 w-auto"
               />
               <span className="font-display font-bold text-xl">
-                PGC Dhamyal
+                PGC Jhang
               </span>
             </Link>
             <p className="text-brand-muted-300 text-sm leading-relaxed">
@@ -88,7 +88,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPinIcon className="h-5 w-5 text-brand-primary-400 mt-0.5 flex-shrink-0" />
                 <p className="text-brand-muted-300 text-sm">
-                  Dhamyal Campus, Rawalpindi, Punjab, Pakistan
+                  Jhang Campus, Rawalpindi, Punjab, Pakistan
                 </p>
               </div>
               <div className="flex items-center space-x-3">
@@ -100,7 +100,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <EnvelopeIcon className="h-5 w-5 text-brand-primary-400 flex-shrink-0" />
                 <p className="text-brand-muted-300 text-sm">
-                  info@pgcdhamyal.edu.pk
+                  info@pgcJhang.edu.pk
                 </p>
               </div>
               <div className="flex items-start space-x-3">
@@ -116,7 +116,7 @@ export default function Footer() {
 
         <div className="border-t border-brand-secondary-700 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-brand-muted-400 text-sm">
-            © {new Date().getFullYear()} Punjab Group of Colleges, Dhamyal. All rights reserved.
+            © {new Date().getFullYear()} Punjab Group of Colleges, Jhang. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <Link to="/privacy" className="text-brand-muted-400 hover:text-white text-sm">

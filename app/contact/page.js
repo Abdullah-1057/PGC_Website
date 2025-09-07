@@ -158,7 +158,7 @@ export default function Contact() {
                       <div>
                         <h4 className="font-semibold text-brand-secondary-900">Address</h4>
                         <p className="text-brand-muted-600">
-                          Dhamyal Campus, Rawalpindi<br />
+                          Jhang Campus, Rawalpindi<br />
                           Punjab, Pakistan
                         </p>
                       </div>
@@ -177,8 +177,8 @@ export default function Contact() {
                       <EnvelopeIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-brand-secondary-900">Email</h4>
-                        <p className="text-brand-muted-600">info@pgcdhamyal.edu.pk</p>
-                        <p className="text-brand-muted-600">admissions@pgcdhamyal.edu.pk</p>
+                        <p className="text-brand-muted-600">info@pgcJhang.edu.pk</p>
+                        <p className="text-brand-muted-600">admissions@pgcJhang.edu.pk</p>
                       </div>
                     </div>
 

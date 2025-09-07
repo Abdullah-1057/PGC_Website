@@ -89,7 +89,7 @@ export default function StatsForTrust() {
             className="mt-20 pt-16 border-t border-white/20"
           >
             <blockquote className="text-2xl font-medium italic mb-6 max-w-4xl mx-auto">
-              "PGC Dhamyal didn't just give me an education, it gave me the confidence 
+              "PGC Jhang didn't just give me an education, it gave me the confidence 
               and skills to pursue my dreams in medicine."
             </blockquote>
             <div className="flex items-center justify-center space-x-4">

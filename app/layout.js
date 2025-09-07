@@ -12,34 +12,34 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: 'PGC Dhamyal - Excellence in Education Since 1958',
-    template: '%s | PGC Dhamyal'
+    default: 'PGC Jhang - Excellence in Education Since 1958',
+    template: '%s | PGC Jhang'
   },
-  description: 'Punjab Group of Colleges Dhamyal - Providing quality intermediate education in Pre-Medical, Pre-Engineering, ICS, and Commerce programs since 1958.',
-  keywords: ['PGC Dhamyal', 'Punjab Group of Colleges', 'Intermediate Education', 'FSc Pre-Medical', 'FSc Pre-Engineering', 'ICS', 'I.Com', 'Rawalpindi', 'Pakistan'],
-  authors: [{ name: 'PGC Dhamyal' }],
-  creator: 'PGC Dhamyal',
-  publisher: 'PGC Dhamyal',
+  description: 'Punjab Group of Colleges Jhang - Providing quality intermediate education in Pre-Medical, Pre-Engineering, ICS, and Commerce programs since 1958.',
+  keywords: ['PGC Jhang', 'Punjab Group of Colleges', 'Intermediate Education', 'FSc Pre-Medical', 'FSc Pre-Engineering', 'ICS', 'I.Com', 'Rawalpindi', 'Pakistan'],
+  authors: [{ name: 'PGC Jhang' }],
+  creator: 'PGC Jhang',
+  publisher: 'PGC Jhang',
   openGraph: {
     type: 'website',
     locale: 'en_PK',
-    url: 'https://pgcdhamyal.edu.pk',
-    siteName: 'PGC Dhamyal',
-    title: 'PGC Dhamyal - Excellence in Education Since 1958',
-    description: 'Punjab Group of Colleges Dhamyal - Providing quality intermediate education since 1958.',
+    url: 'https://pgcJhang.edu.pk',
+    siteName: 'PGC Jhang',
+    title: 'PGC Jhang - Excellence in Education Since 1958',
+    description: 'Punjab Group of Colleges Jhang - Providing quality intermediate education since 1958.',
     images: [
       {
         url: '/images/logo.png',
         width: 1200,
         height: 630,
-        alt: 'PGC Dhamyal Logo',
+        alt: 'PGC Jhang Logo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PGC Dhamyal - Excellence in Education Since 1958',
-    description: 'Punjab Group of Colleges Dhamyal - Providing quality intermediate education since 1958.',
+    title: 'PGC Jhang - Excellence in Education Since 1958',
+    description: 'Punjab Group of Colleges Jhang - Providing quality intermediate education since 1958.',
     images: ['/images/logo.png'],
   },
   robots: {

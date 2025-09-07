@@ -51,7 +51,7 @@ export default function AdmissionsCTA() {
               Ready to Start Your Journey?
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Join thousands of successful students who chose PGC Dhamyal for their 
+              Join thousands of successful students who chose PGC Jhang for their 
               intermediate education. Get started with your admission process today.
             </p>
           </Reveal>

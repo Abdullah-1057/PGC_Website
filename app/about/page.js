@@ -5,7 +5,7 @@ import Reveal from '@/components/Reveal'
 
 export const metadata = {
   title: 'About Us',
-  description: 'Learn about PGC Dhamyal - our mission, facilities, and commitment to educational excellence since 1958.',
+  description: 'Learn about PGC Jhang - our mission, facilities, and commitment to educational excellence since 1958.',
 }
 
 export default function About() {
@@ -16,10 +16,10 @@ export default function About() {
           <Reveal>
             <div className="text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6">
-                About PGC Dhamyal
+                About PGC Jhang
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
-                Established in 1958, Punjab Group of Colleges Dhamyal has been a beacon 
+                Established in 1958, Punjab Group of Colleges Jhang has been a beacon 
                 of educational excellence for over six decades.
               </p>
             </div>

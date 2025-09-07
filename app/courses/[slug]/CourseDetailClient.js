@@ -207,7 +207,7 @@ export default function CourseDetailClient({ course }) {
                         Call: +92 51 123 4567
                       </p>
                       <p className="text-brand-muted-600">
-                        Email: admissions@pgcdhamyal.edu.pk
+                        Email: admissions@pgcJhang.edu.pk
                       </p>
                     </div>
                   </div>

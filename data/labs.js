@@ -1,32 +1,32 @@
 export const labsData = [
   {
     id: 1,
-    name: 'Computer Laboratory',
-    description: 'State-of-the-art computer lab equipped with modern computers and high-speed internet connectivity.',
+    name: 'Laboratory 1',
+    description: 'Modern laboratory equipped with state-of-the-art facilities and equipment for comprehensive learning experiences.',
     image: '/Images/Labs/computer-lab-1.jpeg',
     image2: '/Images/Labs/computer-lab-2.jpeg',
     features: [
+      'Modern equipment and tools',
       'High-speed internet connectivity',
-      'Latest computer hardware',
-      'Programming software installed',
-      'Air-conditioned environment',
-      'Professional seating arrangement'
+      'Professional learning environment',
+      'Air-conditioned facility',
+      'Expert supervision and guidance'
     ],
-    programs: ['ICS', 'Computer Science', 'All Programs']
+    programs: ['All Programs', 'Practical Sessions', 'Research Projects']
   },
   {
     id: 2,
-    name: 'Science Laboratory',
-    description: 'Modern science laboratory with advanced equipment for physics, chemistry, and biology experiments.',
+    name: 'Laboratory 2',
+    description: 'Advanced laboratory facility with cutting-edge equipment and resources for hands-on learning and experimentation.',
     image: '/Images/Labs/science-lab-1.jpeg',
     image2: '/Images/Labs/science-lab-2.jpeg',
     features: [
-      'Advanced scientific equipment',
-      'Safety protocols implemented',
-      'Separate sections for each subject',
-      'Experienced lab technicians',
-      'Regular equipment maintenance'
+      'Advanced equipment and instruments',
+      'Safety protocols and procedures',
+      'Specialized learning sections',
+      'Qualified technical staff',
+      'Regular maintenance and updates'
     ],
-    programs: ['FSc Pre-Medical', 'FSc Pre-Engineering', 'FSc General Science']
+    programs: ['All Programs', 'Practical Training', 'Skill Development']
   }
 ]

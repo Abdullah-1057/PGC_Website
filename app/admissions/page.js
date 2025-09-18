@@ -207,19 +207,19 @@ export default function Admissions() {
                   <div className="space-y-3">
                     <div className="flex justify-between">
                       <span className="text-brand-muted-700">Application Start:</span>
-                      <span className="font-semibold">January 15, 2024</span>
+                      <span className="font-semibold">January 15, 2025</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-brand-muted-700">Application Deadline:</span>
-                      <span className="font-semibold">March 31, 2024</span>
+                      <span className="font-semibold">March 31, 2025</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-brand-muted-700">Merit List:</span>
-                      <span className="font-semibold">April 15, 2024</span>
+                      <span className="font-semibold">April 15, 2025</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-brand-muted-700">Classes Start:</span>
-                      <span className="font-semibold">May 1, 2024</span>
+                      <span className="font-semibold">May 1, 2025</span>
                     </div>
                   </div>
                 </div>

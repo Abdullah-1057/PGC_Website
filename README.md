@@ -132,5 +132,5 @@ The contact form submits to `/api/contact` which accepts:
 
 ## License
 
-© 2024 Punjab Group of Colleges, Dhamyal. All rights reserved.
+© 2025 Punjab Group of Colleges, Dhamyal. All rights reserved.
 # PGC_Website

@@ -111,26 +111,26 @@ export default function EventsNotices() {
               <div className="space-y-6">
                 {[
                   {
-                    title: 'Admission Open for Session 2024-25',
-                    date: '2024-01-15',
+                    title: 'Admission Open for Session 2025-25',
+                    date: '2025-01-15',
                     urgent: true,
                     icon: '🎓'
                   },
                   {
                     title: 'Annual Sports Day - February 20th',
-                    date: '2024-01-10',
+                    date: '2025-01-10',
                     urgent: false,
                     icon: '🏆'
                   },
                   {
                     title: 'Parent-Teacher Meeting Schedule',
-                    date: '2024-01-08',
+                    date: '2025-01-08',
                     urgent: false,
                     icon: '👥'
                   },
                   {
                     title: 'Fee Submission Deadline Extended',
-                    date: '2024-01-05',
+                    date: '2025-01-05',
                     urgent: true,
                     icon: '💰'
                   }

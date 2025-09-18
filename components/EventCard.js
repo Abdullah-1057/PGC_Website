@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { CalendarIcon, MapPinIcon } from '@heroicons/react/24/outline'
 import Card from './Card'
@@ -10,17 +11,25 @@ export default function EventCard({ event }) {
   const eventDate = new Date(event.date)
   
   return (
-    <Card className="p-6 group card-hover">
-      <div className="flex items-start justify-between mb-6">
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          transition={{ type: "spring", stiffness: 300 }}
-        >
+    <Card className="p-0 group card-hover overflow-hidden">
+      {/* Event Image */}
+      <div className="relative h-48 w-full overflow-hidden">
+        <Image
+          src={event.image}
+          alt={event.title}
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-20" />
+        <div className="absolute top-4 left-4">
           <Badge variant="primary" className="text-xs font-semibold">
             {event.category}
           </Badge>
-        </motion.div>
-        
+        </div>
+      </div>
+      
+      <div className="p-6">
+        <div className="flex items-start justify-between mb-6">
         <motion.div 
           className="text-right bg-brand-primary-50 rounded-xl p-3"
           whileHover={{ scale: 1.05 }}
@@ -81,6 +90,7 @@ export default function EventCard({ event }) {
           </motion.svg>
         </Link>
       </motion.div>
+      </div>
     </Card>
   )
 }

@@ -20,6 +20,15 @@ export const metadata = {
   authors: [{ name: 'PGC Jhang' }],
   creator: 'PGC Jhang',
   publisher: 'PGC Jhang',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon.png', type: 'image/png', sizes: '16x16' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/favicon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_PK',
@@ -59,6 +68,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
+      </head>
       <body className={`${inter.className} antialiased`}>
         <div className="min-h-screen bg-white dark:bg-brand-bg-dark">
           <Navbar />

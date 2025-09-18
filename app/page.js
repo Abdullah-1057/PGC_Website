@@ -1,6 +1,7 @@
 import Hero from '@/components/sections/Hero'
 import ProgramsOverview from '@/components/sections/ProgramsOverview'
 import WhyPGC from '@/components/sections/WhyPGC'
+import LabsShowcase from '@/components/sections/LabsShowcase'
 import StatsForTrust from '@/components/sections/StatsForTrust'
 import EventsNotices from '@/components/sections/EventsNotices'
 import AdmissionsCTA from '@/components/sections/AdmissionsCTA'
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <ProgramsOverview />
       <WhyPGC />
+      <LabsShowcase />
       <StatsForTrust />
       <EventsNotices />
       <AdmissionsCTA />

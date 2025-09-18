@@ -119,7 +119,7 @@ export default function Hero() {
               <Button 
                 href="/admissions" 
                 size="lg"
-                className="bg-white text-brand-primary-500 hover:bg-white/90 hover:shadow-glow-lg transform hover:scale-105"
+                className="bg-brand-primary-500 text-white hover:bg-brand-primary-600 hover:shadow-glow-lg transform hover:scale-105"
               >
                 <span className="mr-2">🚀</span>
                 Start Your Journey

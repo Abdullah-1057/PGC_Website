@@ -158,7 +158,7 @@ export default function Contact() {
                       <div>
                         <h4 className="font-semibold text-brand-secondary-900">Address</h4>
                         <p className="text-brand-muted-600">
-                          Jhang Campus, Rawalpindi<br />
+                          Jhang Campus, Jhang<br />
                           Punjab, Pakistan
                         </p>
                       </div>

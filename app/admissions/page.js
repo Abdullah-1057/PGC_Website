@@ -234,7 +234,7 @@ export default function Admissions() {
                     <p><strong>Phone:</strong> +92 51 123 4567</p>
                     <p><strong>Email:</strong> admissions@pgcJhang.edu.pk</p>
                     <p><strong>Office Hours:</strong> Mon-Fri 9:00 AM - 4:00 PM</p>
-                    <p><strong>Address:</strong> Jhang Campus, Rawalpindi, Punjab</p>
+                    <p><strong>Address:</strong> Jhang Campus, Jhang, Punjab</p>
                   </div>
                 </div>
               </Reveal>

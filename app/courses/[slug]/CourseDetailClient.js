@@ -166,7 +166,7 @@ export default function CourseDetailClient({ course }) {
                     <div className="flex justify-between">
                       <span className="text-brand-muted-600">Fee:</span>
                       <span className="font-semibold text-brand-secondary-900">
-                        ₨{course.fee?.toLocaleString("en-PK")}
+                        {course.fee || '--'}
                       </span>
                     </div>
                     <div className="flex justify-between">

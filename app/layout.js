@@ -16,7 +16,7 @@ export const metadata = {
     template: '%s | PGC Jhang'
   },
   description: 'Punjab Group of Colleges Jhang - Providing quality intermediate education in Pre-Medical, Pre-Engineering, ICS, and Commerce programs since 1958.',
-  keywords: ['PGC Jhang', 'Punjab Group of Colleges', 'Intermediate Education', 'FSc Pre-Medical', 'FSc Pre-Engineering', 'ICS', 'I.Com', 'Rawalpindi', 'Pakistan'],
+  keywords: ['PGC Jhang', 'Punjab Group of Colleges', 'Intermediate Education', 'FSc Pre-Medical', 'FSc Pre-Engineering', 'ICS', 'I.Com', 'Jhang', 'Pakistan'],
   authors: [{ name: 'PGC Jhang' }],
   creator: 'PGC Jhang',
   publisher: 'PGC Jhang',

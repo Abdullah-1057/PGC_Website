@@ -88,7 +88,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPinIcon className="h-5 w-5 text-brand-primary-400 mt-0.5 flex-shrink-0" />
                 <p className="text-brand-muted-300 text-sm">
-                  Jhang Campus, Rawalpindi, Punjab, Pakistan
+                  Jhang Campus, Jhang, Punjab, Pakistan
                 </p>
               </div>
               <div className="flex items-center space-x-3">

@@ -6,7 +6,7 @@ export const coursesData = [
     category: 'Pre-Medical',
     description: 'Comprehensive pre-medical program preparing students for MBBS, BDS, and other medical fields.',
     duration: '2 Years',
-    fee: 15000,
+    fee: '--',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The FSc Pre-Medical program is designed to provide students with a strong foundation in biological sciences, chemistry, and physics. This program prepares students for medical entrance exams and higher education in medical fields.',
     curriculum: [
@@ -54,7 +54,7 @@ export const coursesData = [
     category: 'Pre-Engineering',
     description: 'Engineering preparation program focusing on mathematics, physics, and chemistry.',
     duration: '2 Years',
-    fee: 14000,
+    fee: '--',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The FSc Pre-Engineering program provides a solid foundation in mathematics, physics, and chemistry, preparing students for engineering disciplines and technical fields.',
     curriculum: [
@@ -102,7 +102,7 @@ export const coursesData = [
     category: 'Computer Science',
     description: 'Computer science program combining mathematics, physics, and computer studies.',
     duration: '2 Years',
-    fee: 16000,
+    fee: '--',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The ICS program is perfect for students interested in computer science, software development, and information technology careers.',
     curriculum: [
@@ -150,7 +150,7 @@ export const coursesData = [
     category: 'Commerce',
     description: 'Commerce program focusing on business, accounting, and economics.',
     duration: '2 Years',
-    fee: 12000,
+    fee: '--',
     eligibility: 'Matriculation (any group)',
     overview: 'The I.Com program provides comprehensive business education covering accounting, economics, and business studies.',
     curriculum: [
@@ -198,7 +198,7 @@ export const coursesData = [
     category: 'Arts',
     description: 'Arts program with humanities subjects including languages and social sciences.',
     duration: '2 Years',
-    fee: 10000,
+    fee: '--',
     eligibility: 'Matriculation (any group)',
     overview: 'The FA program offers a broad liberal arts education with focus on languages, literature, and social sciences.',
     curriculum: [
@@ -246,7 +246,7 @@ export const coursesData = [
     category: 'General Science',
     description: 'General science program for students interested in diverse scientific fields.',
     duration: '2 Years',
-    fee: 13000,
+    fee: '--',
     eligibility: 'Matriculation with Science subjects',
     overview: 'A balanced science program that keeps multiple career paths open in various scientific disciplines.',
     curriculum: [

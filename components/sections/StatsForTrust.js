@@ -98,7 +98,7 @@ export default function StatsForTrust() {
               </div>
               <div className="text-left">
                 <div className="font-semibold">Dr. Ahmad Hassan</div>
-                <div className="text-white/70 text-sm">Class of 2018, Now at CMH Rawalpindi</div>
+                <div className="text-white/70 text-sm">Class of 2018, Now at CMH Jhang</div>
               </div>
             </div>
           </motion.div>

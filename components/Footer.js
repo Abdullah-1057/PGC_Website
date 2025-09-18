@@ -155,7 +155,7 @@ export default function Footer() {
                 {[
                   {
                     icon: MapPinIcon,
-                    content: 'Jhang Campus, Rawalpindi, Punjab, Pakistan'
+                    content: 'Jhang Campus, Jhang, Punjab, Pakistan'
                   },
                   {
                     icon: PhoneIcon,

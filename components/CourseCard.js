@@ -32,7 +32,7 @@ export default function CourseCard({ course }) {
           <div className="flex items-center">
             <span className="text-brand-primary-500 mr-1">💰</span>
             <span className="font-bold text-brand-secondary-900">
-              ₨{course.fee?.toLocaleString('en-PK')}
+              {course.fee || '--'}
             </span>
           </div>
         </div>

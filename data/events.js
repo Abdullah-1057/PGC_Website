@@ -7,7 +7,7 @@ export const eventsData = [
     date: '2024-02-15',
     location: 'Main Campus Auditorium',
     category: 'Academic',
-    image: '/science-fair.png'
+    image: '/Images/Events/science-fair-2024.jpeg'
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const eventsData = [
     date: '2024-02-20',
     location: 'Sports Complex',
     category: 'Sports',
-    image: '/sports-championship-celebration.png'
+    image: '/Images/Events/sports-championship-2024.jpeg'
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const eventsData = [
     date: '2024-02-25',
     location: 'Conference Hall',
     category: 'Workshop',
-    image: '/career-counseling.png'
+    image: '/Images/Events/career-counseling-workshop.jpeg'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const eventsData = [
     date: '2024-03-05',
     location: 'Open Air Theater',
     category: 'Cultural',
-    image: '/cultural-night-celebration.png'
+    image: '/Images/Events/cultural-night-2024.jpeg'
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const eventsData = [
     date: '2024-03-10',
     location: 'Classrooms',
     category: 'Academic',
-    image: '/parent-teacher-meeting.png'
+    image: '/Images/Events/parent-teacher-meeting-2024.jpeg'
   },
   {
     id: 6,
@@ -57,6 +57,6 @@ export const eventsData = [
     date: '2024-03-15',
     location: 'Examination Hall',
     category: 'Competition',
-    image: '/mathematics-competition.png'
+    image: '/Images/Events/mathematics-olympiad-2024.jpeg'
   }
 ]

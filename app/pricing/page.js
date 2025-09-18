@@ -44,7 +44,7 @@ export default function Pricing() {
                       {plan.program}
                     </h3>
                     <div className="text-4xl font-bold text-brand-primary-500 mb-2">
-                      ₨{plan.monthlyFee.toLocaleString('en-PK')}
+                      {plan.monthlyFee}
                     </div>
                     <p className="text-brand-muted-600">per month</p>
                   </div>
@@ -52,20 +52,20 @@ export default function Pricing() {
                   <div className="space-y-4 mb-8">
                     <div className="flex justify-between">
                       <span className="text-brand-muted-600">Admission Fee:</span>
-                      <span className="font-semibold">₨{plan.admissionFee.toLocaleString('en-PK')}</span>
+                      <span className="font-semibold">{plan.admissionFee}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-brand-muted-600">Annual Fee:</span>
-                      <span className="font-semibold">₨{plan.annualFee.toLocaleString('en-PK')}</span>
+                      <span className="font-semibold">{plan.annualFee}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-brand-muted-600">Lab Fee:</span>
-                      <span className="font-semibold">₨{plan.labFee.toLocaleString('en-PK')}</span>
+                      <span className="font-semibold">{plan.labFee}</span>
                     </div>
                     <div className="flex justify-between border-t pt-4">
                       <span className="font-semibold text-brand-secondary-900">Total (First Year):</span>
                       <span className="font-bold text-brand-primary-500">
-                        ₨{plan.totalFirstYear.toLocaleString('en-PK')}
+                        {plan.totalFirstYear}
                       </span>
                     </div>
                   </div>
@@ -103,7 +103,7 @@ export default function Pricing() {
                   <h3 className="font-semibold text-brand-secondary-900 mb-3">Payment Terms</h3>
                   <ul className="space-y-2 text-sm text-brand-muted-600">
                     <li>• Monthly fees are due by the 10th of each month</li>
-                    <li>• Late payment charges: ₨500 after due date</li>
+                    <li>• Late payment charges: -- after due date</li>
                     <li>• Admission fee is non-refundable</li>
                     <li>• Fee structure may change annually</li>
                   </ul>

@@ -97,45 +97,6 @@ export default function AdmissionsCTA() {
               </p>
             </Reveal>
 
-            <Reveal delay={0.2}>
-              <motion.div 
-                className="max-w-md mx-auto mb-12"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-              >
-                <form onSubmit={handleSubmit} className="flex gap-4">
-                  <div className="flex-1">
-                    <Input
-                      type="email"
-                      placeholder="Enter your email address"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      className="bg-white/10 border-white/20 text-white placeholder-white/60 focus:bg-white/20 focus:border-white/40 backdrop-blur-sm form-input"
-                    />
-                  </div>
-                  <Button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="bg-white text-brand-primary-500 hover:bg-white/90 hover:shadow-glow-lg px-8 whitespace-nowrap"
-                  >
-                    {isSubmitting ? (
-                      <motion.div
-                        animate={{ rotate: 360 }}
-                        transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-                        className="w-5 h-5 border-2 border-brand-primary-500 border-t-transparent rounded-full"
-                      />
-                    ) : (
-                      'Get Info'
-                    )}
-                  </Button>
-                </form>
-                <p className="text-sm text-white/70 mt-4">
-                  Get admission information and important updates directly in your inbox.
-                </p>
-              </motion.div>
-            </Reveal>
 
             <Reveal delay={0.4}>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -143,7 +104,7 @@ export default function AdmissionsCTA() {
                   <Button 
                     href="/admissions" 
                     size="lg"
-                    className="bg-white text-brand-primary-500 hover:bg-white/90 hover:shadow-glow-lg"
+                    className="bg-white text-white hover:bg-white/90 hover:shadow-glow-lg"
                   >
                     <span className="mr-2">📝</span>
                     Apply Now

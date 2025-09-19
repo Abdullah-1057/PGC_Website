@@ -175,7 +175,7 @@ export default function Hero() {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image 
-                  src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/Hero.jpeg"
                   alt="PGC Jhang Campus" 
                   width={600}
                   height={400}

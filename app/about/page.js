@@ -66,33 +66,28 @@ export default function About() {
               {
                 title: 'Science Laboratories',
                 description: 'Modern physics, chemistry, and biology labs with latest equipment.',
-                image: '/placeholder.png?height=200&width=300&text=Science+Lab'
+                image: '/Images/Labs/science-lab-1.jpeg'
+              },
+              {
+                title: 'Advanced Science Lab',
+                description: 'Fully equipped laboratory for advanced scientific experiments and research.',
+                image: '/Images/Labs/science-lab-2.jpeg'
               },
               {
                 title: 'Computer Lab',
-                description: 'State-of-the-art computer lab with high-speed internet.',
-                image: '/placeholder.png?height=200&width=300&text=Computer+Lab'
+                description: 'State-of-the-art computer lab with high-speed internet and modern technology.',
+                image: '/Images/Labs/computer-lab-1.jpeg'
+              },
+              {
+                title: 'Advanced Computer Lab',
+                description: 'Cutting-edge computer facility with latest hardware and software.',
+                image: '/Images/Labs/computer-lab-2.jpeg'
               },
               {
                 title: 'Library',
                 description: 'Comprehensive library with books, journals, and digital resources.',
-                image: '/placeholder.png?height=200&width=300&text=Library'
+                image: '/college-library.png'
               },
-              {
-                title: 'Sports Complex',
-                description: 'Indoor and outdoor sports facilities for various games.',
-                image: '/placeholder.png?height=200&width=300&text=Sports+Complex'
-              },
-              {
-                title: 'Auditorium',
-                description: 'Modern auditorium for events, seminars, and cultural activities.',
-                image: '/placeholder.png?height=200&width=300&text=Auditorium'
-              },
-              {
-                title: 'Cafeteria',
-                description: 'Hygienic cafeteria serving nutritious meals and snacks.',
-                image: '/placeholder.png?height=200&width=300&text=Cafeteria'
-              }
             ].map((facility, index) => (
               <Reveal key={facility.title} delay={index * 0.1}>
                 <div className="bg-white rounded-xl shadow-sm border border-brand-muted-200 overflow-hidden hover:shadow-lg transition-shadow">

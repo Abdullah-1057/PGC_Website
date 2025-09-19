@@ -177,9 +177,9 @@ export default function Hero() {
                 <Image 
                   src="/Hero.jpeg"
                   alt="PGC Jhang Campus" 
-                  width={600}
-                  height={400}
-                  className="w-full h-auto"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto min-h-[500px] object-cover"
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />

@@ -9,6 +9,14 @@ import Reveal from '../Reveal'
 import { eventsData } from '@/data/events'
 
 export default function EventsNotices() {
+  // Get sports gala events specifically
+  const sportsGalaEvents = eventsData.filter(event => 
+    event.title.toLowerCase().includes('sports gala') && 
+    !event.title.toLowerCase().includes('opening') && 
+    !event.title.toLowerCase().includes('closing') &&
+    !event.title.toLowerCase().includes('group')
+  ).slice(0, 2)
+  
   const upcomingEvents = eventsData.slice(0, 3)
 
   return (
@@ -29,17 +37,17 @@ export default function EventsNotices() {
                   📅 What's Happening
                 </motion.div>
                 <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6 heading-gradient">
-                  Upcoming Events
+                  Sports Gala Highlights
                 </h2>
                 <p className="text-lg text-brand-muted-600 leading-relaxed">
-                  Stay updated with our latest events, workshops, and important announcements 
-                  that shape our vibrant campus community.
+                  Experience the excitement of our annual sports gala with thrilling competitions, 
+                  athletic events, and memorable moments that showcase student talent and sportsmanship.
                 </p>
               </div>
             </Reveal>
 
             <div className="space-y-6">
-              {upcomingEvents.map((event, index) => (
+              {sportsGalaEvents.map((event, index) => (
                 <motion.div
                   key={event.id}
                   initial={{ opacity: 0, x: -30 }}

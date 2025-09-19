@@ -70,7 +70,7 @@ export default function Faculty() {
                     alt={member.name}
                     width={300}
                     height={300}
-                    className="w-full h-48 object-cover"
+                    className="w-full h-56 object-contain bg-gray-50"
                   />
                   <div className="p-6">
                     <h3 className="text-lg font-semibold text-brand-secondary-900 mb-1">

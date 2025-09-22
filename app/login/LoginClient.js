@@ -15,7 +15,7 @@ export default function LoginClient() {
     setIsLoading(true)
 
     // Simple authentication check
-    if (username === 'admin' && password === '123') {
+    if (username === 'admin' && password === 'pgcLive2025') {
       // Set authentication token in localStorage
       localStorage.setItem('isAuthenticated', 'true')
       localStorage.setItem('authTimestamp', Date.now().toString())

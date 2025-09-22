@@ -35,7 +35,6 @@ export default function StatsForTrust() {
                       color: 'white !important',
                       zIndex: 10,
                       position: 'relative',
-                      textShadow: '0 0 3px rgba(0,0,0,0.8)'
                     }}
                   >
                     <Counter value={stat.value} suffix={stat.suffix} />
@@ -46,7 +45,6 @@ export default function StatsForTrust() {
                       color: 'white !important',
                       zIndex: 10,
                       position: 'relative',
-                      textShadow: '0 0 3px rgba(0,0,0,0.8)'
                     }}
                   >
                     {stat.label}

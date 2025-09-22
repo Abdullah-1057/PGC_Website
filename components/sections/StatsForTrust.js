@@ -65,7 +65,6 @@ export default function StatsForTrust() {
                       color: 'white !important',
                       zIndex: 10,
                       position: 'relative',
-                      textShadow: '0 0 3px rgba(0,0,0,0.8)'
                     }}
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
@@ -84,7 +83,6 @@ export default function StatsForTrust() {
                       color: 'white !important',
                       zIndex: 10,
                       position: 'relative',
-                      textShadow: '0 0 3px rgba(0,0,0,0.8)'
                     }}
                   >
                     {stat.label}

@@ -29,7 +29,15 @@ export default function StatsForTrust() {
             {stats.map((stat, index) => (
               <Reveal key={stat.label} delay={index * 0.1}>
                 <div className="text-center">
-                  <div className="text-4xl md:text-5xl font-bold font-display mb-2 text-yellow-300">
+                  <div 
+                    className="text-4xl md:text-5xl font-bold font-display mb-2 stats-number-white"
+                    style={{ 
+                      color: 'white !important',
+                      zIndex: 10,
+                      position: 'relative',
+                      textShadow: '0 0 3px rgba(0,0,0,0.8)'
+                    }}
+                  >
                     <Counter value={stat.value} suffix={stat.suffix} />
                   </div>
                   <div 

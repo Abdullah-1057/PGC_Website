@@ -60,7 +60,13 @@ export default function StatsForTrust() {
                     {stat.icon}
                   </motion.div>
                   <motion.div 
-                    className="text-5xl md:text-6xl font-bold font-display mb-3 text-brand-primary-500"
+                    className="text-5xl md:text-6xl font-bold font-display mb-3 stats-number-white"
+                    style={{ 
+                      color: 'white !important',
+                      zIndex: 10,
+                      position: 'relative',
+                      textShadow: '0 0 3px rgba(0,0,0,0.8)'
+                    }}
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     viewport={{ once: true }}

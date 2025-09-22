@@ -21,13 +21,15 @@ export default function About() {
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
                 Established in 1958, Punjab Group of Colleges Jhang has been a beacon 
                 of educational excellence for over six decades.
+                Hear from our leadership team about their vision and commitment to educational excellence.
+
               </p>
             </div>
           </Reveal>
 
 
           {/* Leadership Messages Section */}
-          <Reveal>
+          {/* <Reveal>
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-brand-secondary-500 mb-8">
                 Leadership Messages
@@ -36,7 +38,7 @@ export default function About() {
                 Hear from our leadership team about their vision and commitment to educational excellence.
               </p>
             </div>
-          </Reveal>
+          </Reveal> */}
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {/* Director Message */}

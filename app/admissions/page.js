@@ -199,7 +199,7 @@ export default function Admissions() {
                 </div>
               </Reveal>
 
-              <Reveal delay={0.3}>
+              {/* <Reveal delay={0.3}>
                 <div className="bg-brand-secondary-50 rounded-xl p-6">
                   <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Important Dates
@@ -223,7 +223,7 @@ export default function Admissions() {
                     </div>
                   </div>
                 </div>
-              </Reveal>
+              </Reveal> */}
 
               <Reveal delay={0.4}>
                 <div className="bg-brand-accent-50 rounded-xl p-6">

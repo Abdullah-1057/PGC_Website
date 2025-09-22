@@ -195,7 +195,7 @@ export default function Contact() {
                 </div>
               </Reveal>
 
-              <Reveal delay={0.3}>
+              {/* <Reveal delay={0.3}>
                 <div className="bg-brand-secondary-50 rounded-xl p-6">
                   <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Quick Contact
@@ -220,15 +220,24 @@ export default function Contact() {
                     </Link>
                   </div>
                 </div>
-              </Reveal>
+              </Reveal> */}
 
               <Reveal delay={0.4}>
                 <div className="bg-brand-muted-50 rounded-xl p-6">
                   <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Location Map
                   </h3>
-                  <div className="aspect-video bg-brand-muted-200 rounded-lg flex items-center justify-center">
-                    <p className="text-brand-muted-600">Interactive map will be embedded here</p>
+                  <div className="aspect-video rounded-lg overflow-hidden">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.123456789!2d72.3625138!3d31.2551057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3923a258aa79b43d%3A0xe21707e992ae1b8b!2sPunjab%20College%20of%20Science%20Jhang!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen=""
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="PGC Jhang Location"
+                    ></iframe>
                   </div>
                 </div>
               </Reveal>

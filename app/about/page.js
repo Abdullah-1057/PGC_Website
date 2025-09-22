@@ -138,15 +138,15 @@ export default function About() {
             </Reveal>
           </div>
 
-          <Reveal>
+          {/* <Reveal>
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-brand-secondary-500 mb-8">
                 Our Facilities
               </h2>
             </div>
-          </Reveal>
+          </Reveal> */}
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 title: 'Science Laboratories',
@@ -167,11 +167,6 @@ export default function About() {
                 title: 'Advanced Computer Lab',
                 description: 'Cutting-edge computer facility with latest hardware and software.',
                 image: '/Images/Labs/computer-lab-2.jpeg'
-              },
-              {
-                title: 'Library',
-                description: 'Comprehensive library with books, journals, and digital resources.',
-                image: '/college-library.png'
               },
             ].map((facility, index) => (
               <Reveal key={facility.title} delay={index * 0.1}>
@@ -194,7 +189,7 @@ export default function About() {
                 </div>
               </Reveal>
             ))}
-          </div>
+          </div> */}
         </Container>
       </Section>
     </div>

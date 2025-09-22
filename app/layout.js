@@ -32,7 +32,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_PK',
-    url: 'https://pgcJhang.edu.pk',
+    url: 'https://pgcjhang.com',
     siteName: 'PGC Jhang',
     title: 'PGC Jhang - Excellence in Education Since 1958',
     description: 'Punjab Group of Colleges Jhang - Providing quality intermediate education since 1958.',

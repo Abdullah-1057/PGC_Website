@@ -204,10 +204,10 @@ export default function CourseDetailClient({ course }) {
                     </p>
                     <div className="text-sm">
                       <p className="text-brand-muted-600">
-                        Call: +92 51 123 4567
+                        Call: 0312-7773517, 047-7630499, 047-7630503
                       </p>
                       <p className="text-brand-muted-600">
-                        Email: admissions@pgcJhang.edu.pk
+                        Email: info@pgcjhang.com
                       </p>
                     </div>
                   </div>

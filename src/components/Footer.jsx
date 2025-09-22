@@ -88,19 +88,19 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPinIcon className="h-5 w-5 text-brand-primary-400 mt-0.5 flex-shrink-0" />
                 <p className="text-brand-muted-300 text-sm">
-                  Jhang Campus, Jhang, Punjab, Pakistan
+                  4KM, Gojra Road, Opposite Ghazali Degree College, Jhang, Punjab, Pakistan
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <PhoneIcon className="h-5 w-5 text-brand-primary-400 flex-shrink-0" />
                 <p className="text-brand-muted-300 text-sm">
-                  +92 51 123 4567
+                  0312-7773517, 047-7630499, 047-7630503
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <EnvelopeIcon className="h-5 w-5 text-brand-primary-400 flex-shrink-0" />
                 <p className="text-brand-muted-300 text-sm">
-                  info@pgcJhang.edu.pk
+                  info@pgcjhang.com
                 </p>
               </div>
               <div className="flex items-start space-x-3">

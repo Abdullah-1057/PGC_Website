@@ -155,19 +155,19 @@ export default function Footer() {
                 {[
                   {
                     icon: MapPinIcon,
-                    content: 'Jhang Campus, Jhang, Punjab, Pakistan'
+                    content: '4KM, Gojra Road, Opposite Ghazali Degree College, Jhang, Punjab, Pakistan'
                   },
                   {
                     icon: PhoneIcon,
-                    content: '+92 51 123 4567'
+                    content: '0312-7773517\n047-7630499\n047-7630503'
                   },
                   {
                     icon: EnvelopeIcon,
-                    content: 'info@pgcJhang.edu.pk'
+                    content: 'info@pgcjhang.com'
                   },
                   {
                     icon: ClockIcon,
-                    content: 'Mon - Fri: 8:00 AM - 4:00 PM\nSat: 8:00 AM - 12:00 PM'
+                    content: 'Mon - Fri: 8:00 AM - 4:00 PM\nSat - Sun: Closed'
                   }
                 ].map((item, index) => (
                   <motion.div 

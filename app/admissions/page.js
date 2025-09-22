@@ -117,7 +117,7 @@ export default function Admissions() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+92 300 1234567"
+                      placeholder="0312-7773517"
                       required
                     />
                   </div>
@@ -231,10 +231,10 @@ export default function Admissions() {
                     Contact Admissions Office
                   </h3>
                   <div className="space-y-3 text-brand-muted-700">
-                    <p><strong>Phone:</strong> +92 51 123 4567</p>
-                    <p><strong>Email:</strong> admissions@pgcJhang.edu.pk</p>
-                    <p><strong>Office Hours:</strong> Mon-Fri 9:00 AM - 4:00 PM</p>
-                    <p><strong>Address:</strong> Jhang Campus, Jhang, Punjab</p>
+                    <p><strong>Phone:</strong> 0312-7773517, 047-7630499, 047-7630503</p>
+                    <p><strong>Email:</strong> info@pgcjhang.com</p>
+                    <p><strong>Office Hours:</strong> Mon-Fri 8:00 AM - 4:00 PM</p>
+                    <p><strong>Address:</strong> 4KM, Gojra Road, Opposite Ghazali Degree College, Jhang</p>
                   </div>
                 </div>
               </Reveal>

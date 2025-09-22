@@ -88,7 +88,7 @@ export default function AdmissionsCTA() {
               >
                 🚀 Start Your Journey
               </motion.div>
-              <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold font-display mb-6 text-white">
                 Ready to Shape Your Future?
               </h2>
               <p className="text-xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">

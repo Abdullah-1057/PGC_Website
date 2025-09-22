@@ -68,23 +68,6 @@ export default function Footer() {
                 Empowering students with quality education since 1958. 
                 Building futures, creating leaders, and shaping tomorrow's Pakistan.
               </p>
-              <div className="flex space-x-4">
-                {['facebook', 'twitter', 'instagram', 'youtube'].map((social, index) => (
-                  <motion.a
-                    key={social}
-                    href={`#${social}`}
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-primary-500 transition-colors"
-                    whileHover={{ scale: 1.1, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    initial={{ opacity: 0, scale: 0 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.3, delay: index * 0.1 }}
-                  >
-                    <span className="text-sm">📱</span>
-                  </motion.a>
-                ))}
-              </div>
             </motion.div>
 
             {/* Quick Links */}

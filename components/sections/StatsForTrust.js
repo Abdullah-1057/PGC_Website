@@ -28,7 +28,7 @@ export default function StatsForTrust() {
             >
               📊 Our Impact
             </motion.div>
-            <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold font-display mb-6 text-white">
               Trusted by Thousands
             </h2>
             <p className="text-xl text-white/90 mb-20 max-w-3xl mx-auto leading-relaxed">
@@ -72,7 +72,7 @@ export default function StatsForTrust() {
                   >
                     <Counter value={stat.value} suffix={stat.suffix} />
                   </motion.div>
-                  <div className="text-lg text-white/80 font-medium">
+                  <div className="text-lg font-medium" style={{ color: 'white' }}>
                     {stat.label}
                   </div>
                 </motion.div>

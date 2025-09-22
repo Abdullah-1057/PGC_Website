@@ -80,24 +80,10 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              Shape Your Future at{' '}
-              <motion.span 
-                className="text-brand-primary-500 inline-block"
-                animate={{ 
-                  textShadow: [
-                    "0 0 20px rgba(237, 28, 36, 0.5)",
-                    "0 0 40px rgba(237, 28, 36, 0.8)",
-                    "0 0 20px rgba(237, 28, 36, 0.5)"
-                  ]
-                }}
-                transition={{ 
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut"
-                }}
-              >
+              <span className="text-white">Shape Your Future at</span>{' '}
+              <span className="text-brand-primary-500 inline-block">
                 PGC Jhang
-              </motion.span>
+              </span>
             </motion.h1>
             
             <motion.p 

@@ -32,7 +32,7 @@ export default function StatsForTrust() {
                   <div className="text-4xl md:text-5xl font-bold font-display mb-2 text-yellow-300">
                     <Counter value={stat.value} suffix={stat.suffix} />
                   </div>
-                  <div className="text-lg text-white/80">
+                  <div className="text-lg" style={{ color: 'white' }}>
                     {stat.label}
                   </div>
                 </div>

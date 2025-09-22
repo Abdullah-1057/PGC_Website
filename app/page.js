@@ -1,3 +1,8 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
+import { isAuthenticated } from '@/lib/auth'
 import Hero from '@/components/sections/Hero'
 import ProgramsOverview from '@/components/sections/ProgramsOverview'
 import WhyPGC from '@/components/sections/WhyPGC'
@@ -6,12 +11,42 @@ import StatsForTrust from '@/components/sections/StatsForTrust'
 import EventsNotices from '@/components/sections/EventsNotices'
 import AdmissionsCTA from '@/components/sections/AdmissionsCTA'
 
-export const metadata = {
-  title: 'Home',
-  description: 'PGC Jhang - Excellence in Education Since 1958. Join thousands of successful students in our comprehensive intermediate programs.',
-}
-
 export default function Home() {
+  const [isAuth, setIsAuth] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+  const router = useRouter()
+
+  useEffect(() => {
+    const checkAuth = () => {
+      const authStatus = isAuthenticated()
+      
+      if (authStatus) {
+        setIsAuth(true)
+      } else {
+        window.location.href = '/login'
+      }
+      setIsLoading(false)
+    }
+
+    // Add a small delay to ensure localStorage is available
+    setTimeout(checkAuth, 100)
+  }, [])
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
+        <div className="text-center text-white">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white mx-auto mb-4"></div>
+          <p className="text-lg">Loading...</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (!isAuth) {
+    return null
+  }
+
   return (
     <>
       <Hero />

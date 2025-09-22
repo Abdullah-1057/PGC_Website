@@ -79,11 +79,11 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${inter.className} antialiased`}>
         <div className="min-h-screen bg-white dark:bg-brand-bg-dark">
-          {/* <Navbar /> */}
+          <Navbar />
           <main>
             {children}
           </main>
-          {/* <Footer /> */}
+          <Footer />
           <Toaster 
             position="top-right"
             toastOptions={{

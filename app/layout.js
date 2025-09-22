@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import ConditionalLayout from '@/components/ConditionalLayout'
 import './globals.css'
 
 const inter = Inter({ 
@@ -78,38 +79,34 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={`${inter.className} antialiased`}>
-        <div className="min-h-screen bg-white dark:bg-brand-bg-dark">
-          <Navbar />
-          <main>
-            {children}
-          </main>
-          <Footer />
-          <Toaster 
-            position="top-right"
-            toastOptions={{
-              duration: 4000,
-              style: {
-                background: '#ffffff',
-                color: '#1f2937',
-                border: '1px solid #e5e7eb',
-                borderRadius: '12px',
-                boxShadow: '0 10px 40px -10px rgba(0, 0, 0, 0.15)',
+        <ConditionalLayout>
+          {children}
+        </ConditionalLayout>
+        <Toaster 
+          position="top-right"
+          toastOptions={{
+            duration: 4000,
+            style: {
+              background: '#ffffff',
+              color: '#1f2937',
+              border: '1px solid #e5e7eb',
+              borderRadius: '12px',
+              boxShadow: '0 10px 40px -10px rgba(0, 0, 0, 0.15)',
+            },
+            success: {
+              iconTheme: {
+                primary: '#ef4444',
+                secondary: '#ffffff',
               },
-              success: {
-                iconTheme: {
-                  primary: '#ef4444',
-                  secondary: '#ffffff',
-                },
+            },
+            error: {
+              iconTheme: {
+                primary: '#dc2626',
+                secondary: '#ffffff',
               },
-              error: {
-                iconTheme: {
-                  primary: '#dc2626',
-                  secondary: '#ffffff',
-                },
-              },
-            }}
-          />
-        </div>
+            },
+          }}
+        />
       </body>
     </html>
   )

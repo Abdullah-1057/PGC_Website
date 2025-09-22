@@ -16,7 +16,7 @@ export default function CourseCard({ course }) {
           {course.category}
         </motion.div>
         
-        <h3 className="text-2xl font-bold text-brand-secondary-900 mb-4 group-hover:text-brand-primary-500 transition-colors">
+        <h3 className="text-2xl font-bold text-brand-secondary-500 mb-4 group-hover:text-brand-primary-500 transition-colors">
           {course.title}
         </h3>
         
@@ -31,7 +31,7 @@ export default function CourseCard({ course }) {
           </div>
           <div className="flex items-center">
             <span className="text-brand-primary-500 mr-1">💰</span>
-            <span className="font-bold text-brand-secondary-900">
+            <span className="font-bold text-brand-secondary-500">
               {course.fee || '--'}
             </span>
           </div>

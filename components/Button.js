@@ -6,9 +6,9 @@ import { cn } from '@/lib/utils'
 
 const variants = {
   primary: 'bg-gradient-to-r from-brand-primary-500 to-brand-primary-600 text-white hover:from-brand-primary-600 hover:to-brand-primary-700 shadow-medium hover:shadow-glow',
-  secondary: 'bg-gradient-to-r from-brand-secondary-100 to-brand-secondary-200 text-brand-secondary-900 hover:from-brand-secondary-200 hover:to-brand-secondary-300 shadow-soft',
+  secondary: 'bg-gradient-to-r from-brand-secondary-100 to-brand-secondary-200 text-brand-secondary-500 hover:from-brand-secondary-200 hover:to-brand-secondary-300 shadow-soft',
   outline: 'border-2 border-brand-primary-500 text-brand-primary-500 hover:bg-brand-primary-500 hover:text-white hover:shadow-glow',
-  ghost: 'text-brand-secondary-700 hover:bg-brand-muted-100 hover:text-brand-primary-500',
+  ghost: 'text-brand-secondary-500 hover:bg-brand-muted-100 hover:text-brand-primary-500',
 }
 
 const sizes = {

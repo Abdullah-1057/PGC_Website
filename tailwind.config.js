@@ -6,22 +6,36 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          // Primary red/orange from logo
+          // Primary Red from PGC official colors
           primary: {
             50: '#fef2f2',
             100: '#fee2e2',
             200: '#fecaca',
             300: '#fca5a5',
             400: '#f87171',
-            500: '#ef4444', // Main red
-            600: '#dc2626',
-            700: '#b91c1c',
-            800: '#991b1b',
-            900: '#7f1d1d',
-            950: '#450a0a',
+            500: '#ED1C24', // Official PGC red
+            600: '#d11b22',
+            700: '#b5181e',
+            800: '#99151a',
+            900: '#7d1216',
+            950: '#4a0a0d',
           },
-          // Secondary blue/navy from logo
+          // Secondary Blue from PGC official colors
           secondary: {
+            50: '#f0f4ff',
+            100: '#e0e9ff',
+            200: '#c7d6ff',
+            300: '#a5b8ff',
+            400: '#8290ff',
+            500: '#2E3192', // Official PGC blue
+            600: '#2a2b83',
+            700: '#262574',
+            800: '#221f65',
+            900: '#1e1b56',
+            950: '#14123a',
+          },
+          // PGC Blue (main background - lighter than navy)
+          navy: {
             50: '#f8fafc',
             100: '#f1f5f9',
             200: '#e2e8f0',
@@ -29,24 +43,24 @@ module.exports = {
             400: '#94a3b8',
             500: '#64748b',
             600: '#475569',
-            700: '#334155', // Main navy
+            700: '#334155',
             800: '#1e293b',
-            900: '#0f172a',
-            950: '#020617',
+            900: '#2E3192', // Official PGC blue (not too dark)
+            950: '#1a1d5c',
           },
-          // Accent gradient colors
+          // Accent Red (Official PGC red)
           accent: {
-            50: '#fdf4ff',
-            100: '#fae8ff',
-            200: '#f5d0fe',
-            300: '#f0abfc',
-            400: '#e879f9',
-            500: '#d946ef',
-            600: '#c026d3',
-            700: '#a21caf',
-            800: '#86198f',
-            900: '#701a75',
-            950: '#4a044e',
+            50: '#fef2f2',
+            100: '#fee2e2',
+            200: '#fecaca',
+            300: '#fca5a5',
+            400: '#f87171',
+            500: '#ED1C24', // Official PGC red
+            600: '#d11b22',
+            700: '#b5181e',
+            800: '#99151a',
+            900: '#7d1216',
+            950: '#4a0a0d',
           },
           // Neutral grays
           muted: {
@@ -65,11 +79,11 @@ module.exports = {
           // Background and foreground
           bg: {
             light: '#ffffff',
-            dark: '#0f172a',
+            dark: '#2E3192', // Official PGC blue
           },
           fg: {
-            light: '#1f2937',
-            dark: '#f9fafb',
+            light: '#2E3192', // Official PGC blue
+            dark: '#ffffff',
           }
         }
       },

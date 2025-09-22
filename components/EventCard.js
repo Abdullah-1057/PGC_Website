@@ -44,7 +44,7 @@ export default function EventCard({ event }) {
         </motion.div>
       </div>
       
-      <h3 className="text-xl font-bold text-brand-secondary-900 mb-3 group-hover:text-brand-primary-500 transition-colors">
+      <h3 className="text-xl font-bold text-brand-secondary-500 mb-3 group-hover:text-brand-primary-500 transition-colors">
         {event.title}
       </h3>
       

@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils'
 
 const variants = {
   primary: 'bg-brand-primary-100 text-brand-primary-700 border-brand-primary-200',
-  secondary: 'bg-brand-secondary-100 text-brand-secondary-700 border-brand-secondary-200',
+  secondary: 'bg-brand-secondary-100 text-brand-secondary-500 border-brand-secondary-200',
   success: 'bg-green-100 text-green-700 border-green-200',
   warning: 'bg-yellow-100 text-yellow-700 border-yellow-200',
   danger: 'bg-red-100 text-red-700 border-red-200',

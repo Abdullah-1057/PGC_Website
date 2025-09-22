@@ -28,7 +28,7 @@ export default function Faculty() {
         <Container>
           <Reveal>
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
                 Faculty & Staff
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
@@ -73,7 +73,7 @@ export default function Faculty() {
                     className="w-full h-56 object-contain bg-gray-50"
                   />
                   <div className="p-6">
-                    <h3 className="text-lg font-semibold text-brand-secondary-900 mb-1">
+                    <h3 className="text-lg font-semibold text-brand-secondary-500 mb-1">
                       {member.name}
                     </h3>
                     <p className="text-brand-primary-500 font-medium mb-2">

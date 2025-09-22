@@ -36,7 +36,7 @@ export default function EventsNotices() {
                 >
                   📅 What's Happening
                 </motion.div>
-                <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6 heading-gradient">
+                <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6 heading-gradient">
                   Sports Gala Highlights
                 </h2>
                 <p className="text-lg text-brand-muted-600 leading-relaxed">
@@ -100,7 +100,7 @@ export default function EventsNotices() {
                 >
                   📢 Important Updates
                 </motion.div>
-                <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6 heading-gradient">
+                <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6 heading-gradient">
                   Latest Notices
                 </h2>
                 <p className="text-lg text-brand-muted-600 leading-relaxed">
@@ -158,7 +158,7 @@ export default function EventsNotices() {
                       <div className="text-2xl">{notice.icon}</div>
                       <div className="flex-1">
                         <div className="flex items-center justify-between mb-2">
-                          <h4 className="font-semibold text-brand-secondary-900 group-hover:text-brand-primary-500 transition-colors">
+                          <h4 className="font-semibold text-brand-secondary-500 group-hover:text-brand-primary-500 transition-colors">
                             {notice.title}
                           </h4>
                           {notice.urgent && (

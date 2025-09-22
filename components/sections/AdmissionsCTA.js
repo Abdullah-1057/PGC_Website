@@ -63,7 +63,7 @@ export default function AdmissionsCTA() {
               }}
             />
             <motion.div
-              className="absolute bottom-10 right-10 w-24 h-24 bg-yellow-300 rounded-full blur-2xl"
+              className="absolute bottom-10 right-10 w-24 h-24 bg-brand-primary-500 rounded-full blur-2xl"
               animate={{ 
                 scale: [1, 1.3, 1],
                 opacity: [0.2, 0.4, 0.2]

@@ -30,7 +30,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-brand-secondary-800 via-brand-secondary-900 to-brand-secondary-950 text-white relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-brand-navy-900 via-brand-navy-950 to-black text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-[url('/images/pattern.svg')] bg-repeat"></div>
@@ -60,7 +60,7 @@ export default function Footer() {
                     className="h-10 w-auto"
                   />
                 </motion.div>
-                <span className="font-display font-bold text-2xl group-hover:text-brand-primary-400 transition-colors">
+                <span className="font-display font-bold text-2xl group-hover:text-brand-primary-500 transition-colors">
                   PGC Jhang
                 </span>
               </Link>
@@ -94,7 +94,7 @@ export default function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <h3 className="font-bold text-xl mb-6 text-brand-primary-400">Quick Links</h3>
+              <h3 className="font-bold text-xl mb-6 text-brand-primary-500">Quick Links</h3>
               <ul className="space-y-3">
                 {navigation.main.map((item, index) => (
                   <motion.li 
@@ -122,7 +122,7 @@ export default function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h3 className="font-bold text-xl mb-6 text-brand-primary-400">Popular Courses</h3>
+              <h3 className="font-bold text-xl mb-6 text-brand-primary-500">Popular Courses</h3>
               <ul className="space-y-3">
                 {navigation.courses.map((item, index) => (
                   <motion.li 
@@ -150,7 +150,7 @@ export default function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <h3 className="font-bold text-xl mb-6 text-brand-primary-400">Contact Info</h3>
+              <h3 className="font-bold text-xl mb-6 text-brand-primary-500">Contact Info</h3>
               <div className="space-y-4">
                 {[
                   {
@@ -178,7 +178,7 @@ export default function Footer() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.3, delay: index * 0.1 }}
                   >
-                    <item.icon className="h-5 w-5 text-brand-primary-400 mt-1 flex-shrink-0" />
+                    <item.icon className="h-5 w-5 text-brand-primary-500 mt-1 flex-shrink-0" />
                     <p className="text-brand-muted-300 text-sm leading-relaxed whitespace-pre-line">
                       {item.content}
                     </p>
@@ -190,7 +190,7 @@ export default function Footer() {
 
           {/* Bottom Section */}
           <motion.div 
-            className="border-t border-brand-secondary-700 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center"
+            className="border-t border-brand-navy-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

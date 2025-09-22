@@ -34,7 +34,7 @@ export default function Home() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-brand-navy-900 to-brand-navy-950 flex items-center justify-center">
         <div className="text-center text-white">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white mx-auto mb-4"></div>
           <p className="text-lg">Loading...</p>

@@ -14,7 +14,7 @@ const Input = forwardRef(({
   return (
     <div className="space-y-2">
       {label && (
-        <label className="block text-sm font-semibold text-brand-secondary-700">
+        <label className="block text-sm font-semibold text-brand-secondary-500">
           {label}
         </label>
       )}

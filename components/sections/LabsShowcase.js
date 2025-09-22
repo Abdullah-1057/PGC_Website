@@ -21,7 +21,7 @@ export default function LabsShowcase() {
       <Container>
         <Reveal>
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
               Our Modern Laboratories
             </h2>
             <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
@@ -46,7 +46,7 @@ export default function LabsShowcase() {
                     className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
                       activeLab === index
                         ? 'bg-brand-primary-500 text-white shadow-lg'
-                        : 'bg-white text-brand-secondary-900 border border-brand-muted-200 hover:border-brand-primary-300'
+                        : 'bg-white text-brand-secondary-500 border border-brand-muted-200 hover:border-brand-primary-300'
                     }`}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
@@ -58,7 +58,7 @@ export default function LabsShowcase() {
 
               <div className="bg-white rounded-xl p-8 shadow-sm border border-brand-muted-200">
                 <div className="flex items-center gap-3 mb-4">
-                  <h3 className="text-2xl font-bold text-brand-secondary-900">
+                  <h3 className="text-2xl font-bold text-brand-secondary-500">
                     {currentLab.name}
                   </h3>
                   <Badge variant="primary">Active</Badge>
@@ -69,7 +69,7 @@ export default function LabsShowcase() {
                 </p>
 
                 <div className="mb-6">
-                  <h4 className="font-semibold text-brand-secondary-900 mb-3">
+                  <h4 className="font-semibold text-brand-secondary-500 mb-3">
                     Available Programs:
                   </h4>
                   <div className="flex flex-wrap gap-2">
@@ -85,7 +85,7 @@ export default function LabsShowcase() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-brand-secondary-900 mb-3">
+                  <h4 className="font-semibold text-brand-secondary-500 mb-3">
                     Key Features:
                   </h4>
                   <ul className="space-y-2">
@@ -182,7 +182,7 @@ export default function LabsShowcase() {
         <Reveal delay={0.4}>
           <div className="mt-16 text-center">
             <div className="bg-white rounded-xl p-8 shadow-sm border border-brand-muted-200">
-              <h3 className="text-2xl font-bold text-brand-secondary-900 mb-4">
+              <h3 className="text-2xl font-bold text-brand-secondary-500 mb-4">
                 Experience Our Facilities
               </h3>
               <p className="text-brand-muted-600 mb-6 max-w-2xl mx-auto">

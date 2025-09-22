@@ -21,7 +21,7 @@ export default function FeatureCard({ feature, index }) {
           <IconComponent className="h-8 w-8 text-white" />
         </motion.div>
         
-        <h3 className="text-xl font-bold text-brand-secondary-900 mb-4 group-hover:text-brand-primary-500 transition-colors">
+        <h3 className="text-xl font-bold text-brand-secondary-500 mb-4 group-hover:text-brand-primary-500 transition-colors">
           {feature.title}
         </h3>
         

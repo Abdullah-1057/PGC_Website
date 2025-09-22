@@ -22,7 +22,7 @@ export default function Courses() {
         <Container>
           <Reveal>
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
                 Our Courses
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">

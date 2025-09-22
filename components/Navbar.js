@@ -73,7 +73,7 @@ export default function Navbar() {
                   className="h-8 w-auto transition-transform group-hover:scale-110"
                 />
               </div>
-              <span className="font-display font-bold text-xl text-brand-secondary-700 group-hover:text-brand-primary-500 transition-colors">
+              <span className="font-display font-bold text-xl text-brand-secondary-500 group-hover:text-brand-primary-500 transition-colors">
                 PGC Jhang
               </span>
             </Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
                   className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 group ${
                     pathname === item.href
                       ? 'text-brand-primary-500 bg-brand-primary-50'
-                      : 'text-brand-secondary-700 hover:text-brand-primary-500 hover:bg-brand-muted-50'
+                      : 'text-brand-secondary-500 hover:text-brand-primary-500 hover:bg-brand-muted-50'
                   }`}
                 >
                   {item.name}
@@ -119,7 +119,7 @@ export default function Navbar() {
               </motion.div>
               <motion.button
                 onClick={handleLogout}
-                className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-brand-secondary-700 hover:text-brand-primary-500 hover:bg-brand-muted-50 rounded-lg transition-all duration-200"
+                className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-brand-secondary-500 hover:text-brand-primary-500 hover:bg-brand-muted-50 rounded-lg transition-all duration-200"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 title="Logout"
@@ -133,7 +133,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <motion.button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 rounded-lg text-brand-secondary-700 hover:text-brand-primary-500 hover:bg-brand-muted-50 focus:outline-none focus:ring-2 focus:ring-brand-primary-500 transition-all duration-200"
+            className="lg:hidden p-2 rounded-lg text-brand-secondary-500 hover:text-brand-primary-500 hover:bg-brand-muted-50 focus:outline-none focus:ring-2 focus:ring-brand-primary-500 transition-all duration-200"
             aria-label="Toggle menu"
             whileTap={{ scale: 0.95 }}
           >
@@ -187,7 +187,7 @@ export default function Navbar() {
                     className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
                       pathname === item.href
                         ? 'text-brand-primary-500 bg-brand-primary-50 border-l-4 border-brand-primary-500'
-                        : 'text-brand-secondary-700 hover:text-brand-primary-500 hover:bg-brand-muted-50'
+                        : 'text-brand-secondary-500 hover:text-brand-primary-500 hover:bg-brand-muted-50'
                     }`}
                   >
                     {item.name}
@@ -205,7 +205,7 @@ export default function Navbar() {
                 </Button>
                 <button
                   onClick={handleLogout}
-                  className="w-full flex items-center justify-center space-x-2 px-4 py-3 text-base font-medium text-brand-secondary-700 hover:text-brand-primary-500 hover:bg-brand-muted-50 rounded-lg transition-all duration-200"
+                  className="w-full flex items-center justify-center space-x-2 px-4 py-3 text-base font-medium text-brand-secondary-500 hover:text-brand-primary-500 hover:bg-brand-muted-50 rounded-lg transition-all duration-200"
                 >
                   <ArrowRightOnRectangleIcon className="h-5 w-5" />
                   <span>Logout</span>

@@ -25,7 +25,7 @@ export default function ProgramsOverview() {
             >
               🎯 Choose Your Path
             </motion.div>
-            <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6 heading-gradient">
+            <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6 heading-gradient">
               Academic Programs
             </h2>
             <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto leading-relaxed">

@@ -17,7 +17,7 @@ export default function Pricing() {
         <Container>
           <Reveal>
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
                 Fee Structure
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
@@ -40,7 +40,7 @@ export default function Pricing() {
                   )}
                   
                   <div className="text-center mb-8">
-                    <h3 className="text-2xl font-bold text-brand-secondary-900 mb-2">
+                    <h3 className="text-2xl font-bold text-brand-secondary-500 mb-2">
                       {plan.program}
                     </h3>
                     <div className="text-4xl font-bold text-brand-primary-500 mb-2">
@@ -63,7 +63,7 @@ export default function Pricing() {
                       <span className="font-semibold">{plan.labFee}</span>
                     </div>
                     <div className="flex justify-between border-t pt-4">
-                      <span className="font-semibold text-brand-secondary-900">Total (First Year):</span>
+                      <span className="font-semibold text-brand-secondary-500">Total (First Year):</span>
                       <span className="font-bold text-brand-primary-500">
                         {plan.totalFirstYear}
                       </span>
@@ -95,12 +95,12 @@ export default function Pricing() {
 
           <Reveal delay={0.4}>
             <div className="bg-brand-muted-50 rounded-xl p-8">
-              <h2 className="text-2xl font-bold text-brand-secondary-900 mb-6 text-center">
+              <h2 className="text-2xl font-bold text-brand-secondary-500 mb-6 text-center">
                 Important Notes
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="font-semibold text-brand-secondary-900 mb-3">Payment Terms</h3>
+                  <h3 className="font-semibold text-brand-secondary-500 mb-3">Payment Terms</h3>
                   <ul className="space-y-2 text-sm text-brand-muted-600">
                     <li>• Monthly fees are due by the 10th of each month</li>
                     <li>• Late payment charges: -- after due date</li>
@@ -109,7 +109,7 @@ export default function Pricing() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-brand-secondary-900 mb-3">Scholarships Available</h3>
+                  <h3 className="font-semibold text-brand-secondary-500 mb-3">Scholarships Available</h3>
                   <ul className="space-y-2 text-sm text-brand-muted-600">
                     <li>• Merit-based scholarships up to 50%</li>
                     <li>• Need-based financial assistance</li>

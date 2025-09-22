@@ -24,17 +24,17 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #ef4444, #dc2626);
+  background: linear-gradient(135deg, #ED1C24, #d11b22);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  background: linear-gradient(135deg, #d11b22, #b5181e);
 }
 
 /* Enhanced focus styles for accessibility */
 *:focus {
-  outline: 2px solid #ef4444;
+  outline: 2px solid #ED1C24;
   outline-offset: 2px;
 }
 
@@ -43,7 +43,7 @@
 }
 
 *:focus-visible {
-  outline: 2px solid #ef4444;
+  outline: 2px solid #ED1C24;
   outline-offset: 2px;
 }
 
@@ -71,18 +71,27 @@ html {
 body {
   font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
   line-height: 1.6;
-  color: #1f2937;
+  color: #2E3192;
+}
+
+/* Ensure consistent text colors */
+h1, h2, h3, h4, h5, h6 {
+  color: #2E3192;
+}
+
+.text-brand-secondary-500 {
+  color: #2E3192 !important;
 }
 
 /* Enhanced gradient backgrounds */
 .gradient-mesh {
-  background: linear-gradient(135deg, #ef4444 0%, #d946ef 50%, #334155 100%);
+  background: linear-gradient(135deg, #ED1C24 0%, #2E3192 50%, #2E3192 100%);
   background-size: 200% 200%;
   animation: gradient 8s ease infinite;
 }
 
 .gradient-soft {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(217, 70, 239, 0.1) 50%, rgba(51, 65, 85, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(237, 28, 36, 0.1) 0%, rgba(46, 49, 146, 0.1) 50%, rgba(46, 49, 146, 0.1) 100%);
 }
 
 /* Glass morphism effect */
@@ -93,14 +102,14 @@ body {
 }
 
 .glass-dark {
-  background: rgba(15, 23, 42, 0.8);
+  background: rgba(46, 49, 146, 0.8);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Enhanced button hover effects */
 .btn-glow:hover {
-  box-shadow: 0 0 20px rgba(239, 68, 68, 0.4);
+  box-shadow: 0 0 20px rgba(237, 28, 36, 0.4);
   transform: translateY(-2px);
 }
 
@@ -129,7 +138,7 @@ body {
 
 /* Text gradient effects */
 .text-gradient {
-  background: linear-gradient(135deg, #ef4444, #d946ef);
+  background: linear-gradient(135deg, #ED1C24, #2E3192);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -154,12 +163,12 @@ body {
 
 .form-input:focus {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(239, 68, 68, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(237, 28, 36, 0.1);
 }
 
 /* Enhanced typography */
 .heading-gradient {
-  background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+  background: linear-gradient(135deg, #2E3192 0%, #2E3192 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -75,7 +75,7 @@ export default function Contact() {
         <Container>
           <Reveal>
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
                 Contact Us
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
@@ -89,7 +89,7 @@ export default function Contact() {
             {/* Contact Form */}
             <Reveal>
               <div className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-8">
-                <h2 className="text-2xl font-bold text-brand-secondary-900 mb-6">
+                <h2 className="text-2xl font-bold text-brand-secondary-500 mb-6">
                   Send us a Message
                 </h2>
                 
@@ -148,7 +148,7 @@ export default function Contact() {
             <div className="space-y-8">
               <Reveal delay={0.2}>
                 <div className="bg-brand-primary-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-brand-secondary-900 mb-6">
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-6">
                     Get in Touch
                   </h3>
                   
@@ -156,7 +156,7 @@ export default function Contact() {
                     <div className="flex items-start space-x-4">
                       <MapPinIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-brand-secondary-900">Address</h4>
+                        <h4 className="font-semibold text-brand-secondary-500">Address</h4>
                         <p className="text-brand-muted-600">
                           4KM, Gojra Road, Opposite Ghazali Degree College<br />
                           Jhang, Punjab, Pakistan
@@ -167,7 +167,7 @@ export default function Contact() {
                     <div className="flex items-start space-x-4">
                       <PhoneIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-brand-secondary-900">Phone</h4>
+                        <h4 className="font-semibold text-brand-secondary-500">Phone</h4>
                         <p className="text-brand-muted-600">0312-7773517</p>
                         <p className="text-brand-muted-600">047-7630499</p>
                         <p className="text-brand-muted-600">047-7630503</p>
@@ -177,7 +177,7 @@ export default function Contact() {
                     <div className="flex items-start space-x-4">
                       <EnvelopeIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-brand-secondary-900">Email</h4>
+                        <h4 className="font-semibold text-brand-secondary-500">Email</h4>
                         <p className="text-brand-muted-600">info@pgcjhang.com</p>
                       </div>
                     </div>
@@ -185,7 +185,7 @@ export default function Contact() {
                     <div className="flex items-start space-x-4">
                       <ClockIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-brand-secondary-900">Office Hours</h4>
+                        <h4 className="font-semibold text-brand-secondary-500">Office Hours</h4>
                         <p className="text-brand-muted-600">Monday - Friday: 8:00 AM - 4:00 PM</p>
                         <p className="text-brand-muted-600">Saturday: Closed</p>
                         <p className="text-brand-muted-600">Sunday: Closed</p>
@@ -197,7 +197,7 @@ export default function Contact() {
 
               <Reveal delay={0.3}>
                 <div className="bg-brand-secondary-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-brand-secondary-900 mb-4">
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Quick Contact
                   </h3>
                   <p className="text-brand-muted-600 mb-4">
@@ -224,7 +224,7 @@ export default function Contact() {
 
               <Reveal delay={0.4}>
                 <div className="bg-brand-muted-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-brand-secondary-900 mb-4">
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Location Map
                   </h3>
                   <div className="aspect-video bg-brand-muted-200 rounded-lg flex items-center justify-center">

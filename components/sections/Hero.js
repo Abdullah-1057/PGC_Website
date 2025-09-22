@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section className="mt-16 relative min-h-screen flex items-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 gradient-mesh opacity-90" />
+      <div className="absolute inset-0 bg-gradient-to-br from-brand-navy-900 via-brand-navy-950 to-brand-navy-900 opacity-95" />
       
       {/* Floating Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -82,12 +82,12 @@ export default function Hero() {
             >
               Shape Your Future at{' '}
               <motion.span 
-                className="text-yellow-300 inline-block"
+                className="text-brand-primary-500 inline-block"
                 animate={{ 
                   textShadow: [
-                    "0 0 20px rgba(253, 224, 71, 0.5)",
-                    "0 0 40px rgba(253, 224, 71, 0.8)",
-                    "0 0 20px rgba(253, 224, 71, 0.5)"
+                    "0 0 20px rgba(237, 28, 36, 0.5)",
+                    "0 0 40px rgba(237, 28, 36, 0.8)",
+                    "0 0 20px rgba(237, 28, 36, 0.5)"
                   ]
                 }}
                 transition={{ 
@@ -153,7 +153,7 @@ export default function Hero() {
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
-                  <div className="text-2xl font-bold text-yellow-300">{stat.number}</div>
+                  <div className="text-2xl font-bold text-brand-primary-500">{stat.number}</div>
                   <div className="text-sm text-white/80">{stat.label}</div>
                 </motion.div>
               ))}
@@ -230,7 +230,7 @@ export default function Hero() {
 
               {/* Decorative Elements */}
               <motion.div
-                className="absolute top-1/2 -right-4 w-8 h-8 bg-yellow-300 rounded-full opacity-80"
+                className="absolute top-1/2 -right-4 w-8 h-8 bg-brand-primary-500 rounded-full opacity-80"
                 animate={{ 
                   scale: [1, 1.2, 1],
                   opacity: [0.8, 1, 0.8]

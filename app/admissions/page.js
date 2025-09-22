@@ -74,7 +74,7 @@ export default function Admissions() {
         <Container>
           <Reveal>
             <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-900 mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
                 Admissions
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
@@ -88,7 +88,7 @@ export default function Admissions() {
             {/* Application Form */}
             <Reveal>
               <div className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-8">
-                <h2 className="text-2xl font-bold text-brand-secondary-900 mb-6">
+                <h2 className="text-2xl font-bold text-brand-secondary-500 mb-6">
                   Application Form
                 </h2>
                 
@@ -171,7 +171,7 @@ export default function Admissions() {
             <div className="space-y-8">
               <Reveal delay={0.2}>
                 <div className="bg-brand-primary-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-brand-secondary-900 mb-4">
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Admission Requirements
                   </h3>
                   <ul className="space-y-2 text-brand-muted-700">
@@ -201,7 +201,7 @@ export default function Admissions() {
 
               <Reveal delay={0.3}>
                 <div className="bg-brand-secondary-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-brand-secondary-900 mb-4">
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Important Dates
                   </h3>
                   <div className="space-y-3">
@@ -227,7 +227,7 @@ export default function Admissions() {
 
               <Reveal delay={0.4}>
                 <div className="bg-brand-accent-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-brand-secondary-900 mb-4">
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Contact Admissions Office
                   </h3>
                   <div className="space-y-3 text-brand-muted-700">

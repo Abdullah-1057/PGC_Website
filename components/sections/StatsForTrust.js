@@ -72,7 +72,15 @@ export default function StatsForTrust() {
                   >
                     <Counter value={stat.value} suffix={stat.suffix} />
                   </motion.div>
-                  <div className="text-lg font-medium" style={{ color: 'white' }}>
+                  <div 
+                    className="text-lg font-medium stats-label-white"
+                    style={{ 
+                      color: 'white !important',
+                      zIndex: 10,
+                      position: 'relative',
+                      textShadow: '0 0 3px rgba(0,0,0,0.8)'
+                    }}
+                  >
                     {stat.label}
                   </div>
                 </motion.div>

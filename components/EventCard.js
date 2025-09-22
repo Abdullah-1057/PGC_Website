@@ -3,12 +3,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { CalendarIcon, MapPinIcon } from '@heroicons/react/24/outline'
+import { MapPinIcon } from '@heroicons/react/24/outline'
 import Card from './Card'
 import Badge from './Badge'
 
 export default function EventCard({ event }) {
-  const eventDate = new Date(event.date)
   
   return (
     <Card className="p-0 group card-hover overflow-hidden">
@@ -29,20 +28,6 @@ export default function EventCard({ event }) {
       </div>
       
       <div className="p-6">
-        <div className="flex items-start justify-between mb-6">
-        <motion.div 
-          className="text-right bg-brand-primary-50 rounded-xl p-3"
-          whileHover={{ scale: 1.05 }}
-          transition={{ type: "spring", stiffness: 300 }}
-        >
-          <div className="text-2xl font-bold text-brand-primary-500">
-            {eventDate.getDate()}
-          </div>
-          <div className="text-sm text-brand-primary-600 font-medium">
-            {eventDate.toLocaleDateString('en-PK', { month: 'short' })}
-          </div>
-        </motion.div>
-      </div>
       
       <h3 className="text-xl font-bold text-brand-secondary-500 mb-3 group-hover:text-brand-primary-500 transition-colors">
         {event.title}
@@ -53,16 +38,6 @@ export default function EventCard({ event }) {
       </p>
       
       <div className="flex items-center text-sm text-brand-muted-500 mb-6 space-x-4">
-        <div className="flex items-center">
-          <CalendarIcon className="h-4 w-4 mr-2 text-brand-primary-500" />
-          <span>
-            {eventDate.toLocaleDateString('en-PK', { 
-              weekday: 'short', 
-              month: 'short', 
-              day: 'numeric' 
-            })}
-          </span>
-        </div>
         <div className="flex items-center">
           <MapPinIcon className="h-4 w-4 mr-2 text-brand-primary-500" />
           <span>{event.location}</span>

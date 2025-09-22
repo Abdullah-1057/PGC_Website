@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
-import { CalendarIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import { MapPinIcon } from '@heroicons/react/24/outline';
 import Card from './Card';
 import Badge from './Badge';
 
 export default function EventCard({ event }) {
-  const eventDate = new Date(event.date);
   
   return (
     <Card className="p-6">
@@ -12,14 +11,6 @@ export default function EventCard({ event }) {
         <Badge variant="primary" className="text-xs">
           {event.category}
         </Badge>
-        <div className="text-right">
-          <div className="text-2xl font-bold text-brand-primary-500">
-            {eventDate.getDate()}
-          </div>
-          <div className="text-sm text-brand-muted-500">
-            {eventDate.toLocaleDateString('en-PK', { month: 'short' })}
-          </div>
-        </div>
       </div>
       
       <h3 className="text-lg font-semibold text-brand-secondary-900 mb-2">
@@ -31,14 +22,6 @@ export default function EventCard({ event }) {
       </p>
       
       <div className="flex items-center text-sm text-brand-muted-500 mb-4">
-        <CalendarIcon className="h-4 w-4 mr-2" />
-        <span className="mr-4">
-          {eventDate.toLocaleDateString('en-PK', { 
-            weekday: 'short', 
-            month: 'short', 
-            day: 'numeric' 
-          })}
-        </span>
         <MapPinIcon className="h-4 w-4 mr-2" />
         <span>{event.location}</span>
       </div>

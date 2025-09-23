@@ -1,5 +1,15 @@
 export const facultyData = [
   {
+    id: 0,
+    name: 'Shabbar Abbas',
+    designation: 'Principal',
+    department: 'Administration',
+    subject: 'Principal',
+    qualification: '',
+    experience: 25,
+    photo: '/faculty/0.jpeg'
+  },
+  {
     id: 1,
     name: 'Hafiz Masood',
     designation: 'Lecturer Mathematics & University Coordinator',
@@ -105,8 +115,8 @@ export const facultyData = [
     designation: 'Head of Law Department',
     department: 'Law',
     subject: 'Law',
-    qualification: 'LL.B, LL.M',
-    experience: 8,
+    qualification: '',
+    experience: 20,
     photo: '/faculty/11.jpeg'
   }
 ]

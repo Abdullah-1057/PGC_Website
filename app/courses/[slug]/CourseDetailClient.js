@@ -37,20 +37,9 @@ export default function CourseDetailClient({ course }) {
                 </div>
               </Reveal>
 
-              <Reveal delay={0.2}>
-                <div className="mb-8">
-                  <img
-                    src={`/placeholder.png?key=ccc07&height=400&width=800&text=${encodeURIComponent(
-                      course.title + " course"
-                    )}`}
-                    alt={course.title}
-                    className="w-full h-64 object-cover rounded-xl"
-                  />
-                </div>
-              </Reveal>
 
               {/* Course Overview */}
-              <Reveal delay={0.3}>
+              <Reveal delay={0.2}>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-secondary-900 mb-4">
                     Course Overview
@@ -63,7 +52,7 @@ export default function CourseDetailClient({ course }) {
               </Reveal>
 
               {/* Curriculum Accordion */}
-              <Reveal delay={0.4}>
+              <Reveal delay={0.3}>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-secondary-900 mb-6">
                     Curriculum
@@ -121,7 +110,7 @@ export default function CourseDetailClient({ course }) {
               </Reveal>
 
               {/* Career Outcomes */}
-              <Reveal delay={0.5}>
+              <Reveal delay={0.4}>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-secondary-900 mb-4">
                     Career Outcomes

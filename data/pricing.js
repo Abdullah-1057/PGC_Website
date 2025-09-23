@@ -3,7 +3,7 @@ export const pricingData = [
     id: 1,
     program: 'FSC Medical',
     totalDues: '138,040',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     popular: true,
     features: [
       'All science subjects included',
@@ -20,7 +20,7 @@ export const pricingData = [
     id: 2,
     program: 'FSC Engineering',
     totalDues: '138,040',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     popular: false,
     features: [
       'Mathematics and Physics focus',
@@ -37,7 +37,7 @@ export const pricingData = [
     id: 3,
     program: 'ICS',
     totalDues: '107,840',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     popular: false,
     features: [
       'Modern computer lab access',
@@ -54,7 +54,7 @@ export const pricingData = [
     id: 4,
     program: 'FA',
     totalDues: '100,860',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     popular: false,
     features: [
       'Humanities subjects focus',

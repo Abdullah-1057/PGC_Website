@@ -56,6 +56,15 @@ export default function Pricing() {
                         {plan.discounts}
                       </span>
                     </div>
+                    <div className="text-center">
+                      <Button 
+                        href="/contact" 
+                        className="w-full bg-green-600 hover:bg-green-700 text-white"
+                        size="sm"
+                      >
+                        Contact Us for Details
+                      </Button>
+                    </div>
                   </div>
 
                   <ul className="space-y-3 mb-8">
@@ -99,7 +108,7 @@ export default function Pricing() {
                 <div>
                   <h3 className="font-semibold text-brand-secondary-500 mb-3">Discounts Available</h3>
                   <ul className="space-y-2 text-sm text-brand-muted-600">
-                    <li>• Merit-based scholarships up to 50%</li>
+                    <li>• Discounts are available</li>
                     <li>• Need-based financial assistance</li>
                     <li>• Sibling discount: 10% for second child</li>
                     <li>• Early bird discount: 5% if paid annually</li>

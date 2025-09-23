@@ -185,10 +185,9 @@ export default function Contact() {
                     <div className="flex items-start space-x-4">
                       <ClockIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-brand-secondary-500">Office Hours</h4>
-                        <p className="text-brand-muted-600">Monday - Friday: 8:00 AM - 4:00 PM</p>
-                        <p className="text-brand-muted-600">Saturday: Closed</p>
-                        <p className="text-brand-muted-600">Sunday: Closed</p>
+                        <h4 className="font-semibold text-brand-secondary-500">Working Days</h4>
+                        <p className="text-brand-muted-600">Monday to Saturday</p>
+                        <p className="text-brand-muted-600">Sunday Closed</p>
                       </div>
                     </div>
                   </div>

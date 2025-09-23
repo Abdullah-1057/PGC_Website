@@ -8,7 +8,7 @@ export const coursesData = [
     duration: '2 Years',
     fee: 'PKR 138,040',
     totalDues: '138,040',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The FSc Pre-Medical program is designed to provide students with a strong foundation in biological sciences, chemistry, and physics. This program prepares students for medical entrance exams and higher education in medical fields.',
     curriculum: [
@@ -58,7 +58,7 @@ export const coursesData = [
     duration: '2 Years',
     fee: 'PKR 138,040',
     totalDues: '138,040',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The FSc Pre-Engineering program provides a solid foundation in mathematics, physics, and chemistry, preparing students for engineering disciplines and technical fields.',
     curriculum: [
@@ -108,7 +108,7 @@ export const coursesData = [
     duration: '2 Years',
     fee: 'PKR 107,840',
     totalDues: '107,840',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The ICS program is perfect for students interested in computer science, software development, and information technology careers.',
     curriculum: [
@@ -158,7 +158,7 @@ export const coursesData = [
     duration: '2 Years',
     fee: 'PKR 100,860',
     totalDues: '100,860',
-    discounts: 'Available',
+    discounts: 'Discounts are available',
     eligibility: 'Matriculation (any group)',
     overview: 'The FA program offers a broad liberal arts education with focus on languages, literature, and social sciences.',
     curriculum: [

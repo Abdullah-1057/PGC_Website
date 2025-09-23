@@ -233,7 +233,7 @@ export default function Admissions() {
                   <div className="space-y-3 text-brand-muted-700">
                     <p><strong>Phone:</strong> 0312-7773517, 047-7630499, 047-7630503</p>
                     <p><strong>Email:</strong> info@pgcjhang.com</p>
-                    <p><strong>Office Hours:</strong> Mon-Fri 8:00 AM - 4:00 PM</p>
+                    <p><strong>Working Days:</strong> Monday to Saturday, Sunday Closed</p>
                     <p><strong>Address:</strong> 4KM, Gojra Road, Opposite Ghazali Degree College, Jhang</p>
                   </div>
                 </div>

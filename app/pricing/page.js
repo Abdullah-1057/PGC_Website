@@ -50,10 +50,7 @@ export default function Pricing() {
                   </div>
 
                   <div className="space-y-4 mb-8">
-                    <div className="flex justify-between border-t pt-4">
-                      {/* <span className="font-semibold text-brand-secondary-500">Discounts:</span> */}
-                     
-                     
+                    <div className="text-center border-t pt-4">
                       <span className="font-bold text-green-600">
                         {plan.discounts}
                       </span>

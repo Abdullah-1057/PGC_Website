@@ -186,7 +186,7 @@ export default function Contact() {
                       <ClockIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-brand-secondary-500">Working Days</h4>
-                        <p className="text-brand-muted-600">Monday to Saturday</p>
+                        <p className="text-brand-muted-600">Monday to Saturday: 8:00 AM - 4:00 PM</p>
                         <p className="text-brand-muted-600">Sunday Closed</p>
                       </div>
                     </div>

@@ -150,7 +150,7 @@ export default function Footer() {
                   },
                   {
                     icon: ClockIcon,
-                    content: 'Monday to Saturday\nSunday Closed'
+                    content: 'Monday to Saturday: 8:00 AM - 4:00 PM\nSunday Closed'
                   }
                 ].map((item, index) => (
                   <motion.div 

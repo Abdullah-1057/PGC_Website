@@ -1,12 +1,14 @@
 export const coursesData = [
   {
     id: 1,
-    title: 'FSc Pre-Medical',
-    slug: 'fsc-pre-medical',
+    title: 'FSC Medical',
+    slug: 'fsc-medical',
     category: 'Pre-Medical',
     description: 'Comprehensive pre-medical program preparing students for MBBS, BDS, and other medical fields with advanced laboratory training.',
     duration: '2 Years',
-    fee: '--',
+    fee: 'PKR 138,040',
+    totalDues: '138,040',
+    discounts: 'Available',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The FSc Pre-Medical program is designed to provide students with a strong foundation in biological sciences, chemistry, and physics. This program prepares students for medical entrance exams and higher education in medical fields.',
     curriculum: [
@@ -49,12 +51,14 @@ export const coursesData = [
   },
   {
     id: 2,
-    title: 'FSc Pre-Engineering',
-    slug: 'fsc-pre-engineering',
+    title: 'FSC Engineering',
+    slug: 'fsc-engineering',
     category: 'Pre-Engineering',
     description: 'Engineering preparation program focusing on mathematics, physics, and chemistry with hands-on technical training.',
     duration: '2 Years',
-    fee: '--',
+    fee: 'PKR 138,040',
+    totalDues: '138,040',
+    discounts: 'Available',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The FSc Pre-Engineering program provides a solid foundation in mathematics, physics, and chemistry, preparing students for engineering disciplines and technical fields.',
     curriculum: [
@@ -97,12 +101,14 @@ export const coursesData = [
   },
   {
     id: 3,
-    title: 'ICS (Computer Science)',
+    title: 'ICS',
     slug: 'ics',
     category: 'Computer Science',
     description: 'Computer science program combining mathematics, physics, and computer studies with modern programming languages.',
     duration: '2 Years',
-    fee: '--',
+    fee: 'PKR 107,840',
+    totalDues: '107,840',
+    discounts: 'Available',
     eligibility: 'Matriculation with Science subjects',
     overview: 'The ICS program is perfect for students interested in computer science, software development, and information technology careers.',
     curriculum: [
@@ -145,60 +151,14 @@ export const coursesData = [
   },
   {
     id: 4,
-    title: 'I.Com (Commerce)',
-    slug: 'icom',
-    category: 'Commerce',
-    description: 'Commerce program focusing on business, accounting, and economics with practical business applications.',
-    duration: '2 Years',
-    fee: '--',
-    eligibility: 'Matriculation (any group)',
-    overview: 'The I.Com program provides comprehensive business education covering accounting, economics, and business studies.',
-    curriculum: [
-      {
-        subject: 'Accounting',
-        description: 'Financial and management accounting principles.',
-        topics: ['Financial Accounting', 'Cost Accounting', 'Management Accounting', 'Auditing']
-      },
-      {
-        subject: 'Economics',
-        description: 'Micro and macroeconomic principles.',
-        topics: ['Microeconomics', 'Macroeconomics', 'Development Economics', 'International Trade']
-      },
-      {
-        subject: 'Business Studies',
-        description: 'Business management and entrepreneurship.',
-        topics: ['Business Management', 'Marketing', 'Human Resources', 'Entrepreneurship']
-      },
-      {
-        subject: 'English',
-        description: 'Business English and communication.',
-        topics: ['Business Communication', 'Report Writing', 'Presentation Skills']
-      },
-      {
-        subject: 'Urdu',
-        description: 'Urdu language studies.',
-        topics: ['Grammar', 'Literature', 'Business Urdu']
-      }
-    ],
-    careerOutcomes: [
-      'Business Administration (BBA)',
-      'Chartered Accountancy (CA)',
-      'Banking and Finance',
-      'Economics',
-      'Commerce',
-      'Marketing',
-      'Human Resource Management',
-      'Entrepreneurship'
-    ]
-  },
-  {
-    id: 5,
-    title: 'FA (Arts)',
+    title: 'FA',
     slug: 'fa',
     category: 'Arts',
     description: 'Arts program with humanities subjects including languages and social sciences for creative minds.',
     duration: '2 Years',
-    fee: '--',
+    fee: 'PKR 100,860',
+    totalDues: '100,860',
+    discounts: 'Available',
     eligibility: 'Matriculation (any group)',
     overview: 'The FA program offers a broad liberal arts education with focus on languages, literature, and social sciences.',
     curriculum: [
@@ -237,49 +197,6 @@ export const coursesData = [
       'Law (LLB)',
       'Psychology',
       'Social Work'
-    ]
-  },
-  {
-    id: 6,
-    title: 'FSc (General Science)',
-    slug: 'fsc-general',
-    category: 'General Science',
-    description: 'General science program for students interested in diverse scientific fields with flexible career options.',
-    duration: '2 Years',
-    fee: '--',
-    eligibility: 'Matriculation with Science subjects',
-    overview: 'A balanced science program that keeps multiple career paths open in various scientific disciplines.',
-    curriculum: [
-      {
-        subject: 'Biology',
-        description: 'Life sciences and biological processes.',
-        topics: ['Cell Biology', 'Genetics', 'Ecology', 'Evolution']
-      },
-      {
-        subject: 'Chemistry',
-        description: 'Chemical principles and applications.',
-        topics: ['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry']
-      },
-      {
-        subject: 'Physics',
-        description: 'Physical sciences and natural phenomena.',
-        topics: ['Mechanics', 'Thermodynamics', 'Electricity', 'Modern Physics']
-      },
-      {
-        subject: 'Mathematics',
-        description: 'Mathematical foundations for sciences.',
-        topics: ['Calculus', 'Algebra', 'Statistics', 'Trigonometry']
-      }
-    ],
-    careerOutcomes: [
-      'Various Science Degrees',
-      'Environmental Sciences',
-      'Food Technology',
-      'Agriculture',
-      'Forestry',
-      'Applied Sciences',
-      'Research Fields',
-      'Science Teaching'
     ]
   }
 ]

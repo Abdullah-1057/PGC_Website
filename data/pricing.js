@@ -1,12 +1,9 @@
 export const pricingData = [
   {
     id: 1,
-    program: 'FSc Pre-Medical',
-    monthlyFee: '--',
-    admissionFee: '--',
-    annualFee: '--',
-    labFee: '--',
-    totalFirstYear: '--',
+    program: 'FSC Medical',
+    totalDues: '138,040',
+    discounts: 'Available',
     popular: true,
     features: [
       'All science subjects included',
@@ -21,12 +18,9 @@ export const pricingData = [
   },
   {
     id: 2,
-    program: 'FSc Pre-Engineering',
-    monthlyFee: '--',
-    admissionFee: '--',
-    annualFee: '--',
-    labFee: '--',
-    totalFirstYear: '--',
+    program: 'FSC Engineering',
+    totalDues: '138,040',
+    discounts: 'Available',
     popular: false,
     features: [
       'Mathematics and Physics focus',
@@ -41,12 +35,9 @@ export const pricingData = [
   },
   {
     id: 3,
-    program: 'ICS (Computer Science)',
-    monthlyFee: '--',
-    admissionFee: '--',
-    annualFee: '--',
-    labFee: '--',
-    totalFirstYear: '--',
+    program: 'ICS',
+    totalDues: '107,840',
+    discounts: 'Available',
     popular: false,
     features: [
       'Modern computer lab access',
@@ -61,32 +52,9 @@ export const pricingData = [
   },
   {
     id: 4,
-    program: 'I.Com (Commerce)',
-    monthlyFee: '--',
-    admissionFee: '--',
-    annualFee: '--',
-    labFee: '--',
-    totalFirstYear: '--',
-    popular: false,
-    features: [
-      'Business subjects coverage',
-      'Accounting software training',
-      'Business plan development',
-      'Entrepreneurship guidance',
-      'Industry visit programs',
-      'Professional development',
-      'Banking sector exposure',
-      'Commerce entrance prep'
-    ]
-  },
-  {
-    id: 5,
-    program: 'FA (Arts)',
-    monthlyFee: '--',
-    admissionFee: '--',
-    annualFee: '--',
-    labFee: '--',
-    totalFirstYear: '--',
+    program: 'FA',
+    totalDues: '100,860',
+    discounts: 'Available',
     popular: false,
     features: [
       'Humanities subjects focus',
@@ -97,26 +65,6 @@ export const pricingData = [
       'Literary societies membership',
       'Arts and crafts sessions',
       'Social sciences exposure'
-    ]
-  },
-  {
-    id: 6,
-    program: 'FSc General Science',
-    monthlyFee: '--',
-    admissionFee: '--',
-    annualFee: '--',
-    labFee: '--',
-    totalFirstYear: '--',
-    popular: false,
-    features: [
-      'Balanced science curriculum',
-      'Multiple laboratory access',
-      'Research project opportunities',
-      'Science fair participation',
-      'Educational field trips',
-      'Flexible career path options',
-      'University guidance programs',
-      'Scientific method training'
     ]
   }
 ]

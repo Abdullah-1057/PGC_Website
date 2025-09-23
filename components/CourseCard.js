@@ -24,17 +24,26 @@ export default function CourseCard({ course }) {
           {course.description}
         </p>
         
-        <div className="flex items-center justify-between text-sm text-brand-muted-500 mb-6 p-4 bg-brand-muted-50 rounded-lg">
-          <div className="flex items-center">
-            <span className="text-brand-primary-500 mr-1">⏱️</span>
-            <span className="font-medium">{course.duration}</span>
+        <div className="space-y-3 mb-6 p-4 bg-brand-muted-50 rounded-lg">
+          <div className="flex items-center justify-between text-sm text-brand-muted-500">
+            <div className="flex items-center">
+              <span className="text-brand-primary-500 mr-1">⏱️</span>
+              <span className="font-medium">{course.duration}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-brand-primary-500 mr-1">💰</span>
+              <span className="font-bold text-brand-secondary-500">
+                {course.fee || '--'}
+              </span>
+            </div>
           </div>
-          <div className="flex items-center">
-            <span className="text-brand-primary-500 mr-1">💰</span>
-            <span className="font-bold text-brand-secondary-500">
-              {course.fee || '--'}
-            </span>
-          </div>
+          {course.discounts && (
+            <div className="flex items-center justify-center">
+              <span className="text-green-600 text-sm font-semibold">
+                ✨ {course.discounts}
+              </span>
+            </div>
+          )}
         </div>
       </div>
       

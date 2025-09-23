@@ -9,6 +9,7 @@ import WhyPGC from '@/components/sections/WhyPGC'
 import LabsShowcase from '@/components/sections/LabsShowcase'
 import StatsForTrust from '@/components/sections/StatsForTrust'
 import EventsNotices from '@/components/sections/EventsNotices'
+import LeadershipMessages from '@/components/sections/LeadershipMessages'
 import AdmissionsCTA from '@/components/sections/AdmissionsCTA'
 
 export default function Home() {
@@ -55,6 +56,7 @@ export default function Home() {
       <LabsShowcase />
       <StatsForTrust />
       <EventsNotices />
+      <LeadershipMessages />
       <AdmissionsCTA />
     </>
   )

@@ -38,10 +38,16 @@ export default function CourseCard({ course }) {
             </div>
           </div>
           {course.discounts && (
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-between">
               <span className="text-green-600 text-sm font-semibold">
                 {course.discounts}
               </span>
+              <Link
+                href="/contact"
+                className="bg-green-600 hover:bg-green-700 text-white text-xs px-3 py-1 rounded-full transition-colors"
+              >
+                Contact Us
+              </Link>
             </div>
           )}
         </div>

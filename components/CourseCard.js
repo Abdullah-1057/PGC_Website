@@ -40,7 +40,7 @@ export default function CourseCard({ course }) {
           {course.discounts && (
             <div className="flex items-center justify-center">
               <span className="text-green-600 text-sm font-semibold">
-                ✨ {course.discounts}
+                {course.discounts}
               </span>
             </div>
           )}

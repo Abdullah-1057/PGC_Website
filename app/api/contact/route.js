@@ -1,15 +1,20 @@
 import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
+// Make sure we run on Node.js (SMTP not supported on Edge)
+export const runtime = 'nodejs'
+// Force dynamic for API routes
+export const dynamic = 'force-dynamic'
+
 export async function POST(request) {
   try {
     const body = await request.json()
     const { name, email, phone, program, city, message, subject, type } = body
 
     // Basic validation
-    if (!email) {
+    if (!email || !name || !message) {
       return NextResponse.json(
-        { message: 'Email is required', success: false },
+        { message: 'Name, email and message are required.', success: false },
         { status: 400 }
       )
     }
@@ -33,16 +38,14 @@ Submitted on: ${new Date().toISOString()}
     `.trim()
 
     // Create transporter using Outlook/Office 365 SMTP
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
       host: 'smtp.office365.com',
       port: 587,
-      secure: false, // true for 465, false for other ports
+      secure: false, // TLS will be upgraded on 587
+      requireTLS: true, // important for O365
       auth: {
         user: process.env.EMAIL_USER, // Your Outlook email (info@pcj.com.pk)
         pass: process.env.EMAIL_PASS  // Your Outlook password or app password
-      },
-      tls: {
-        ciphers: 'SSLv3'
       }
     })
 

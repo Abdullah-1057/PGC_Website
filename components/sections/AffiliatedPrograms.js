@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Container from '../Container'
 import Section from '../Section'
 import Reveal from '../Reveal'
@@ -243,12 +244,12 @@ export default function AffiliatedPrograms() {
                     <span className="text-green-600 text-sm font-medium">
                       Discounts are available
                     </span>
-                    <a
+                    <Link
                       href="/contact"
                       className="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -266,12 +267,12 @@ export default function AffiliatedPrograms() {
                     <span className="text-green-600 text-sm font-medium">
                       Discounts are available
                     </span>
-                    <a
+                    <Link
                       href="/contact"
                       className="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -285,7 +286,7 @@ export default function AffiliatedPrograms() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <a
+              <Link
                 href="/admissions"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-brand-primary-500 to-brand-accent-500 text-white font-semibold rounded-xl shadow-large hover:shadow-glow-lg transition-all duration-300 group"
               >
@@ -300,7 +301,7 @@ export default function AffiliatedPrograms() {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </motion.svg>
-              </a>
+              </Link>
             </motion.div>
           </div>
         </Reveal>

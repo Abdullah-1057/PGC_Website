@@ -15,8 +15,8 @@ const courseData = {
     university: 'UCP',
     duration: '2 Years',
     credits: 67,
-    description: 'A two-years and four-semesters degree programme that provides professional proficiency in the fields of accounting and finance.',
-    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Financial Consultancy Firms', 'Corporate Sector'],
+    description: 'A two-years and four-semesters degree programme that provides professional proficiency in the fields of accounting and finance. It enables students to start their career in almost every walk of life.',
+    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Debt Collection Agencies', 'Financial Consultancy Firms', 'Corporate Sector', 'Industry'],
     fee: 249200,
     semesters: [
       {
@@ -124,12 +124,12 @@ const courseData = {
       },
       {
         title: 'Semester III',
-        credits: 17,
+        credits: 18,
         subjects: ['Mathematics-I', 'Plant Systematics, Anatomy & Development', 'Plant Systematics, Anatomy & Develop. Lab', 'Animal Diversity-I (Invertebrates)', 'Animal Diversity-I (Invertebrates) Lab', 'Biological Techniques', 'Biological Techniques Lab', 'Organic Chemistry', 'Organic Chemistry Lab']
       },
       {
         title: 'Semester IV',
-        credits: 21,
+        credits: 20,
         subjects: ['Cell Biology, Genetics & Evolution', 'Cell Biology, Genetics & Evolution Lab', 'Physical Chemistry', 'Physical Chemistry Lab', 'Analytical Chemistry', 'Analytical Chemistry Lab', 'Technical Writing & Presentation Skills', 'Animal Diversity-II (Chordates)', 'Animal Diversity-II (Chordates) Lab', 'Project / Internship']
       }
     ]

@@ -5,6 +5,7 @@ import Container from '@/components/Container'
 import Section from '@/components/Section'
 import CourseCard from '@/components/CourseCard'
 import Reveal from '@/components/Reveal'
+import AffiliatedPrograms from '@/components/sections/AffiliatedPrograms'
 import { coursesData } from '@/data/courses'
 
 const categories = ['All', 'Pre-Medical', 'Pre-Engineering', 'Computer Science', 'Commerce', 'Arts', 'General Science']
@@ -60,6 +61,9 @@ export default function Courses() {
           </div>
         </Container>
       </Section>
+
+      {/* Affiliated Programs Section */}
+      <AffiliatedPrograms />
     </div>
   )
 }

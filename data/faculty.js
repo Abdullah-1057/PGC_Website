@@ -108,15 +108,5 @@ export const facultyData = [
     qualification: 'M.Sc, B.Ed',
     experience: 7,
     photo: '/faculty/10.jpeg'
-  },
-  {
-    id: 11,
-    name: 'Fazal Abbas Sadhana',
-    designation: 'Head of Law Department',
-    department: 'Law',
-    subject: 'Law',
-    qualification: '',
-    experience: 20,
-    photo: '/faculty/11.jpeg'
   }
 ]

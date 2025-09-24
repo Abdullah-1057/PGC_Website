@@ -27,7 +27,7 @@ The color palette has been extracted from the PGC Dhamyal logo:
 3. **Courses** - Filterable course listings with detailed pages
 4. **Faculty** - Searchable faculty directory
 5. **Events** - Upcoming events and activities
-6. **Pricing** - Transparent fee structure in PKR
+6. **Fee Structure** - Transparent fee structure in PKR
 7. **Admissions** - Application form with validation
 8. **Contact** - Contact information and inquiry form
 
@@ -83,7 +83,7 @@ All content is stored in JSON files in the `src/data/` directory:
 - `courses.js` - Course information and curriculum
 - `events.js` - Events and activities
 - `faculty.js` - Faculty and staff directory
-- `pricing.js` - Fee structure and pricing plans
+- `pricing.js` - Fee structure and fee plans
 
 To update content, simply edit these files and the changes will be reflected throughout the site.
 

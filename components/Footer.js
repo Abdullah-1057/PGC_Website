@@ -16,7 +16,7 @@ const navigation = {
     { name: 'Courses', href: '/courses' },
     { name: 'Faculty', href: '/faculty' },
     { name: 'Events', href: '/events' },
-    { name: 'Pricing', href: '/pricing' },
+    { name: 'Fee Structure', href: '/pricing' },
     { name: 'Admissions', href: '/admissions' },
     { name: 'Contact', href: '/contact' },
   ],

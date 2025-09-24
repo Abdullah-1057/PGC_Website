@@ -10,7 +10,7 @@ export const metadata = {
   description: 'Transparent and affordable fee structure for all our programs at PGC Jhang. Quality education made accessible.',
 }
 
-export default function Pricing() {
+export default function FeeStructure() {
   return (
     <div className="pt-16">
       <Section background="white" padding="lg">

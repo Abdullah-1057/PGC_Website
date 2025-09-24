@@ -11,61 +11,171 @@ const ucpPrograms = [
     name: 'ADP Accounting & Finance',
     university: 'UCP',
     duration: '2 Years',
-    credits: 66,
-    description: 'Professional proficiency in accounting and finance fields',
-    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Financial Consultancy'],
-    fee: 346460,
-    registrationFee: 2500,
-    admissionFee: 10000,
-    feePerCredit: 5060
+    credits: 67,
+    description: 'A two-years and four-semesters degree programme that provides professional proficiency in the fields of accounting and finance. It enables students to start their career in almost every walk of life.',
+    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Debt Collection Agencies', 'Financial Consultancy Firms', 'Corporate Sector', 'Industry'],
+    fee: 249200,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerCredit: 3600,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Accounting-1', 'Functional English', 'Fundamentals of Computing and E-Commerce', 'Business Mathematics', 'Introduction to Economics', 'Introduction to Business']
+      },
+      {
+        title: 'Semester II', 
+        credits: 18,
+        subjects: ['Business Law', 'English Advanced Writing', 'Business Finance', 'Accounting-II', 'Introduction to Management', 'Fundamentals of Marketing']
+      },
+      {
+        title: 'Semester III',
+        credits: 14,
+        subjects: ['Pakistan and Islamic Studies/Ethics', 'Auditing Principles & Practices', 'Fundamentals of Cost Accounting', 'Communication Skills', 'Financial Management']
+      },
+      {
+        title: 'Semester IV',
+        credits: 17,
+        subjects: ['Taxation Management', 'Financial Analysis', 'Investment Fundamentals', 'Development Economics', 'Advanced Cost & Management Accounting']
+      }
+    ]
   },
   {
     name: 'ADP Business Administration',
     university: 'UCP',
     duration: '2 Years',
-    credits: 66,
-    description: 'Comprehensive business and entrepreneurship education',
-    careerProspects: ['Marketing Agencies', 'Human Resource', 'Sales', 'Corporate Sector'],
-    fee: 346460,
-    registrationFee: 2500,
-    admissionFee: 10000,
-    feePerCredit: 5060
+    credits: 70,
+    description: 'A two-years and four-semesters degree programme that offers students the opportunity to kickstart their career in the fields related to business and entrepreneurship.',
+    careerProspects: ['Education Sector', 'Marketing Agencies', 'Human Resource', 'Administration', 'Sales', 'Retail & Production', 'Services Industry'],
+    fee: 253000,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerCredit: 3500,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Introduction to Financial Accounting', 'Basic English Writing Skills', 'Introduction to Information Technology', 'Basic Mathematics', 'Principles of Marketing', 'Principles of Management']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Advanced English Writing', 'Introduction to Business', 'Microeconomics for Business', 'Business Statistics', 'Business Law', 'Fundamentals of Management & Organization']
+      },
+      {
+        title: 'Semester III',
+        credits: 13,
+        subjects: ['Pakistan and Islamic Studies/Ethics', 'Business Finance', 'Management Information System', 'College Mathematics', 'Communication Skills']
+      },
+      {
+        title: 'Semester IV',
+        credits: 21,
+        subjects: ['Principles of Macroeconomics', 'Managerial Accounting', 'Elective-I', 'Elective-II', 'Principles of Business Ethics', 'Quantitative Analysis']
+      }
+    ]
   },
   {
     name: 'ADP Computer Science',
     university: 'UCP',
     duration: '2 Years',
-    credits: 75,
-    description: 'Advanced computer science and technology skills',
-    careerProspects: ['Software Development', 'Data Centers', 'Network Companies', 'IT Administration'],
-    fee: 462950,
-    registrationFee: 2500,
-    admissionFee: 10000,
-    feePerCredit: 6006
+    credits: 66,
+    description: 'ADP Computer Science is a two-years and four-semesters degree programme that equips students with the right resources to excel in the fields of computer science and technology.',
+    careerProspects: ['Software Development', 'Data Centers', 'Network Companies', 'Call Centers', 'Database Agencies', 'Administration', 'Management Information System', 'Corporate Sector'],
+    fee: 258800,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerCredit: 3800,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Introduction to Computer Science (C++)', 'Introduction to Logic', 'Functional English', 'Calculus-I', 'Introduction to Financial Accounting', 'Pakistan & Islamic Studies/Ethics']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['English Advanced Writing', 'Programming Fundamentals', 'Database Management Systems', 'Calculus-II', 'Ethics and Professional Practices', 'Web Programming']
+      },
+      {
+        title: 'Semester III',
+        credits: 15,
+        subjects: ['Object Oriented Programming', 'Data Structures & Algorithms', 'Technology Entrepreneurship', 'Communication Skills', 'Project-I']
+      },
+      {
+        title: 'Semester IV',
+        credits: 15,
+        subjects: ['Operating Systems', 'Introduction to Management Information Systems', 'Web Applications Development', 'Mobile Applications', 'Project-II']
+      }
+    ]
   },
   {
     name: 'ADP Botany, Zoology & Chemistry',
     university: 'UCP',
     duration: '2 Years',
-    credits: 71,
-    description: 'Modern branches of pure science specialization',
-    careerProspects: ['Research', 'Environmental Organizations', 'Science Labs', 'Pharmaceutical Industries'],
-    fee: 335834,
-    registrationFee: 2500,
-    admissionFee: 10000,
-    feePerCredit: 4554
+    credits: 74,
+    description: 'A two-years and four-semesters degree programme that covers the most modern branches of pure science. It is a diversified programme that can lead to specialization in Botany, Zoology or Chemistry.',
+    careerProspects: ['Research', 'Environmental Welfare Org.', 'Science Labs', 'Archaeology Department', 'Forestry', 'Veterinary Hospital', 'Museums', 'Fertilizer & Chemical Industries', 'Pharmaceutical Industries'],
+    fee: 259600,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerCredit: 3400,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Functional English', 'Introduction to Computer', 'Inorganic Chemistry', 'Inorganic Chemistry Lab', 'Principles of Animal Life', 'Principles of Animal Life Lab', 'Diversity of Plants', 'Diversity of Plants Lab']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Communication Skills', 'Pakistan & Islamic Studies/Ethics', 'Animal Form & Function', 'Animal Form & Function Lab', 'Mycology & Plant Pathology', 'Mycology & Plant Pathology Lab', 'Plant Physiology & Ecology', 'Plant Physiology & Ecology Lab', 'Applied Chemistry']
+      },
+      {
+        title: 'Semester III',
+        credits: 17,
+        subjects: ['Mathematics-I', 'Plant Systematics, Anatomy & Development', 'Plant Systematics, Anatomy & Develop. Lab', 'Animal Diversity-I (Invertebrates)', 'Animal Diversity-I (Invertebrates) Lab', 'Biological Techniques', 'Biological Techniques Lab', 'Organic Chemistry', 'Organic Chemistry Lab']
+      },
+      {
+        title: 'Semester IV',
+        credits: 21,
+        subjects: ['Cell Biology, Genetics & Evolution', 'Cell Biology, Genetics & Evolution Lab', 'Physical Chemistry', 'Physical Chemistry Lab', 'Analytical Chemistry', 'Analytical Chemistry Lab', 'Technical Writing & Presentation Skills', 'Animal Diversity-II (Chordates)', 'Animal Diversity-II (Chordates) Lab', 'Project / Internship']
+      }
+    ]
   },
   {
     name: 'ADP Double Math & Physics',
     university: 'UCP',
     duration: '2 Years',
-    credits: 70,
-    description: 'Professional understanding of Mathematics and Physics',
-    careerProspects: ['Research', 'Banking', 'Data Analysis', 'Meteorology'],
-    fee: 294860,
-    registrationFee: 2500,
-    admissionFee: 10000,
-    feePerCredit: 4428
+    credits: 76,
+    description: 'A two-years and four-semesters degree programme that offers professional understanding of Mathematics and Physics. After completing this programme students can further specialize and excel in their relevant field.',
+    careerProspects: ['Research', 'Banking', 'Insurance', 'Data Analyst', 'Meteorology Dept'],
+    fee: 258800,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerCredit: 3300,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 19,
+        subjects: ['Calculus-I', 'Functional English', 'Pakistan & Islamic Studies/Ethics', 'Mechanics', 'Lab-I (Measurement, Mechanics and Fluids)', 'Statistics']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Calculus-II', 'Electricity & Magnetism', 'Linear Algebra', 'Modern Physics', 'Introduction to Computer', 'Lab-II (Electricity & Magnetism)']
+      },
+      {
+        title: 'Semester III',
+        credits: 19,
+        subjects: ['Waves & Oscillations', 'Lab-III (Waves & Oscillations)', 'Ordinary Differential Equations', 'Algebra (Group Theory)', 'Heat & Thermodynamics', 'Classical Mechanics', 'Communication']
+      },
+      {
+        title: 'Semester IV',
+        credits: 20,
+        subjects: ['Calculus-III', 'Optics', 'Lab-IV (Optics)', 'Elements of Set Theory & Mathematical Logic', 'Affine & Euclidean Geometry', 'Technical Writing & Presentation Skills', 'Project']
+      }
+    ]
   }
 ]
 
@@ -272,17 +382,31 @@ export default function AffiliatedPrograms() {
                     </span>
                   </div>
                   
-                  {/* Discount and Contact Section */}
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="text-green-600 text-sm font-medium">
-                      Discounts are available
-                    </span>
+                  {/* Centered View Course Outline Button */}
+                  <div className="flex justify-center mb-4">
                     <Link
-                      href="/contact"
-                      className="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200"
+                      href={`/courses/${program.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and').replace(/,/g, '').replace(/\(/g, '').replace(/\)/g, '').replace(/\./g, '').replace(/--+/g, '-')}`}
+                      className="inline-flex items-center px-4 py-2 bg-brand-primary-500 text-white text-sm font-semibold rounded-lg hover:bg-brand-primary-600 transition-colors duration-200"
                     >
-                      Contact Us
+                      View Course Outline
                     </Link>
+                  </div>
+
+                  {/* Discount and Contact Section */}
+                  <div className="space-y-3">
+                    <div className="text-center">
+                      <span className="text-green-600 text-sm font-medium">
+                        Discounts are available
+                      </span>
+                    </div>
+                    <div className="flex justify-center">
+                      <Link
+                        href="/contact"
+                        className="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200"
+                      >
+                        Contact Us
+                      </Link>
+                    </div>
                   </div>
                 </div>
               )}

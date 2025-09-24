@@ -150,10 +150,10 @@ export default function AffiliatedPrograms() {
   const allPrograms = [...ucpPrograms, ...gcPrograms, ...additionalPrograms]
 
   return (
-    <Section background="brand-muted-50" padding="lg">
+    <Section background="brand-muted-50" padding="sm">
       <Container>
         <Reveal>
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -173,7 +173,7 @@ export default function AffiliatedPrograms() {
           </div>
         </Reveal>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {allPrograms.map((program, index) => (
             <motion.div
               key={program.name}
@@ -185,9 +185,9 @@ export default function AffiliatedPrograms() {
                 delay: index * 0.1,
                 ease: 'easeOut'
               }}
-              className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-6 hover:shadow-xl transition-all duration-300 group"
+              className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-4 hover:shadow-xl transition-all duration-300 group"
             >
-              <div className="mb-4">
+              <div className="mb-3">
                 <h3 className="text-xl font-bold text-brand-secondary-500 mb-2 group-hover:text-brand-primary-500 transition-colors">
                   {program.name}
                 </h3>
@@ -210,7 +210,7 @@ export default function AffiliatedPrograms() {
                 </p>
               </div>
 
-              <div className="mb-4">
+              <div className="mb-3">
                 <h4 className="text-sm font-semibold text-brand-secondary-500 mb-2">Career Prospects:</h4>
                 <div className="flex flex-wrap gap-1">
                   {program.careerProspects.slice(0, 3).map((prospect, idx) => (

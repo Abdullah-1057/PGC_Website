@@ -52,7 +52,7 @@ export default function Contact() {
       })
 
       if (response.ok) {
-        toast.success('Message sent successfully! We\'ll get back to you soon.')
+        toast.success('Message sent successfully to info@pcj.com.pk! We\'ll get back to you soon.')
         setFormData({
           name: '',
           email: '',
@@ -178,7 +178,7 @@ export default function Contact() {
                       <EnvelopeIcon className="h-6 w-6 text-brand-primary-500 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-brand-secondary-500">Email</h4>
-                        <p className="text-brand-muted-600">info@pgcjhang.com</p>
+                        <p className="text-brand-muted-600">info@pcj.com.pk</p>
                       </div>
                     </div>
 

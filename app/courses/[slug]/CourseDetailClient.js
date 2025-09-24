@@ -196,7 +196,7 @@ export default function CourseDetailClient({ course }) {
                         Call: 0312-7773517, 047-7630499, 047-7630503
                       </p>
                       <p className="text-brand-muted-600">
-                        Email: info@pgcjhang.com
+                        Email: info@pcj.com.pk
                       </p>
                     </div>
                   </div>

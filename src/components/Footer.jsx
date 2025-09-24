@@ -100,7 +100,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <EnvelopeIcon className="h-5 w-5 text-brand-primary-400 flex-shrink-0" />
                 <p className="text-brand-muted-300 text-sm">
-                  info@pgcjhang.com
+                  info@pcj.com.pk
                 </p>
               </div>
               <div className="flex items-start space-x-3">

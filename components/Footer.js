@@ -146,7 +146,7 @@ export default function Footer() {
                   },
                   {
                     icon: EnvelopeIcon,
-                    content: 'info@pgcjhang.com'
+                    content: 'info@pcj.com.pk'
                   },
                   {
                     icon: ClockIcon,

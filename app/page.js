@@ -10,6 +10,7 @@ import LabsShowcase from '@/components/sections/LabsShowcase'
 import StatsForTrust from '@/components/sections/StatsForTrust'
 import EventsNotices from '@/components/sections/EventsNotices'
 import LeadershipMessages from '@/components/sections/LeadershipMessages'
+import AffiliatedPrograms from '@/components/sections/AffiliatedPrograms'
 import AdmissionsCTA from '@/components/sections/AdmissionsCTA'
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
       <Hero />
       <LeadershipMessages />
       <ProgramsOverview />
+      <AffiliatedPrograms />
       <WhyPGC />
       <LabsShowcase />
       <StatsForTrust />

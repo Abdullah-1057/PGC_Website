@@ -1,0 +1,241 @@
+GOVERNMENT COLLEGE AFFILIATED PROGRAMS - PUNJAB COLLEGE JHANG
+=============================================================
+
+1. BS COMPUTER SCIENCE
+======================
+Duration: Four years (8 semesters)
+Description: Comprehensive computer science program covering programming, software engineering, and advanced computing concepts.
+
+Faculty Members:
+• Mr. Zia Qamar - Lecturer (MS CE, Computer Engineering)
+• Mr. Muhammad Usman - Lecturer (PhD Scholar, Machine Learning, Deep Learning)
+• Ms. Arbab Kanwal - Lecturer (MS CS, Software Engineering)
+• Ms. Maleeha Chaudary - Lecturer (PhD Scholar, Software Engineering)
+• Mr. Muhammad Aater Javed - Lab Engineer (MS CS, Networking)
+
+Scheme of Studies:
+
+Semester 1:
+• CCC-301 Programming Fundamentals 4(3-1)
+• CGE-301 Application of Information and Communication Technologies 3(2-1)
+• ENG-321 Functional English 3(3-0)
+• MTH-323 Calculus and Analytic Geometry 3(3-0)
+• PHY-321 Applied Physics 3(2-1)
+• ISL-321 Islamic Studies 2(2-0)
+• ISL-322 Ethics (for non-Muslims only) 2(2-0)
+• *THQ-I Teaching of Holy Quran-I 1(1-0)
+• **MTH-111 Basic Math-I (For Pre-Medical Students only) 3(3-0)
+
+Semester 2:
+• CCC-302 Object Oriented Programming 4(3-1)
+• CCC-304 Web Engineering 3(2-1)
+• CCC-306 Digital Logic Design 3(2-1)
+• CCC-401 Data Structures 4(3-1)
+• CCC-407 Computer Networks 3(2-1)
+• CSI-403 Discrete Structures 3(3-0)
+• STA-328 Probability and Statistics 3(3-0)
+• ICP-321 Ideology and Constitution of Pakistan 2(2-0)
+• BAM-601 Entrepreneurship 2(2-0)
+• *THQ-II Teaching of Holy Quran-II 1(1-0)
+
+Semester 3:
+• ENG-322 Expository Writing 3(3-0)
+• MTH-324 Multivariable Calculus 3(3-0)
+• PST-321 Pakistan Studies 2(2-0)
+• **MTH-112 Basic Math-II (For Pre-Medical Students only) 3(3-0)
+• CCC-402 Computer Organization and Assembly Language 3(2-1)
+• CCC-404 Information Security 3(2-1)
+• CCC-408 Software Engineering 3(3-0)
+• MTH-424 Linear Algebra 3(3-0)
+• ENG-422 Technical and Business Writing 3(3-0)
+• BAM-301 Introduction to Management 2(2-0)
+• GER-604 Civics and Community Engagement 2(2-0)
+
+Semester 4:
+• CCC-501 Operating Systems 3(2-1)
+• CCC-507 Analysis of Algorithms 3(3-0)
+• CSI-417 Advance Database Management Systems 3(2-1)
+• CSI-503 Theory of Automata 3(3-0)
+• CSI-513 Mobile Application Development 3(2-1)
+• CSI-517 Advanced Programming 3(2-1)
+• *THQ-III Teaching of Holy Quran-III 1(1-0)
+
+Semester 5:
+• CCC-502 Artificial Intelligence 3(2-1)
+• CSI-504 Parallel and Distributed Computing 3(2-1)
+• CSI-506 Computer Architecture 3(2-1)
+• CSI-508 Compiler Construction 3(2-1)
+• CSI-512 Database Systems 4(3-1)
+• CSI-516 Software Testing 3(3-0)
+
+Semester 6:
+• CSI-603 Introduction to Data Science 3(2-1)
+• CSI-607 Entrepreneurship 3(2-1)
+• CSI-609 HCI and Computer Graphics 3(2-1)
+• CSI-611 Translation of The Holy Quran-IV 3(2-1)
+• CCC-631 Technical Writing 2(0-2)
+• CSI-633 Principles of Marketing 3(0-3)
+• *THQ-IV Teaching of Holy Quran-IV 1(1-0)
+
+Semester 7:
+• CSI-606 Professional Practices 2(2-0)
+• CCC-632 Final Year Project - II 4(0-4)
+• ESC-614 Marketing and Social Media in Digital World 3(3-0)
+
+Semester 8:
+• Final Year Project and Professional Development
+
+Course Codes Legend:
+• CCC = Core Computer Courses
+• CSI = Computer Science Intermediate
+• MTH = Mathematics
+• ENG = English
+• PHY = Physics
+• ISL = Islamic Studies
+• ICP = Ideology and Constitution of Pakistan
+• PST = Pakistan Studies
+• BAM = Business Administration and Management
+• GER = General Education Requirements
+• ESC = Emerging Social Challenges
+
+* Non-Credit Course
+** Deficiency Course (Non-Credit) for students who have not studied Mathematics at HSSC
+
+=============================================================
+
+2. BACHELOR OF BUSINESS ADMINISTRATION (BBA)
+============================================
+Duration: Four years (8 semesters)
+Description: NBEAC-HEC Accredited Program providing comprehensive business education covering management, marketing, finance, and entrepreneurship.
+
+Scheme of Studies:
+
+Semester 1:
+• COM-301 Financial Accounting-I 3(3-0)
+• BAM-301 Principles of Management 3(3-0)
+• ECO-301 Principles of Microeconomics 3(3-0)
+• BAM-302 Principles of Marketing 3(3-0)
+• ENG-321 Functional English 3(3-0)
+• ISL-321 Islamic Studies 2(2-0)
+• ISL-322 Ethics (For Non-Muslim only) 2(2-0)
+• *THQ-I Teaching of The Holy Quran -I 1(1-0)
+
+Semester 2:
+• COM-302 Financial Accounting-II 3(3-0)
+• ICT-321 Information and Communication Technology 3(2-1)
+• ECO-302 Principles of Macroeconomics 3(3-0)
+• ENG-322 Expository Writing 3(3-0)
+• GSC-321 The Science of Global Challenges 3(2-1)
+• ICP-321 Ideology and Constitution of Pakistan 2(2-0)
+
+Semester 3:
+• BAM-401 Business Finance 3(3-0)
+• BAM-403 Marketing Management 3(3-0)
+• BAM-404 Human Resource Management 3(3-0)
+• QRT-421 Quantitative Reasoning - I 3(3-0)
+• STA-304 Business Statistics 3(3-0)
+• PST-321 Pakistan Studies 2(2-0)
+• +THQ-II Teaching of The Holy Quran -II 1(1-0)
+
+Semester 4:
+• BAM-406 Financial Management 3(3-0)
+• PSY-321 Introduction to Psychology 3(3-0)
+• STA-401 Statistical Inference 3(3-0)
+• QRT-422 Quantitative Reasoning - II 3(3-0)
+• BAM-402 Language (Arabic/French/Chinese) 2(2-0)
+• BAM-422 Entrepreneurship 2(2-0)
+• CCE-421 Civics and Community Engagement 2(2-0)
+
+Semester 5:
+• COM-506 Managerial Accounting 3(3-0)
+• BAM-505 Consumer Behavior 3(3-0)
+• BAM-501 Organizational Behavior 3(3-0)
+• BAM-507 Business Ethics & Corporate Social Responsibility 3(3-0)
+• BAM-509 Business Research Methods 3(3-0)
+• BAM-502 International Business 3(3-0)
+• *THQ-III Teaching of The Holy Quran -III 1(1-0)
+
+Semester 6:
+• BAM-503 Operations Management 3(3-0)
+• IRS-514 International Relations and Current Affairs 3(3-0)
+• DAN-531 Data Analytics 3(3-0)
+• LAW-513 Business Law 3(3-0)
+• BAM- Specialization I 3(3-0)
+• BAM- Specialization II 3(3-0)
+
+Semester 7:
+• BAM-603 Financial Innovation and Technology 3(3-0)
+• CIT-673 Enterprise Resource Planning 3(3-0)
+• BAM- Specialization III 3(3-0)
+• BAM- Specialization IV 3(3-0)
+• BAM- Specialization V 3(3-0)
+• INT-631 Internship 3(0-3)
+• +THQ-IV Teaching of The Holy Quran -IV 1(1-0)
+
+Semester 8:
+• BAM-602 Strategic Management 3(3-0)
+• BAM- Specialization VI 3(3-0)
+• BAM- Specialization VII 3(3-0)
+• BAM- Specialization VIII 3(3-0)
+• CAP-630 Capstone Project 3(0-3)
+
+Course Codes Legend:
+• COM = Commerce/Accounting
+• BAM = Business Administration and Management
+• ECO = Economics
+• ENG = English
+• ICT = Information and Communication Technology
+• GSC = Global Science Challenges
+• ICP = Ideology and Constitution of Pakistan
+• PST = Pakistan Studies
+• QRT = Quantitative Reasoning
+• STA = Statistics
+• PSY = Psychology
+• CCE = Civics and Community Engagement
+• IRS = International Relations
+• DAN = Data Analytics
+• LAW = Business Law
+• CIT = Computer Information Technology
+• INT = Internship
+• CAP = Capstone Project
+
+* Non-Credit Course
++ Additional Course
+
+=============================================================
+
+PROGRAM HIGHLIGHTS
+==================
+
+BS Computer Science:
+• Comprehensive programming and software development curriculum
+• Advanced topics in AI, Machine Learning, and Data Science
+• Strong foundation in mathematics and computer science theory
+• Practical lab components for hands-on learning
+• Final year project requirement
+
+BBA (Bachelor of Business Administration):
+• NBEAC-HEC Accredited Program
+• Comprehensive business education covering all major business functions
+• Specialization options in various business areas
+• Internship and capstone project requirements
+• Modern curriculum including digital marketing and data analytics
+
+FACULTY QUALIFICATIONS
+======================
+• PhD Scholars in specialized fields
+• MS degrees in Computer Science and Computer Engineering
+• Specializations in Machine Learning, Deep Learning, Software Engineering, and Networking
+• Industry experience in addition to academic qualifications
+
+ACADEMIC REQUIREMENTS
+=====================
+• HSSC or equivalent qualification required
+• Mathematics deficiency courses available for pre-medical students
+• Islamic Studies and Pakistan Studies as mandatory subjects
+• Holy Quran courses for Muslim students
+• Ethics courses for non-Muslim students
+
+=============================================================
+Generated on: [Current Date]
+Source: Government College Affiliated Programs - Punjab College Jhang

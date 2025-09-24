@@ -392,10 +392,10 @@ export default function AffiliatedPrograms() {
                   {/* Action Buttons */}
                   <div className="flex items-center justify-center gap-3">
                     <Link
-                      href={`/courses/${program.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and').replace(/,/g, '').replace(/\(/g, '').replace(/\)/g, '').replace(/\./g, '').replace(/--+/g, '-')}`}
+                      href={`/programs/${program.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and').replace(/,/g, '').replace(/\(/g, '').replace(/\)/g, '').replace(/\./g, '').replace(/--+/g, '-')}`}
                       className="inline-flex items-center px-4 py-2 bg-brand-primary-500 text-white text-sm font-semibold rounded-lg hover:bg-brand-primary-600 transition-colors duration-200"
                     >
-                      View Course Outline
+                      View Program Details
                     </Link>
                     <Link
                       href="/contact"

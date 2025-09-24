@@ -1,21 +1,29 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import Container from '@/components/Container'
-import Section from '@/components/Section'
-import CourseCard from '@/components/CourseCard'
-import Reveal from '@/components/Reveal'
-import AffiliatedPrograms from '@/components/sections/AffiliatedPrograms'
-import { coursesData } from '@/data/courses'
+import { useState } from "react";
+import Container from "@/components/Container";
+import Section from "@/components/Section";
+import CourseCard from "@/components/CourseCard";
+import Reveal from "@/components/Reveal";
+import { coursesData } from "@/data/courses";
 
-const categories = ['All', 'Pre-Medical', 'Pre-Engineering', 'Computer Science', 'Commerce', 'Arts', 'General Science']
+const categories = [
+  "All",
+  "Pre-Medical",
+  "Pre-Engineering",
+  "Computer Science",
+  "Commerce",
+  "Arts",
+  "General Science",
+];
 
 export default function Courses() {
-  const [selectedCategory, setSelectedCategory] = useState('All')
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const filteredCourses = selectedCategory === 'All' 
-    ? coursesData 
-    : coursesData.filter(course => course.category === selectedCategory)
+  const filteredCourses =
+    selectedCategory === "All"
+      ? coursesData
+      : coursesData.filter((course) => course.category === selectedCategory);
 
   return (
     <div className="pt-16">
@@ -27,8 +35,9 @@ export default function Courses() {
                 Our Courses
               </h1>
               <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
-                Choose from our comprehensive range of intermediate programs designed 
-                to prepare you for higher education and professional success.
+                Choose from our comprehensive range of intermediate programs
+                designed to prepare you for higher education and professional
+                success.
               </p>
             </div>
           </Reveal>
@@ -42,8 +51,8 @@ export default function Courses() {
                   onClick={() => setSelectedCategory(category)}
                   className={`px-6 py-2 rounded-full font-medium transition-colors ${
                     selectedCategory === category
-                      ? 'bg-brand-primary-500 text-white'
-                      : 'bg-brand-muted-100 text-brand-muted-700 hover:bg-brand-muted-200'
+                      ? "bg-brand-primary-500 text-white"
+                      : "bg-brand-muted-100 text-brand-muted-700 hover:bg-brand-muted-200"
                   }`}
                 >
                   {category}
@@ -61,9 +70,6 @@ export default function Courses() {
           </div>
         </Container>
       </Section>
-
-      {/* Affiliated Programs Section */}
-      <AffiliatedPrograms />
     </div>
-  )
+  );
 }

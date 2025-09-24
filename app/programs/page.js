@@ -14,7 +14,7 @@ const ucpPrograms = [
     duration: '2 Years',
     credits: 67,
     description: 'A two-years and four-semesters degree programme that provides professional proficiency in the fields of accounting and finance. It enables students to start their career in almost every walk of life.',
-    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Debt Collection Agencies', 'Financial Consultancy Firms', 'Corporate Sector', 'Industry'],
+    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Debt Collection Agencies', 'Financial Consultancy Firms', 'Corporate Sector', 'Industry', 'Tax Consultancy', 'Investment Banking', 'Financial Planning'],
     fee: 249200,
     registrationFee: 8000,
     admissionFee: 8000,
@@ -27,7 +27,7 @@ const ucpPrograms = [
     duration: '2 Years',
     credits: 70,
     description: 'A two-years and four-semesters degree programme that offers students the opportunity to kickstart their career in the fields related to business and entrepreneurship.',
-    careerProspects: ['Education Sector', 'Marketing Agencies', 'Human Resource', 'Administration', 'Sales', 'Retail & Production', 'Services Industry'],
+    careerProspects: ['Education Sector', 'Marketing Agencies', 'Human Resource', 'Administration', 'Sales', 'Retail & Production', 'Services Industry', 'Operations Management', 'Project Management', 'Business Development', 'Customer Relations', 'Supply Chain Management'],
     fee: 253000,
     registrationFee: 8000,
     admissionFee: 8000,
@@ -40,7 +40,7 @@ const ucpPrograms = [
     duration: '2 Years',
     credits: 66,
     description: 'ADP Computer Science is a two-years and four-semesters degree programme that equips students with the right resources to excel in the fields of computer science and technology.',
-    careerProspects: ['Software Development', 'Data Centers', 'Network Companies', 'Call Centers', 'Database Agencies', 'Administration', 'Management Information System', 'Corporate Sector'],
+    careerProspects: ['Software Development', 'Data Centers', 'Network Companies', 'Call Centers', 'Database Agencies', 'Administration', 'Management Information System', 'Corporate Sector', 'Web Development', 'Mobile App Development', 'System Administration', 'IT Support', 'Quality Assurance', 'Technical Writing'],
     fee: 258800,
     registrationFee: 8000,
     admissionFee: 8000,
@@ -53,7 +53,7 @@ const ucpPrograms = [
     duration: '2 Years',
     credits: 74,
     description: 'A two-years and four-semesters degree programme that covers the most modern branches of pure science. It is a diversified programme that can lead to specialization in Botany, Zoology or Chemistry.',
-    careerProspects: ['Research', 'Environmental Welfare Org.', 'Science Labs', 'Archaeology Department', 'Forestry', 'Veterinary Hospital', 'Museums', 'Fertilizer & Chemical Industries', 'Pharmaceutical Industries'],
+    careerProspects: ['Research', 'Environmental Welfare Org.', 'Science Labs', 'Archaeology Department', 'Forestry', 'Veterinary Hospital', 'Museums', 'Fertilizer & Chemical Industries', 'Pharmaceutical Industries', 'Food Industry', 'Agricultural Research', 'Conservation Biology', 'Marine Biology', 'Wildlife Management', 'Environmental Consulting'],
     fee: 259600,
     registrationFee: 8000,
     admissionFee: 8000,
@@ -66,7 +66,7 @@ const ucpPrograms = [
     duration: '2 Years',
     credits: 76,
     description: 'A two-years and four-semesters degree programme that offers professional understanding of Mathematics and Physics. After completing this programme students can further specialize and excel in their relevant field.',
-    careerProspects: ['Research', 'Banking', 'Insurance', 'Data Analyst', 'Meteorology Dept'],
+    careerProspects: ['Research', 'Banking', 'Insurance', 'Data Analyst', 'Meteorology Dept', 'Engineering', 'Actuarial Science', 'Quantitative Finance', 'Statistical Analysis', 'Risk Management', 'Operations Research', 'Academia', 'Government Research'],
     fee: 258800,
     registrationFee: 8000,
     admissionFee: 8000,
@@ -277,7 +277,7 @@ export default function Programs() {
                 <div className="mb-3">
                   <h4 className="text-sm font-semibold text-brand-secondary-500 mb-2">Career Prospects:</h4>
                   <div className="flex flex-wrap gap-1">
-                    {program.careerProspects.slice(0, 3).map((prospect, idx) => (
+                    {program.careerProspects.map((prospect, idx) => (
                       <span
                         key={idx}
                         className="px-2 py-1 bg-brand-primary-50 text-brand-primary-700 text-xs rounded-full"
@@ -285,11 +285,6 @@ export default function Programs() {
                         {prospect}
                       </span>
                     ))}
-                    {program.careerProspects.length > 3 && (
-                      <span className="px-2 py-1 bg-brand-muted-100 text-brand-muted-600 text-xs rounded-full">
-                        +{program.careerProspects.length - 3} more
-                      </span>
-                    )}
                   </div>
                 </div>
 

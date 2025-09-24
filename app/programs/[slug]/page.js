@@ -16,7 +16,7 @@ const programData = {
     duration: '2 Years',
     credits: 67,
     description: 'A two-years and four-semesters degree programme that provides professional proficiency in the fields of accounting and finance. It enables students to start their career in almost every walk of life.',
-    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Debt Collection Agencies', 'Financial Consultancy Firms', 'Corporate Sector', 'Industry'],
+    careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Debt Collection Agencies', 'Financial Consultancy Firms', 'Corporate Sector', 'Industry', 'Tax Consultancy', 'Investment Banking', 'Financial Planning'],
     fee: 249200,
     semesters: [
       {
@@ -47,7 +47,7 @@ const programData = {
     duration: '2 Years',
     credits: 70,
     description: 'A two-years and four-semesters degree programme that offers students the opportunity to kickstart their career in the fields related to business and entrepreneurship.',
-    careerProspects: ['Education Sector', 'Marketing Agencies', 'Human Resource', 'Administration', 'Sales', 'Retail & Production', 'Services Industry'],
+    careerProspects: ['Education Sector', 'Marketing Agencies', 'Human Resource', 'Administration', 'Sales', 'Retail & Production', 'Services Industry', 'Operations Management', 'Project Management', 'Business Development', 'Customer Relations', 'Supply Chain Management'],
     fee: 253000,
     semesters: [
       {
@@ -78,7 +78,7 @@ const programData = {
     duration: '2 Years',
     credits: 66,
     description: 'ADP Computer Science is a two-years and four-semesters degree programme that equips students with the right resources to excel in the fields of computer science and technology.',
-    careerProspects: ['Software Development', 'Data Centers', 'Network Companies', 'Call Centers', 'Database Agencies', 'Administration', 'Management Information System', 'Corporate Sector'],
+    careerProspects: ['Software Development', 'Data Centers', 'Network Companies', 'Call Centers', 'Database Agencies', 'Administration', 'Management Information System', 'Corporate Sector', 'Web Development', 'Mobile App Development', 'System Administration', 'IT Support', 'Quality Assurance', 'Technical Writing'],
     fee: 258800,
     semesters: [
       {
@@ -109,7 +109,7 @@ const programData = {
     duration: '2 Years',
     credits: 74,
     description: 'A two-years and four-semesters degree programme that covers the most modern branches of pure science. It is a diversified programme that can lead to specialization in Botany, Zoology or Chemistry.',
-    careerProspects: ['Research', 'Environmental Welfare Org.', 'Science Labs', 'Archaeology Department', 'Forestry', 'Veterinary Hospital', 'Museums', 'Fertilizer & Chemical Industries', 'Pharmaceutical Industries'],
+    careerProspects: ['Research', 'Environmental Welfare Org.', 'Science Labs', 'Archaeology Department', 'Forestry', 'Veterinary Hospital', 'Museums', 'Fertilizer & Chemical Industries', 'Pharmaceutical Industries', 'Food Industry', 'Agricultural Research', 'Conservation Biology', 'Marine Biology', 'Wildlife Management', 'Environmental Consulting'],
     fee: 259600,
     semesters: [
       {
@@ -140,7 +140,7 @@ const programData = {
     duration: '2 Years',
     credits: 76,
     description: 'A two-years and four-semesters degree programme that offers professional understanding of Mathematics and Physics. After completing this programme students can further specialize and excel in their relevant field.',
-    careerProspects: ['Research', 'Banking', 'Insurance', 'Data Analyst', 'Meteorology Dept'],
+    careerProspects: ['Research', 'Banking', 'Insurance', 'Data Analyst', 'Meteorology Dept', 'Engineering', 'Actuarial Science', 'Quantitative Finance', 'Statistical Analysis', 'Risk Management', 'Operations Research', 'Academia', 'Government Research'],
     fee: 258800,
     semesters: [
       {
@@ -476,17 +476,12 @@ export default function ProgramDetail() {
               <div className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-6">
                 <h3 className="text-lg font-bold text-brand-secondary-500 mb-3">Career Prospects</h3>
                 <div className="space-y-2">
-                  {program.careerProspects.slice(0, 4).map((prospect, index) => (
+                  {program.careerProspects.map((prospect, index) => (
                     <div key={index} className="flex items-center">
                       <div className="w-2 h-2 bg-brand-accent-500 rounded-full mr-3" />
                       <span className="text-sm text-brand-secondary-500">{prospect}</span>
                     </div>
                   ))}
-                  {program.careerProspects.length > 4 && (
-                    <p className="text-xs text-brand-muted-500 mt-2">
-                      +{program.careerProspects.length - 4} more career options
-                    </p>
-                  )}
                 </div>
               </div>
             </Reveal>
@@ -510,7 +505,7 @@ export default function ProgramDetail() {
       </Section>
 
       {/* Call to Action */}
-      <Section background="brand-muted-50" padding="lg">
+      {/* <Section background="brand-muted-50" padding="lg">
         <Container>
           <Reveal>
             <div className="text-center">
@@ -534,7 +529,7 @@ export default function ProgramDetail() {
             </div>
           </Reveal>
         </Container>
-      </Section>
+      </Section> */}
     </div>
   )
 }

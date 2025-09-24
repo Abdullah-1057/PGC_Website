@@ -91,9 +91,7 @@ export default function StatsForTrust() {
               </Reveal>
             ))}
           </div>
-
-          {/* Testimonial Section */}
-          <motion.div
+  {/* <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -113,7 +111,7 @@ export default function StatsForTrust() {
                 <div className="text-white/70 text-sm">Class of 2018, Now at CMH Jhang</div>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </Container>
     </Section>

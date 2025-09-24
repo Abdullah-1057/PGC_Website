@@ -7,7 +7,7 @@ import Reveal from '../Reveal'
 
 export default function LeadershipMessages() {
   return (
-    <Section background="brand-muted-50" padding="lg">
+    <Section background="brand-muted-50" padding="lg" className="pb-4 lg:pb-6">
       <Container>
         <Reveal>
           <div className="text-center mb-16">

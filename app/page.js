@@ -51,12 +51,12 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <LeadershipMessages />
       <ProgramsOverview />
       <WhyPGC />
       <LabsShowcase />
       <StatsForTrust />
       <EventsNotices />
-      <LeadershipMessages />
       <AdmissionsCTA />
     </>
   )

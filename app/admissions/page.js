@@ -77,16 +77,50 @@ export default function Admissions() {
               <h1 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
                 Admissions
               </h1>
-              <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
+              <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto mb-12">
                 Start your journey towards academic excellence. Apply now for admission 
                 to PGC Jhang and join thousands of successful students.
               </p>
             </div>
           </Reveal>
 
+          {/* Online Admission Section */}
+          <Reveal delay={0.2}>
+            <div className="bg-gradient-to-r from-brand-primary-500 to-brand-accent-500 rounded-2xl p-8 mb-16 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                ONLINE ADMISSION
+              </h2>
+              <p className="text-xl text-white/90 mb-8">
+                Click on this link for online admissions
+              </p>
+              <a
+                href="https://onlineadmission.pgc.edu.pk/#/admission"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-4 bg-white text-brand-primary-600 font-bold text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+              >
+                Click Here Now!!!
+                <svg className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </Reveal>
+
+          {/* Physical Admission Section */}
+          <Reveal delay={0.3}>
+            <div className="bg-brand-muted-50 rounded-2xl p-8 mb-16 text-center">
+              {/* <h2 className="text-3xl md:text-4xl font-bold text-brand-secondary-500 mb-4">
+                ADMISSION
+              </h2> */}
+              <p className="text-xl text-brand-muted-600">
+                Visit our campus to apply physically
+              </p>
+            </div>
+          </Reveal>
+
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Application Form */}
-            <Reveal>
+            {/* <Reveal>
               <div className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-8">
                 <h2 className="text-2xl font-bold text-brand-secondary-500 mb-6">
                   Application Form
@@ -167,7 +201,6 @@ export default function Admissions() {
               </div>
             </Reveal>
 
-            {/* Admission Information */}
             <div className="space-y-8">
               <Reveal delay={0.2}>
                 <div className="bg-brand-primary-50 rounded-xl p-6">
@@ -197,7 +230,7 @@ export default function Admissions() {
                     </li>
                   </ul>
                 </div>
-              </Reveal>
+              </Reveal> */}
 
               {/* <Reveal delay={0.3}>
                 <div className="bg-brand-secondary-50 rounded-xl p-6">
@@ -225,7 +258,7 @@ export default function Admissions() {
                 </div>
               </Reveal> */}
 
-              <Reveal delay={0.4}>
+              {/* <Reveal delay={0.4}>
                 <div className="bg-brand-accent-50 rounded-xl p-6">
                   <h3 className="text-xl font-bold text-brand-secondary-500 mb-4">
                     Contact Admissions Office
@@ -237,8 +270,8 @@ export default function Admissions() {
                     <p><strong>Address:</strong> 4KM, Gojra Road, Opposite Ghazali Degree College, Jhang</p>
                   </div>
                 </div>
-              </Reveal>
-            </div>
+              </Reveal> */}
+            {/* </div> */}
           </div>
         </Container>
       </Section>

@@ -26,6 +26,7 @@ export default function Button({
   disabled = false,
   className = '',
   type = 'button',
+  external = false,
   ...props 
 }) {
   const baseClasses = cn(

@@ -4,7 +4,8 @@ export default function Section({
   children, 
   className = '', 
   background = 'white',
-  padding = 'default' 
+  padding = 'default',
+  id 
 }) {
   const backgrounds = {
     white: 'bg-white',
@@ -20,7 +21,7 @@ export default function Section({
   }
 
   return (
-    <section className={cn(backgrounds[background], paddings[padding], className)}>
+    <section id={id} className={cn(backgrounds[background], paddings[padding], className)}>
       {children}
     </section>
   )

@@ -9,7 +9,7 @@ import Reveal from '../Reveal'
 import Badge from '../Badge'
 import { labsData } from '@/data/labs'
 
-export default function LabsShowcase() {
+export default function LabsShowcase({ id }) {
   const [activeLab, setActiveLab] = useState(0)
   const [activeImage, setActiveImage] = useState(0)
 
@@ -17,7 +17,7 @@ export default function LabsShowcase() {
   const currentImage = activeImage === 0 ? currentLab.image : currentLab.image2
 
   return (
-    <Section background="brand-muted-50" padding="lg">
+    <Section id={id} background="brand-muted-50" padding="lg">
       <Container>
         <Reveal>
           <div className="text-center mb-16">
@@ -179,7 +179,7 @@ export default function LabsShowcase() {
         </div>
 
         {/* Call to Action */}
-        <Reveal delay={0.4}>
+        {/* <Reveal delay={0.4}>
           <div className="mt-16 text-center">
             <div className="bg-white rounded-xl p-8 shadow-sm border border-brand-muted-200">
               <h3 className="text-2xl font-bold text-brand-secondary-500 mb-4">
@@ -209,7 +209,7 @@ export default function LabsShowcase() {
               </div>
             </div>
           </div>
-        </Reveal>
+        </Reveal> */}
       </Container>
     </Section>
   )

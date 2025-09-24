@@ -19,24 +19,28 @@ const features = [
     description: 'State-of-the-art science laboratories and comprehensive digital library resources.',
     icon: BeakerIcon,
     color: 'from-blue-500 to-cyan-500',
+    href: '/about#labs',
   },
   {
     title: 'Expert Faculty',
     description: 'Highly qualified teachers with advanced degrees and years of teaching excellence.',
     icon: BookOpenIcon,
     color: 'from-green-500 to-emerald-500',
+    href: '/faculty',
   },
   {
     title: 'Holistic Development',
     description: 'Sports, debates, cultural events, and leadership programs for complete growth.',
     icon: UserGroupIcon,
     color: 'from-purple-500 to-pink-500',
+    href: '/about#activities',
   },
   {
     title: 'Outstanding Results',
     description: 'Consistent top performance in board exams and university entrance tests.',
     icon: TrophyIcon,
     color: 'from-yellow-500 to-orange-500',
+    href: '/about#results',
   },
 ]
 

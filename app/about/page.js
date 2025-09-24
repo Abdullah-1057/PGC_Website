@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Container from '@/components/Container'
 import Section from '@/components/Section'
 import Reveal from '@/components/Reveal'
+import LabsShowcase from '@/components/sections/LabsShowcase'
 
 export const metadata = {
   title: 'About Us',
@@ -190,6 +191,133 @@ export default function About() {
               </Reveal>
             ))}
           </div> */}
+        </Container>
+      </Section>
+
+      {/* Labs Showcase Section */}
+      <LabsShowcase id="labs" />
+
+      {/* Activities Section */}
+      <Section id="activities" background="white" padding="lg">
+        <Container>
+          <Reveal>
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
+                Holistic Development Activities
+              </h2>
+              <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
+                We believe in nurturing not just academic excellence, but also personal growth through 
+                sports, debates, cultural events, and leadership programs.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: 'Sports & Athletics',
+                description: 'Regular sports activities and competitions to promote physical fitness and team spirit.',
+                icon: '🏆'
+              },
+              {
+                title: 'Debate & Public Speaking',
+                description: 'Regular debate competitions and public speaking events to enhance communication skills.',
+                icon: '🎤'
+              },
+              {
+                title: 'Cultural Events',
+                description: 'Annual cultural nights, festivals, and celebrations showcasing student talents.',
+                icon: '🎭'
+              },
+              {
+                title: 'Leadership Programs',
+                description: 'Student council, prefect system, and leadership workshops for character development.',
+                icon: '👑'
+              },
+              {
+                title: 'Community Service',
+                description: 'Regular community service activities to develop social responsibility.',
+                icon: '🤝'
+              },
+              {
+                title: 'Academic Competitions',
+                description: 'Science fairs, quiz competitions, and academic olympiads to encourage excellence.',
+                icon: '🧠'
+              }
+            ].map((activity, index) => (
+              <Reveal key={activity.title} delay={index * 0.1}>
+                <div className="bg-white rounded-xl shadow-sm border border-brand-muted-200 p-6 hover:shadow-lg transition-shadow">
+                  <div className="text-4xl mb-4">{activity.icon}</div>
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-3">
+                    {activity.title}
+                  </h3>
+                  <p className="text-brand-muted-600">
+                    {activity.description}
+                  </p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* Results Section */}
+      <Section id="results" background="brand-muted-50" padding="lg">
+        <Container>
+          <Reveal>
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold font-display text-brand-secondary-500 mb-6">
+                Outstanding Results
+              </h2>
+              <p className="text-xl text-brand-muted-600 max-w-3xl mx-auto">
+                Our students consistently achieve top performance in board exams and university entrance tests, 
+                reflecting our commitment to academic excellence.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              {
+                title: 'Board Exam Success',
+                description: 'Consistently high pass rates in intermediate board examinations',
+                percentage: '98%',
+                color: 'from-green-500 to-emerald-500'
+              },
+              {
+                title: 'University Admissions',
+                description: 'Successful admissions to top universities across Pakistan',
+                percentage: '95%',
+                color: 'from-blue-500 to-cyan-500'
+              },
+              {
+                title: 'Merit Positions',
+                description: 'Regular merit positions in board examinations',
+                percentage: '85%',
+                color: 'from-purple-500 to-pink-500'
+              },
+              {
+                title: 'Scholarship Recipients',
+                description: 'Students receiving merit scholarships in universities',
+                percentage: '70%',
+                color: 'from-yellow-500 to-orange-500'
+              }
+            ].map((result, index) => (
+              <Reveal key={result.title} delay={index * 0.1}>
+                <div className="bg-white rounded-xl shadow-sm border border-brand-muted-200 p-8 text-center hover:shadow-lg transition-shadow">
+                  <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r ${result.color} rounded-2xl mb-6 shadow-medium`}>
+                    <span className="text-2xl font-bold text-white">{result.percentage}</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-brand-secondary-500 mb-3">
+                    {result.title}
+                  </h3>
+                  <p className="text-brand-muted-600">
+                    {result.description}
+                  </p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </Container>
       </Section>
     </div>

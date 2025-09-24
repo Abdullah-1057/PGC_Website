@@ -9,6 +9,7 @@ import Reveal from '../Reveal'
 const ucpPrograms = [
   {
     name: 'ADP Accounting & Finance',
+    university: 'UCP',
     duration: '2 Years',
     credits: 66,
     description: 'Professional proficiency in accounting and finance fields',
@@ -20,6 +21,7 @@ const ucpPrograms = [
   },
   {
     name: 'ADP Business Administration',
+    university: 'UCP',
     duration: '2 Years',
     credits: 66,
     description: 'Comprehensive business and entrepreneurship education',
@@ -31,6 +33,7 @@ const ucpPrograms = [
   },
   {
     name: 'ADP Computer Science',
+    university: 'UCP',
     duration: '2 Years',
     credits: 75,
     description: 'Advanced computer science and technology skills',
@@ -42,6 +45,7 @@ const ucpPrograms = [
   },
   {
     name: 'ADP Botany, Zoology & Chemistry',
+    university: 'UCP',
     duration: '2 Years',
     credits: 71,
     description: 'Modern branches of pure science specialization',
@@ -53,6 +57,7 @@ const ucpPrograms = [
   },
   {
     name: 'ADP Double Math & Physics',
+    university: 'UCP',
     duration: '2 Years',
     credits: 70,
     description: 'Professional understanding of Mathematics and Physics',
@@ -67,6 +72,7 @@ const ucpPrograms = [
 const gcPrograms = [
   {
     name: 'BS Computer Science',
+    university: 'GCUF',
     duration: '4 Years',
     credits: 130,
     description: 'Comprehensive computer science program with advanced topics',
@@ -78,6 +84,7 @@ const gcPrograms = [
   },
   {
     name: 'BBA (Business Administration)',
+    university: 'GCUF',
     duration: '4 Years',
     credits: 120,
     description: 'NBEAC-HEC Accredited comprehensive business education',
@@ -92,6 +99,7 @@ const gcPrograms = [
 const additionalPrograms = [
   {
     name: 'ADP Psychology',
+    university: 'UCP',
     duration: '2 Years',
     credits: 63,
     description: 'Comprehensive psychology education and training',
@@ -103,6 +111,7 @@ const additionalPrograms = [
   },
   {
     name: 'ADP English Language & Literature',
+    university: 'UCP',
     duration: '2 Years',
     credits: 66,
     description: 'Advanced English language and literature studies',
@@ -114,6 +123,7 @@ const additionalPrograms = [
   },
   {
     name: 'ADP Business Analytics',
+    university: 'UCP',
     duration: '2 Years',
     credits: 64,
     description: 'Data-driven business decision making and analytics',
@@ -125,6 +135,7 @@ const additionalPrograms = [
   },
   {
     name: 'ADP Biochemistry',
+    university: 'UCP',
     duration: '2 Years',
     credits: 70,
     description: 'Interdisciplinary study of biological and chemical processes',
@@ -136,6 +147,7 @@ const additionalPrograms = [
   },
   {
     name: 'ADP Biotechnology',
+    university: 'UCP',
     duration: '2 Years',
     credits: 70,
     description: 'Application of biological systems in technology',
@@ -148,7 +160,8 @@ const additionalPrograms = [
 ]
 
 export default function AffiliatedPrograms() {
-  const allPrograms = [...ucpPrograms, ...gcPrograms, ...additionalPrograms]
+  const allUcpPrograms = [...ucpPrograms, ...additionalPrograms]
+  const allGcufPrograms = gcPrograms
 
   return (
     <Section background="brand-muted-50" padding="sm">
@@ -174,8 +187,19 @@ export default function AffiliatedPrograms() {
           </div>
         </Reveal>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          {allPrograms.map((program, index) => (
+        {/* UCP Programs Section */}
+        <Reveal delay={0.2}>
+          <div className="mb-12">
+            <div className="flex items-center mb-6">
+              <div className="flex items-center space-x-3">
+                <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                  <span className="text-blue-700 font-bold text-sm">U</span>
+                </div>
+                <h3 className="text-2xl font-bold text-brand-secondary-500">University of Central Punjab (UCP)</h3>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {allUcpPrograms.map((program, index) => (
             <motion.div
               key={program.name}
               initial={{ opacity: 0, y: 30 }}
@@ -189,9 +213,18 @@ export default function AffiliatedPrograms() {
               className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-4 hover:shadow-xl transition-all duration-300 group"
             >
               <div className="mb-3">
-                <h3 className="text-xl font-bold text-brand-secondary-500 mb-2 group-hover:text-brand-primary-500 transition-colors">
-                  {program.name}
-                </h3>
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-xl font-bold text-brand-secondary-500 group-hover:text-brand-primary-500 transition-colors">
+                    {program.name}
+                  </h3>
+                  <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
+                    program.university === 'UCP' 
+                      ? 'bg-blue-100 text-blue-700' 
+                      : 'bg-green-100 text-green-700'
+                  }`}>
+                    {program.university}
+                  </span>
+                </div>
                 <div className="flex items-center space-x-4 text-sm text-brand-muted-600 mb-3">
                   <span className="flex items-center">
                     <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -278,9 +311,139 @@ export default function AffiliatedPrograms() {
               )}
             </motion.div>
           ))}
-        </div>
+            </div>
+          </div>
+        </Reveal>
 
+        {/* GCUF Programs Section */}
         <Reveal delay={0.4}>
+          <div className="mb-12">
+            <div className="flex items-center mb-6">
+              <div className="flex items-center space-x-3">
+                <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                  <span className="text-green-700 font-bold text-sm">G</span>
+                </div>
+                <h3 className="text-2xl font-bold text-brand-secondary-500">Government College University Faisalabad (GCUF)</h3>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {allGcufPrograms.map((program, index) => (
+                <motion.div
+                  key={program.name}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ 
+                    duration: 0.6, 
+                    delay: index * 0.1,
+                    ease: 'easeOut'
+                  }}
+                  className="bg-white rounded-xl shadow-lg border border-brand-muted-200 p-4 hover:shadow-xl transition-all duration-300 group"
+                >
+                  <div className="mb-3">
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-xl font-bold text-brand-secondary-500 group-hover:text-brand-primary-500 transition-colors">
+                        {program.name}
+                      </h3>
+                      <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
+                        program.university === 'UCP' 
+                          ? 'bg-blue-100 text-blue-700' 
+                          : 'bg-green-100 text-green-700'
+                      }`}>
+                        {program.university}
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-4 text-sm text-brand-muted-600 mb-3">
+                      <span className="flex items-center">
+                        <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        {program.duration}
+                      </span>
+                      <span className="flex items-center">
+                        <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        {program.credits} Credits
+                      </span>
+                    </div>
+                    <p className="text-brand-muted-600 text-sm leading-relaxed">
+                      {program.description}
+                    </p>
+                  </div>
+
+                  <div className="mb-3">
+                    <h4 className="text-sm font-semibold text-brand-secondary-500 mb-2">Career Prospects:</h4>
+                    <div className="flex flex-wrap gap-1">
+                      {program.careerProspects.slice(0, 3).map((prospect, idx) => (
+                        <span
+                          key={idx}
+                          className="px-2 py-1 bg-brand-primary-50 text-brand-primary-700 text-xs rounded-full"
+                        >
+                          {prospect}
+                        </span>
+                      ))}
+                      {program.careerProspects.length > 3 && (
+                        <span className="px-2 py-1 bg-brand-muted-100 text-brand-muted-600 text-xs rounded-full">
+                          +{program.careerProspects.length - 3} more
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {program.fee > 0 && (
+                    <div className="border-t border-brand-muted-200 pt-4">
+                      <div className="flex justify-between items-center mb-4">
+                        <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
+                        <span className="text-lg font-bold text-brand-primary-500">
+                          PKR {program.fee.toLocaleString()}
+                        </span>
+                      </div>
+                      
+                      {/* Discount and Contact Section */}
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="text-green-600 text-sm font-medium">
+                          Discounts are available
+                        </span>
+                        <Link
+                          href="/contact"
+                          className="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200"
+                        >
+                          Contact Us
+                        </Link>
+                      </div>
+                    </div>
+                  )}
+
+                  {program.fee === 0 && (
+                    <div className="border-t border-brand-muted-200 pt-4">
+                      <div className="text-center mb-4">
+                        <span className="text-sm text-brand-muted-600">
+                          Fee structure available on inquiry
+                        </span>
+                      </div>
+                      
+                      {/* Discount and Contact Section for programs without fee */}
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="text-green-600 text-sm font-medium">
+                          Discounts are available
+                        </span>
+                        <Link
+                          href="/contact"
+                          className="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200"
+                        >
+                          Contact Us
+                        </Link>
+                      </div>
+                    </div>
+                  )}
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal delay={0.6}>
           <div className="text-center">
             <motion.div
               whileHover={{ scale: 1.05 }}

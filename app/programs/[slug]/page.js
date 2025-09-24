@@ -346,9 +346,9 @@ export default function ProgramDetail() {
   const currentSemester = program.semesters[activeSemester]
 
   return (
-    <div className="pt-8">
+    <div className="pt-16">
       {/* Hero Section */}
-      <Section background="gradient" padding="xs">
+      <div className="bg-brand-primary-500 py-16">
         <Container>
           <Reveal>
             <div className="text-center mb-4">
@@ -364,7 +364,7 @@ export default function ProgramDetail() {
             </div>
           </Reveal>
         </Container>
-      </Section>
+      </div>
 
       {/* Program Outline Section */}
       <Section background="white" padding="sm">

@@ -9,24 +9,24 @@ const ucpPrograms = [
   {
     name: 'ADP Accounting & Finance',
     duration: '2 Years',
-    credits: 67,
+    credits: 66,
     description: 'Professional proficiency in accounting and finance fields',
     careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Financial Consultancy'],
-    fee: 249200,
+    fee: 346460,
     registrationFee: 2500,
     admissionFee: 10000,
-    feePerCredit: 3534
+    feePerCredit: 5060
   },
   {
     name: 'ADP Business Administration',
     duration: '2 Years',
-    credits: 70,
+    credits: 66,
     description: 'Comprehensive business and entrepreneurship education',
     careerProspects: ['Marketing Agencies', 'Human Resource', 'Sales', 'Corporate Sector'],
-    fee: 253000,
+    fee: 346460,
     registrationFee: 2500,
     admissionFee: 10000,
-    feePerCredit: 3436
+    feePerCredit: 5060
   },
   {
     name: 'ADP Computer Science',
@@ -231,25 +231,11 @@ export default function AffiliatedPrograms() {
 
               {program.fee > 0 && (
                 <div className="border-t border-brand-muted-200 pt-4">
-                  <div className="flex justify-between items-center mb-2">
+                  <div className="flex justify-between items-center mb-4">
                     <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
                     <span className="text-lg font-bold text-brand-primary-500">
                       PKR {program.fee.toLocaleString()}
                     </span>
-                  </div>
-                  <div className="text-xs text-brand-muted-500 space-y-1 mb-4">
-                    <div className="flex justify-between">
-                      <span>Registration:</span>
-                      <span>PKR {program.registrationFee.toLocaleString()}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Admission:</span>
-                      <span>PKR {program.admissionFee.toLocaleString()}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Per Credit:</span>
-                      <span>PKR {program.feePerCredit.toLocaleString()}</span>
-                    </div>
                   </div>
                   
                   {/* Discount and Contact Section */}

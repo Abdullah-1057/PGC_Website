@@ -1,4 +1,5 @@
 export const pricingData = [
+  // Regular Courses
   {
     id: 1,
     program: 'FSC Medical',
@@ -65,6 +66,212 @@ export const pricingData = [
       'Literary societies membership',
       'Arts and crafts sessions',
       'Social sciences exposure'
+    ]
+  },
+  // Government College Affiliated Programs (2 programs from home page)
+  {
+    id: 5,
+    program: 'BS Computer Science',
+    totalDues: 'Contact for Details',
+    discounts: 'Government College Affiliated',
+    popular: true,
+    features: [
+      'Four years comprehensive program',
+      'Advanced programming and software development',
+      'AI, Machine Learning, and Data Science',
+      'Final year project requirement',
+      'Industry-experienced faculty',
+      'Modern computer laboratories',
+      'Research project guidance',
+      'Professional development opportunities'
+    ]
+  },
+  {
+    id: 6,
+    program: 'BBA (Business Administration)',
+    totalDues: 'Contact for Details',
+    discounts: 'Government College Affiliated',
+    popular: false,
+    features: [
+      'Four years business administration program',
+      'Comprehensive business education',
+      'Specialization options available',
+      'Internship and capstone project',
+      'Modern curriculum with digital marketing',
+      'Data analytics and business intelligence',
+      'Industry placement assistance',
+      'Professional networking opportunities'
+    ]
+  },
+  // UCP Affiliated Programs (11 programs from home page)
+  {
+    id: 7,
+    program: 'ADP Accounting & Finance',
+    totalDues: '249,200',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years associate degree program',
+      'Professional accounting proficiency',
+      'Financial analysis and management',
+      'Taxation and auditing principles',
+      'Banking and corporate sector preparation',
+      'Investment fundamentals',
+      'Cost and management accounting',
+      'Career placement in finance sector'
+    ]
+  },
+  {
+    id: 8,
+    program: 'ADP Business Administration',
+    totalDues: '253,000',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years business administration program',
+      'Management and entrepreneurship focus',
+      'Marketing and human resource management',
+      'Business law and ethics',
+      'Quantitative analysis training',
+      'Communication skills development',
+      'Industry internship opportunities',
+      'Career guidance and placement'
+    ]
+  },
+  {
+    id: 9,
+    program: 'ADP Computer Science',
+    totalDues: '258,800',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years computer science program',
+      'Programming and software development',
+      'Database management systems',
+      'Web and mobile application development',
+      'Operating systems and networking',
+      'Project-based learning approach',
+      'Technology entrepreneurship',
+      'IT industry placement preparation'
+    ]
+  },
+  {
+    id: 10,
+    program: 'ADP Botany, Zoology & Chemistry',
+    totalDues: '259,600',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years pure science program',
+      'Comprehensive biology and chemistry',
+      'Laboratory and field work',
+      'Research methodology training',
+      'Environmental and pharmaceutical focus',
+      'Analytical chemistry techniques',
+      'Project and internship opportunities',
+      'Career in research and industry'
+    ]
+  },
+  {
+    id: 11,
+    program: 'ADP Double Math & Physics',
+    totalDues: '258,800',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years mathematics and physics program',
+      'Advanced calculus and linear algebra',
+      'Classical and modern physics',
+      'Laboratory and practical work',
+      'Statistical analysis training',
+      'Research project completion',
+      'Banking and insurance sector preparation',
+      'Data analysis and meteorology careers'
+    ]
+  },
+  {
+    id: 12,
+    program: 'ADP Psychology',
+    totalDues: '284,219',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years psychology program',
+      'General psychology principles',
+      'Developmental psychology',
+      'Social and abnormal psychology',
+      'Psychological research methods',
+      'Counseling and therapy basics',
+      'Behavioral analysis',
+      'Career in counseling and social services'
+    ]
+  },
+  {
+    id: 13,
+    program: 'ADP English Language & Literature',
+    totalDues: '297,158',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years English literature program',
+      'British and American literature',
+      'Literary theory and criticism',
+      'Creative writing and composition',
+      'Language and linguistics',
+      'World literature studies',
+      'Research and analysis skills',
+      'Career in education and media'
+    ]
+  },
+  {
+    id: 14,
+    program: 'ADP Business Analytics',
+    totalDues: '336,340',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years business analytics program',
+      'Data-driven decision making',
+      'Statistical analysis and modeling',
+      'Business intelligence tools',
+      'Predictive analytics',
+      'Data visualization techniques',
+      'Industry case studies',
+      'Career in data analysis and consulting'
+    ]
+  },
+  {
+    id: 15,
+    program: 'ADP Biochemistry',
+    totalDues: '330,580',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years biochemistry program',
+      'Interdisciplinary science approach',
+      'Biological and chemical processes',
+      'Laboratory and research work',
+      'Molecular biology techniques',
+      'Pharmaceutical applications',
+      'Medical research preparation',
+      'Career in research and biotechnology'
+    ]
+  },
+  {
+    id: 16,
+    program: 'ADP Biotechnology',
+    totalDues: '330,580',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years biotechnology program',
+      'Application of biological systems',
+      'Genetic engineering techniques',
+      'Biomedical technology',
+      'Agricultural biotechnology',
+      'Industrial applications',
+      'Research and development',
+      'Career in biotech industry and research'
     ]
   }
 ]

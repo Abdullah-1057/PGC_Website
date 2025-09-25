@@ -58,6 +58,10 @@ export default function Footer() {
                     width={40}
                     height={40}
                     className="h-10 w-auto"
+                    style={{
+                      filter: 'drop-shadow(0 0 2px rgba(255,255,255,1)) drop-shadow(0 0 4px rgba(255,255,255,0.8)) drop-shadow(0 0 8px rgba(255,255,255,0.6))',
+                      WebkitFilter: 'drop-shadow(0 0 2px rgba(255,255,255,1)) drop-shadow(0 0 4px rgba(255,255,255,0.8)) drop-shadow(0 0 8px rgba(255,255,255,0.6))'
+                    }}
                   />
                 </motion.div>
                 <span className="font-display font-bold text-2xl group-hover:text-brand-primary-500 transition-colors">

@@ -27,74 +27,154 @@ export default function FeeStructure() {
             </div>
           </Reveal>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {pricingData.map((plan, index) => (
-              <Reveal key={plan.id} delay={index * 0.1}>
-                <div className={`bg-white rounded-xl shadow-lg border-2 p-8 relative ${
-                  plan.popular ? 'border-brand-primary-500' : 'border-brand-muted-200'
-                }`}>
-                  {plan.popular && (
-                    <Badge variant="primary" className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                      Most Popular
-                    </Badge>
-                  )}
-                  
-                  <div className="text-center mb-8">
-                    <h3 className="text-2xl font-bold text-brand-secondary-500 mb-2">
-                      {plan.program}
-                    </h3>
-                    <div className="text-4xl font-bold text-brand-primary-500 mb-2">
-                      PKR {plan.totalDues}
-                    </div>
-                    <p className="text-brand-muted-600">Total Dues</p>
-                  </div>
+          {/* Regular Courses Section */}
+          <Reveal delay={0.2}>
+            <div className="mb-16">
+              <h2 className="text-3xl font-bold text-brand-secondary-500 mb-8 text-center">
+                Regular Courses
+              </h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {pricingData.filter(plan => plan.id <= 4).map((plan, index) => (
+                  <Reveal key={plan.id} delay={index * 0.1}>
+                    <div className={`bg-white rounded-xl shadow-lg border-2 p-8 relative ${
+                      plan.popular ? 'border-brand-primary-500' : 'border-brand-muted-200'
+                    }`}>
+                      {plan.popular && (
+                        <Badge variant="primary" className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                          Most Popular
+                        </Badge>
+                      )}
+                      
+                      <div className="text-center mb-8">
+                        <h3 className="text-2xl font-bold text-brand-secondary-500 mb-2">
+                          {plan.program}
+                        </h3>
+                        <div className="text-4xl font-bold text-brand-primary-500 mb-2">
+                          PKR {plan.totalDues}
+                        </div>
+                        <p className="text-brand-muted-600">Total Dues</p>
+                      </div>
 
-                  <div className="space-y-4 mb-8">
-                    <div className="text-center border-t pt-4">
-                      <span className="font-bold text-green-600">
-                        {plan.discounts}
-                      </span>
-                    </div>
-                    <div className="text-center">
+                      <div className="space-y-4 mb-8">
+                        <div className="text-center border-t pt-4">
+                          <span className="font-bold text-green-600">
+                            {plan.discounts}
+                          </span>
+                        </div>
+                        <div className="text-center">
+                          <Button 
+                            href="/contact" 
+                            className="w-full bg-green-600 hover:bg-green-700 text-white"
+                            size="sm"
+                          >
+                            Contact Us for Details
+                          </Button>
+                        </div>
+                      </div>
+
+                      <ul className="space-y-3 mb-8">
+                        {plan.features.map((feature, featureIndex) => (
+                          <li key={featureIndex} className="flex items-center text-sm">
+                            <svg className="h-4 w-4 text-green-500 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            {feature}
+                          </li>
+                        ))}
+                      </ul>
+
                       <Button 
-                        href="/contact" 
-                        className="w-full bg-green-600 hover:bg-green-700 text-white"
-                        size="sm"
+                        href="/admissions" 
+                        className="w-full"
+                        variant={plan.popular ? 'primary' : 'outline'}
                       >
-                        Contact Us for Details
+                        Apply Now
                       </Button>
                     </div>
-                  </div>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </Reveal>
 
-                  <ul className="space-y-3 mb-8">
-                    {plan.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center text-sm">
-                        <svg className="h-4 w-4 text-green-500 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-
-                  <Button 
-                    href="/admissions" 
-                    className="w-full"
-                    variant={plan.popular ? 'primary' : 'outline'}
-                  >
-                    Apply Now
-                  </Button>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-
+          {/* Affiliate Programs Section */}
           <Reveal delay={0.4}>
+            <div className="mb-16">
+              <h2 className="text-3xl font-bold text-brand-secondary-500 mb-8 text-center">
+                Affiliate Programs
+              </h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {pricingData.filter(plan => plan.id > 4).map((plan, index) => (
+                  <Reveal key={plan.id} delay={index * 0.1}>
+                    <div className={`bg-white rounded-xl shadow-lg border-2 p-8 relative ${
+                      plan.popular ? 'border-brand-primary-500' : 'border-brand-muted-200'
+                    }`}>
+                      {plan.popular && (
+                        <Badge variant="primary" className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                          Most Popular
+                        </Badge>
+                      )}
+                      
+                      <div className="text-center mb-8">
+                        <h3 className="text-2xl font-bold text-brand-secondary-500 mb-2">
+                          {plan.program}
+                        </h3>
+                        <div className="text-4xl font-bold text-brand-primary-500 mb-2">
+                          {plan.totalDues.includes('Contact') ? plan.totalDues : `PKR ${plan.totalDues}`}
+                        </div>
+                        <p className="text-brand-muted-600">
+                          {plan.totalDues.includes('Contact') ? '' : 'Total Dues'}
+                        </p>
+                      </div>
+
+                      <div className="space-y-4 mb-8">
+                        <div className="text-center border-t pt-4">
+                          <span className="font-bold text-blue-600">
+                            {plan.discounts}
+                          </span>
+                        </div>
+                        <div className="text-center">
+                          <Button 
+                            href="/contact" 
+                            className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                            size="sm"
+                          >
+                            Contact Us for Details
+                          </Button>
+                        </div>
+                      </div>
+
+                      <ul className="space-y-3 mb-8">
+                        {plan.features.map((feature, featureIndex) => (
+                          <li key={featureIndex} className="flex items-center text-sm">
+                            <svg className="h-4 w-4 text-blue-500 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            {feature}
+                          </li>
+                        ))}
+                      </ul>
+
+                      <Button 
+                        href="/admissions" 
+                        className="w-full"
+                        variant={plan.popular ? 'primary' : 'outline'}
+                      >
+                        Apply Now
+                      </Button>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.6}>
             <div className="bg-brand-muted-50 rounded-xl p-8">
               <h2 className="text-2xl font-bold text-brand-secondary-500 mb-6 text-center">
                 Important Notes
               </h2>
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-3 gap-6">
                 <div>
                   <h3 className="font-semibold text-brand-secondary-500 mb-3">Payment Terms</h3>
                   <ul className="space-y-2 text-sm text-brand-muted-600">
@@ -112,6 +192,16 @@ export default function FeeStructure() {
                     <li>• Sibling discount: 10% for second child</li>
                     <li>• Early bird discount: 5% if paid annually</li>
                     <li>• Contact admissions office for details</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-brand-secondary-500 mb-3">Affiliate Programs</h3>
+                  <ul className="space-y-2 text-sm text-brand-muted-600">
+                    <li>• Government College affiliated programs available</li>
+                    <li>• UCP affiliated associate degree programs</li>
+                    <li>• Separate fee structure for affiliate programs</li>
+                    <li>• Credit hour based fee calculation</li>
+                    <li>• Contact for detailed fee breakdown</li>
                   </ul>
                 </div>
               </div>

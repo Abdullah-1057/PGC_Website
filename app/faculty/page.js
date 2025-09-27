@@ -84,7 +84,7 @@ export default function Faculty() {
                     </p>
                     <div className="text-xs text-brand-muted-500">
                       <p>{member.qualification}</p>
-                      <p>{member.experience} years experience</p>
+                      {member.experience && <p>{member.experience} years experience</p>}
                     </div>
                   </div>
                 </div>

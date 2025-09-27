@@ -52,7 +52,9 @@ export default function FeeStructure() {
                         <div className="text-4xl font-bold text-brand-primary-500 mb-2">
                           PKR {plan.totalDues}
                         </div>
-                        <p className="text-brand-muted-600">Total Dues</p>
+                        <p className="text-brand-muted-600">
+                          {plan.perSemester ? 'Per Semester' : 'Total Dues'}
+                        </p>
                       </div>
 
                       <div className="space-y-4 mb-8">
@@ -123,7 +125,7 @@ export default function FeeStructure() {
                           {plan.totalDues.includes('Contact') ? plan.totalDues : `PKR ${plan.totalDues}`}
                         </div>
                         <p className="text-brand-muted-600">
-                          {plan.totalDues.includes('Contact') ? '' : 'Total Dues'}
+                          {plan.totalDues.includes('Contact') ? '' : (plan.perSemester ? 'Per Semester' : 'Total Dues')}
                         </p>
                       </div>
 

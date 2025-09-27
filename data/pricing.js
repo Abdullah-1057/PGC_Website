@@ -72,7 +72,8 @@ export const pricingData = [
   {
     id: 5,
     program: 'BS Computer Science',
-    totalDues: 'Contact for Details',
+    totalDues: '75,000',
+    perSemester: true,
     discounts: 'Government College Affiliated',
     popular: true,
     features: [
@@ -89,7 +90,8 @@ export const pricingData = [
   {
     id: 6,
     program: 'BBA (Business Administration)',
-    totalDues: 'Contact for Details',
+    totalDues: '75,000',
+    perSemester: true,
     discounts: 'Government College Affiliated',
     popular: false,
     features: [
@@ -272,6 +274,78 @@ export const pricingData = [
       'Industrial applications',
       'Research and development',
       'Career in biotech industry and research'
+    ]
+  },
+  {
+    id: 17,
+    program: 'ADP Software Engineering',
+    totalDues: '120,000',
+    perSemester: true,
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years software engineering program',
+      'Modern programming languages training',
+      'Software development methodologies',
+      'Database systems and management',
+      'Web and mobile application development',
+      'Project-based learning approach',
+      'Industry-standard tools and technologies',
+      'Career in software development and IT'
+    ]
+  },
+  {
+    id: 18,
+    program: 'ADP Artificial Intelligence',
+    totalDues: '125,000',
+    perSemester: true,
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years AI program',
+      'Machine learning and deep learning',
+      'Neural networks and algorithms',
+      'Computer vision and NLP',
+      'AI applications and ethics',
+      'Python programming for AI',
+      'Research and development projects',
+      'Career in AI engineering and research'
+    ]
+  },
+  {
+    id: 19,
+    program: 'ADP Data Science',
+    totalDues: '125,000',
+    perSemester: true,
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years data science program',
+      'Statistical analysis and modeling',
+      'Data visualization and reporting',
+      'Business intelligence tools',
+      'Machine learning for data analysis',
+      'Big data analytics techniques',
+      'Industry case studies and projects',
+      'Career in data analysis and consulting'
+    ]
+  },
+  {
+    id: 20,
+    program: 'ADP Cyber Security',
+    totalDues: '125,000',
+    perSemester: true,
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years cyber security program',
+      'Network security and protection',
+      'Ethical hacking and penetration testing',
+      'Information security management',
+      'Cryptography and digital forensics',
+      'Security tools and technologies',
+      'Incident response and risk assessment',
+      'Career in cyber security and IT security'
     ]
   }
 ]

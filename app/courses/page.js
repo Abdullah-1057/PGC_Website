@@ -6,6 +6,7 @@ import Section from "@/components/Section";
 import CourseCard from "@/components/CourseCard";
 import Reveal from "@/components/Reveal";
 import { coursesData } from "@/data/courses";
+import AffiliatedPrograms from '@/components/sections/AffiliatedPrograms'
 
 const categories = [
   "All",
@@ -68,7 +69,11 @@ export default function Courses() {
               </Reveal>
             ))}
           </div>
+
+                <AffiliatedPrograms />
+          
         </Container>
+        
       </Section>
     </div>
   );

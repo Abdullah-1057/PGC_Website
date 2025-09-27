@@ -323,10 +323,11 @@ const gcPrograms = [
     credits: 130,
     description: 'Comprehensive computer science program with advanced topics',
     careerProspects: ['Software Development', 'AI/ML', 'Data Science', 'IT Management'],
-    fee: 0, // Fee not provided in data
+    fee: 600000, // Total fee for 4 years (8 semesters × 75,000)
     registrationFee: 0,
     admissionFee: 0,
-    feePerCredit: 0
+    feePerCredit: 0,
+    feePerSemester: 75000
   },
   {
     name: 'BBA (Business Administration)',
@@ -335,10 +336,11 @@ const gcPrograms = [
     credits: 120,
     description: 'NBEAC-HEC Accredited comprehensive business education',
     careerProspects: ['Management', 'Marketing', 'Finance', 'Entrepreneurship'],
-    fee: 0, // Fee not provided in data
+    fee: 600000, // Total fee for 4 years (8 semesters × 75,000)
     registrationFee: 0,
     admissionFee: 0,
-    feePerCredit: 0
+    feePerCredit: 0,
+    feePerSemester: 75000
   }
 ]
 
@@ -512,12 +514,15 @@ export default function AffiliatedPrograms() {
               {program.fee > 0 && (
                 <div className="border-t border-brand-muted-200 pt-4">
                   <div className="space-y-3 mb-4">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
-                      <span className="text-lg font-bold text-brand-primary-500">
-                        PKR {program.fee.toLocaleString()}
-                      </span>
-                    </div>
+                    {/* Show total fee only for programs that are NOT BSCS, BBA, or the four ADP programs */}
+                    {!['BS Computer Science', 'BBA (Business Administration)', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
+                        <span className="text-lg font-bold text-brand-primary-500">
+                          PKR {program.fee.toLocaleString()}
+                        </span>
+                      </div>
+                    )}
                     
                     {program.feePerSemester && (
                       <div className="flex justify-between items-center">
@@ -547,12 +552,15 @@ export default function AffiliatedPrograms() {
 
                   {/* Action Buttons */}
                   <div className="flex items-center justify-center gap-3">
-                    <Link
-                      href={`/programs/${program.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and').replace(/,/g, '').replace(/\(/g, '').replace(/\)/g, '').replace(/\./g, '').replace(/--+/g, '-')}`}
-                      className="inline-flex items-center px-4 py-2 bg-brand-primary-500 text-white text-sm font-semibold rounded-lg hover:bg-brand-primary-600 transition-colors duration-200"
-                    >
-                      View Program Details
-                    </Link>
+                    {/* Only show View Program Details button for programs that are NOT the new ADP programs */}
+                    {!['ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
+                      <Link
+                        href={`/programs/${program.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and').replace(/,/g, '').replace(/\(/g, '').replace(/\)/g, '').replace(/\./g, '').replace(/--+/g, '-')}`}
+                        className="inline-flex items-center px-4 py-2 bg-brand-primary-500 text-white text-sm font-semibold rounded-lg hover:bg-brand-primary-600 transition-colors duration-200"
+                      >
+                        View Program Details
+                      </Link>
+                    )}
                     <Link
                       href="/contact"
                       className="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200"
@@ -669,11 +677,34 @@ export default function AffiliatedPrograms() {
 
                   {program.fee > 0 && (
                     <div className="border-t border-brand-muted-200 pt-4">
-                      <div className="flex justify-between items-center mb-4">
-                        <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
-                        <span className="text-lg font-bold text-brand-primary-500">
-                          PKR {program.fee.toLocaleString()}
-                        </span>
+                      <div className="space-y-3 mb-4">
+                        {/* Show total fee only for programs that are NOT BSCS, BBA, or the four ADP programs */}
+                        {!['BS Computer Science', 'BBA (Business Administration)', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
+                          <div className="flex justify-between items-center">
+                            <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
+                            <span className="text-lg font-bold text-brand-primary-500">
+                              PKR {program.fee.toLocaleString()}
+                            </span>
+                          </div>
+                        )}
+                        
+                        {program.feePerSemester && (
+                          <div className="flex justify-between items-center">
+                            <span className="text-sm font-medium text-brand-muted-600">Per Semester:</span>
+                            <span className="text-md font-semibold text-brand-secondary-500">
+                              PKR {program.feePerSemester.toLocaleString()}
+                            </span>
+                          </div>
+                        )}
+                        
+                        {program.registrationFee > 0 && (
+                          <div className="flex justify-between items-center">
+                            <span className="text-sm font-medium text-brand-muted-600">Registration Fee:</span>
+                            <span className="text-sm font-medium text-brand-muted-600">
+                              PKR {program.registrationFee.toLocaleString()}
+                            </span>
+                          </div>
+                        )}
                       </div>
                       
                       {/* Discount and Contact Section */}

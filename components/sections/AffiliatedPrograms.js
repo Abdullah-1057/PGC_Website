@@ -176,6 +176,142 @@ const ucpPrograms = [
         subjects: ['Calculus-III', 'Optics', 'Lab-IV (Optics)', 'Elements of Set Theory & Mathematical Logic', 'Affine & Euclidean Geometry', 'Technical Writing & Presentation Skills', 'Project']
       }
     ]
+  },
+  {
+    name: 'ADP Software Engineering',
+    university: 'UCP',
+    duration: '2 Years',
+    credits: 66,
+    description: 'Associate Degree Program in Software Engineering with modern programming languages, software development methodologies, and practical project experience.',
+    careerProspects: ['Software Development', 'Web Development', 'Mobile App Development', 'Database Administration', 'System Analysis', 'Quality Assurance'],
+    fee: 240000,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerSemester: 120000,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Programming Fundamentals (C++)', 'Mathematics for Computing', 'Functional English', 'Introduction to Computer Science', 'Pakistan & Islamic Studies/Ethics', 'Introduction to Information Technology']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Object Oriented Programming (Java)', 'Data Structures & Algorithms', 'Database Management Systems', 'English Advanced Writing', 'Discrete Mathematics', 'Web Programming Fundamentals']
+      },
+      {
+        title: 'Semester III',
+        credits: 15,
+        subjects: ['Software Engineering', 'Operating Systems', 'Computer Networks', 'Communication Skills', 'Project-I (Software Development)']
+      },
+      {
+        title: 'Semester IV',
+        credits: 15,
+        subjects: ['Advanced Web Development', 'Mobile Application Development', 'Software Testing & Quality Assurance', 'Project Management', 'Project-II (Final Year Project)']
+      }
+    ]
+  },
+  {
+    name: 'ADP Artificial Intelligence',
+    university: 'UCP',
+    duration: '2 Years',
+    credits: 66,
+    description: 'Associate Degree Program in Artificial Intelligence covering machine learning, neural networks, and AI applications in real-world scenarios.',
+    careerProspects: ['AI Engineering', 'Machine Learning', 'Data Science', 'Computer Vision', 'Natural Language Processing', 'Robotics', 'AI Research'],
+    fee: 250000,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerSemester: 125000,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Programming Fundamentals (Python)', 'Mathematics for AI', 'Functional English', 'Introduction to Artificial Intelligence', 'Pakistan & Islamic Studies/Ethics', 'Introduction to Computer Science']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Machine Learning Fundamentals', 'Data Structures & Algorithms', 'Statistics & Probability', 'English Advanced Writing', 'Linear Algebra', 'Database Management Systems']
+      },
+      {
+        title: 'Semester III',
+        credits: 15,
+        subjects: ['Deep Learning', 'Computer Vision', 'Natural Language Processing', 'Communication Skills', 'AI Project-I']
+      },
+      {
+        title: 'Semester IV',
+        credits: 15,
+        subjects: ['Advanced Machine Learning', 'AI Applications & Ethics', 'Robotics Fundamentals', 'Research Methods', 'AI Project-II (Capstone)']
+      }
+    ]
+  },
+  {
+    name: 'ADP Data Science',
+    university: 'UCP',
+    duration: '2 Years',
+    credits: 66,
+    description: 'Associate Degree Program in Data Science focusing on data analysis, statistical modeling, and business intelligence for data-driven decision making.',
+    careerProspects: ['Data Analysis', 'Business Intelligence', 'Statistical Analysis', 'Data Engineering', 'Research Analysis', 'Market Research', 'Operations Analysis'],
+    fee: 250000,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerSemester: 125000,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Programming for Data Science (Python)', 'Statistics & Probability', 'Functional English', 'Introduction to Data Science', 'Pakistan & Islamic Studies/Ethics', 'Mathematics for Data Science']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Data Analysis & Visualization', 'Database Management Systems', 'Statistical Methods', 'English Advanced Writing', 'Linear Algebra', 'Introduction to Machine Learning']
+      },
+      {
+        title: 'Semester III',
+        credits: 15,
+        subjects: ['Advanced Statistics', 'Data Mining', 'Business Intelligence', 'Communication Skills', 'Data Science Project-I']
+      },
+      {
+        title: 'Semester IV',
+        credits: 15,
+        subjects: ['Big Data Analytics', 'Predictive Modeling', 'Data Ethics & Privacy', 'Research Methods', 'Data Science Project-II (Capstone)']
+      }
+    ]
+  },
+  {
+    name: 'ADP Cyber Security',
+    university: 'UCP',
+    duration: '2 Years',
+    credits: 66,
+    description: 'Associate Degree Program in Cyber Security covering network security, ethical hacking, and information security management.',
+    careerProspects: ['Cyber Security Analysis', 'Information Security', 'Ethical Hacking', 'Security Consulting', 'Network Security', 'Incident Response', 'Security Auditing'],
+    fee: 250000,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerSemester: 125000,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Introduction to Cyber Security', 'Programming Fundamentals (Python)', 'Functional English', 'Computer Networks', 'Pakistan & Islamic Studies/Ethics', 'Introduction to Information Technology']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Network Security', 'Operating Systems Security', 'Cryptography', 'English Advanced Writing', 'Ethical Hacking Fundamentals', 'Database Security']
+      },
+      {
+        title: 'Semester III',
+        credits: 15,
+        subjects: ['Advanced Cyber Security', 'Digital Forensics', 'Security Risk Assessment', 'Communication Skills', 'Cyber Security Project-I']
+      },
+      {
+        title: 'Semester IV',
+        credits: 15,
+        subjects: ['Incident Response & Management', 'Security Policies & Compliance', 'Advanced Penetration Testing', 'Research Methods', 'Cyber Security Project-II (Capstone)']
+      }
+    ]
   }
 ]
 
@@ -375,11 +511,31 @@ export default function AffiliatedPrograms() {
 
               {program.fee > 0 && (
                 <div className="border-t border-brand-muted-200 pt-4">
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
-                    <span className="text-lg font-bold text-brand-primary-500">
-                      PKR {program.fee.toLocaleString()}
-                    </span>
+                  <div className="space-y-3 mb-4">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
+                      <span className="text-lg font-bold text-brand-primary-500">
+                        PKR {program.fee.toLocaleString()}
+                      </span>
+                    </div>
+                    
+                    {program.feePerSemester && (
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-medium text-brand-muted-600">Per Semester:</span>
+                        <span className="text-md font-semibold text-brand-secondary-500">
+                          PKR {program.feePerSemester.toLocaleString()}
+                        </span>
+                      </div>
+                    )}
+                    
+                    {program.registrationFee > 0 && (
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-medium text-brand-muted-600">Registration Fee:</span>
+                        <span className="text-sm font-medium text-brand-muted-600">
+                          PKR {program.registrationFee.toLocaleString()}
+                        </span>
+                      </div>
+                    )}
                   </div>
                   
                   {/* Discount Message */}

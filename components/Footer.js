@@ -21,10 +21,10 @@ const navigation = {
     { name: 'Contact', href: '/contact' },
   ],
   courses: [
-    { name: 'FSc Pre-Medical', href: '/courses/fsc-pre-medical' },
-    { name: 'FSc Pre-Engineering', href: '/courses/fsc-pre-engineering' },
+    { name: 'FSc Pre-Medical', href: '/courses/fsc-medical' },
+    { name: 'FSc Pre-Engineering', href: '/courses/fsc-engineering' },
     { name: 'ICS', href: '/courses/ics' },
-    { name: 'I.Com', href: '/courses/icom' },
+    { name: 'FA', href: '/courses/fa' },
   ],
 }
 

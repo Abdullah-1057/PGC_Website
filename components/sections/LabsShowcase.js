@@ -14,7 +14,10 @@ export default function LabsShowcase({ id }) {
   const [activeImage, setActiveImage] = useState(0)
 
   const currentLab = labsData[activeLab]
-  const currentImage = activeImage === 0 ? currentLab.image : currentLab.image2
+  const getCurrentImage = () => {
+    const images = [currentLab.image, currentLab.image2, currentLab.image3, currentLab.image4].filter(Boolean)
+    return images[activeImage] || images[0]
+  }
 
   return (
     <Section id={id} background="brand-muted-50" padding="lg">
@@ -109,13 +112,13 @@ export default function LabsShowcase({ id }) {
               {/* Main Image */}
               <motion.div 
                 className="relative h-80 w-full rounded-xl overflow-hidden shadow-lg"
-                key={currentImage}
+                key={getCurrentImage()}
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src={currentImage}
+                  src={getCurrentImage()}
                   alt={`${currentLab.name} - Image ${activeImage + 1}`}
                   fill
                   className="object-cover"
@@ -130,7 +133,7 @@ export default function LabsShowcase({ id }) {
 
               {/* Image Thumbnails */}
               <div className="flex gap-3">
-                {[currentLab.image, currentLab.image2].map((image, index) => (
+                {[currentLab.image, currentLab.image2, currentLab.image3, currentLab.image4].filter(Boolean).map((image, index) => (
                   <motion.button
                     key={index}
                     onClick={() => setActiveImage(index)}

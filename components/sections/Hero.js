@@ -176,6 +176,30 @@ export default function Hero() {
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                 </svg>
               </motion.a>
+              <motion.a
+                href="https://www.tiktok.com/@punjabcollegejhang?_t=ZS-90EXsafjMjk&_r=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-12 h-12 bg-white/10 hover:bg-black rounded-full transition-all duration-300 group backdrop-blur-sm"
+                whileHover={{ scale: 1.1, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <svg className="w-6 h-6 text-white group-hover:text-white" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.742 2h3.026c.203 1.4 1.068 2.66 2.3 3.43 1.02.64 2.211.963 3.432.93v3.11c-1.3.028-2.589-.26-3.748-.85-.49-.25-.95-.55-1.371-.89v6.88c0 3.77-3.057 6.81-6.828 6.81-1.816 0-3.548-.71-4.836-1.98A6.79 6.79 0 0 1 2.9 13.65c.25-3.55 3.31-6.33 6.868-6.33.47 0 .93.05 1.374.15v3.28a3.61 3.61 0 0 0-1.374-.28c-2 0-3.62 1.6-3.62 3.59 0 1.98 1.62 3.6 3.62 3.6 2 0 3.62-1.62 3.62-3.6V2z"/>
+                </svg>
+              </motion.a>
+              <motion.a
+                href="https://x.com/PGCJhang?t=gzWIvbBp_5Xbe0dBi0fTxg&s=09"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-12 h-12 bg-white/10 hover:bg-black rounded-full transition-all duration-300 group backdrop-blur-sm"
+                whileHover={{ scale: 1.1, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <svg className="w-6 h-6 text-white group-hover:text-white" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2H21l-6.48 7.4L22.5 22h-6.9l-4.3-5.7L6.2 22H3.4l6.94-7.94L1.5 2h7l3.9 5.2L18.244 2zm-2.42 18h2.1L8.27 4H6.1l9.724 16z"/>
+                </svg>
+              </motion.a>
             </motion.div>
           </motion.div>
           
@@ -209,7 +233,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20, x: -20 }}
                 animate={{ opacity: 1, y: 0, x: 0 }}
                 transition={{ duration: 0.8, delay: 1.2 }}
-                className="absolute -bottom-8 -left-8 glass rounded-2xl p-6 shadow-large"
+                className="absolute bottom-2 left-2 sm:-bottom-8 sm:-left-8 glass rounded-2xl p-6 shadow-large"
                 whileHover={{ y: -5 }}
               >
                 <div className="text-center">
@@ -220,7 +244,7 @@ export default function Hero() {
                   >
                     #1
                   </motion.div>
-                  <div className="text-sm text-brand-muted-600 font-medium">
+                  <div className="text-sm text-white font-medium">
                     College in Region
                   </div>
                 </div>
@@ -230,7 +254,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: -20, x: 20 }}
                 animate={{ opacity: 1, y: 0, x: 0 }}
                 transition={{ duration: 0.8, delay: 1.4 }}
-                className="absolute -top-8 -right-8 glass rounded-2xl p-6 shadow-large"
+                className="absolute top-2 right-2 sm:-top-8 sm:-right-8 glass rounded-2xl p-6 shadow-large"
                 whileHover={{ y: -5 }}
               >
                 <div className="text-center">
@@ -241,7 +265,7 @@ export default function Hero() {
                   >
                     🏆
                   </motion.div>
-                  <div className="text-sm text-brand-muted-600 font-medium">
+                  <div className="text-sm text-white font-medium">
                     Award Winning
                   </div>
                 </div>

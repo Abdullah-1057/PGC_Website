@@ -72,13 +72,13 @@ export default function About() {
                 <div className="flex flex-col items-center text-center mb-6">
                   <Image 
                     src="/about/2about.jpeg"
-                    alt="Shiekh Abdul Waheed - Executive Director"
+                    alt="Abdul Waheed Sheikh - Executive Director"
                     width={120}
                     height={120}
                     className="rounded-full object-cover mb-4 border-4 border-brand-primary-100"
                   />
                   <h3 className="text-xl font-bold text-brand-secondary-500 mb-2">
-                    Shiekh Abdul Waheed
+                    Abdul Waheed Sheikh
                   </h3>
                   <p className="text-brand-primary-500 font-semibold">
                     Executive Director, Punjab College Jhang

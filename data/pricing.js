@@ -53,7 +53,7 @@ export const pricingData = [
   },
   {
     id: 4,
-    program: 'FA',
+    program: 'F.A (IT)',
     totalDues: '100,860',
     discounts: 'Discounts are available',
     popular: false,
@@ -78,6 +78,7 @@ export const pricingData = [
     popular: true,
     features: [
       'Four years comprehensive program',
+      'Admissions open in 1st & 5th semesters',
       'Advanced programming and software development',
       'AI, Machine Learning, and Data Science',
       'Final year project requirement',
@@ -96,6 +97,7 @@ export const pricingData = [
     popular: false,
     features: [
       'Four years business administration program',
+      'Admissions open in 1st & 5th semesters',
       'Comprehensive business education',
       'Specialization options available',
       'Internship and capstone project',
@@ -105,11 +107,29 @@ export const pricingData = [
       'Professional networking opportunities'
     ]
   },
+  {
+    id: 21,
+    program: 'BS Commerce',
+    totalDues: '75,000',
+    perSemester: true,
+    discounts: 'Government College Affiliated',
+    popular: false,
+    features: [
+      'Four years commerce degree program',
+      'Admissions open in 1st & 5th semesters',
+      'Comprehensive business and commerce education',
+      'Accounting and finance specialization',
+      'Business law and economics',
+      'Marketing and management principles',
+      'Industry placement assistance',
+      'Professional networking opportunities'
+    ]
+  },
   // UCP Affiliated Programs (11 programs from home page)
   {
     id: 7,
     program: 'ADP Accounting & Finance',
-    totalDues: '249,200',
+    totalDues: '346,460',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -126,7 +146,7 @@ export const pricingData = [
   {
     id: 8,
     program: 'ADP Business Administration',
-    totalDues: '253,000',
+    totalDues: '346,460',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -143,7 +163,7 @@ export const pricingData = [
   {
     id: 9,
     program: 'ADP Computer Science',
-    totalDues: '258,800',
+    totalDues: '462,950',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -159,8 +179,8 @@ export const pricingData = [
   },
   {
     id: 10,
-    program: 'ADP Botany, Zoology & Chemistry',
-    totalDues: '259,600',
+    program: 'ADS (Zoolo, Botany & Chem)',
+    totalDues: '335,834',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -176,8 +196,8 @@ export const pricingData = [
   },
   {
     id: 11,
-    program: 'ADP Double Math & Physics',
-    totalDues: '258,800',
+    program: 'ADS (Math A, Math B & Phy)',
+    totalDues: '322,460',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -279,8 +299,7 @@ export const pricingData = [
   {
     id: 17,
     program: 'ADP Software Engineering',
-    totalDues: '120,000',
-    perSemester: true,
+    totalDues: '493,500',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -297,8 +316,7 @@ export const pricingData = [
   {
     id: 18,
     program: 'ADP Artificial Intelligence',
-    totalDues: '125,000',
-    perSemester: true,
+    totalDues: '500,000',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -315,8 +333,7 @@ export const pricingData = [
   {
     id: 19,
     program: 'ADP Data Science',
-    totalDues: '125,000',
-    perSemester: true,
+    totalDues: '519,500',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -333,8 +350,7 @@ export const pricingData = [
   {
     id: 20,
     program: 'ADP Cyber Security',
-    totalDues: '125,000',
-    perSemester: true,
+    totalDues: '500,000',
     discounts: 'UCP Affiliated Program',
     popular: false,
     features: [
@@ -346,6 +362,23 @@ export const pricingData = [
       'Security tools and technologies',
       'Incident response and risk assessment',
       'Career in cyber security and IT security'
+    ]
+  },
+  {
+    id: 22,
+    program: 'ADP-Home Economics & Culinary Arts',
+    totalDues: '376,820',
+    discounts: 'UCP Affiliated Program',
+    popular: false,
+    features: [
+      'Two years home economics and culinary arts program',
+      'Food preparation and cooking techniques',
+      'Nutrition and dietary planning',
+      'Household management and budgeting',
+      'Textile and clothing design',
+      'Child development and family studies',
+      'Event planning and hospitality',
+      'Career in hospitality and culinary industry'
     ]
   }
 ]

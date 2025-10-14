@@ -53,7 +53,7 @@ export default function FeeStructure() {
                           PKR {plan.totalDues}
                         </div>
                         <p className="text-brand-muted-600">
-                          {plan.perSemester ? 'Per Semester' : 'Total Dues'}
+                          {plan.program.includes('ADP') ? 'Full Degree Package' : (plan.perSemester ? 'Per Semester' : 'Total Dues')}
                         </p>
                       </div>
 
@@ -125,7 +125,7 @@ export default function FeeStructure() {
                           {plan.totalDues.includes('Contact') ? plan.totalDues : `PKR ${plan.totalDues}`}
                         </div>
                         <p className="text-brand-muted-600">
-                          {plan.totalDues.includes('Contact') ? '' : (plan.perSemester ? 'Per Semester' : 'Total Dues')}
+                          {plan.totalDues.includes('Contact') ? '' : (plan.program.includes('ADP') ? 'Full Degree Package' : (plan.perSemester ? 'Per Semester' : 'Total Dues'))}
                         </p>
                       </div>
 

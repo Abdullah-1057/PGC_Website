@@ -151,16 +151,16 @@ export const coursesData = [
   },
   {
     id: 4,
-    title: 'FA',
+    title: 'F.A (IT)',
     slug: 'fa',
     category: 'Arts',
-    description: 'Arts program with humanities subjects including languages and social sciences for creative minds.',
+    description: 'Arts program with Information Technology subjects including languages and social sciences for creative minds.',
     duration: '2 Years',
     fee: 'PKR 100,860',
     totalDues: '100,860',
     discounts: 'Discounts are available',
     eligibility: 'Matriculation (any group)',
-    overview: 'The FA program offers a broad liberal arts education with focus on languages, literature, and social sciences.',
+    overview: 'The F.A (IT) program offers a broad liberal arts education with focus on languages, literature, and social sciences with Information Technology integration.',
     curriculum: [
       {
         subject: 'English',

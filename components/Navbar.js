@@ -5,10 +5,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname, useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Bars3Icon, XMarkIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+// ArrowRightOnRectangleIcon commented out - logout button removed
 import Button from './Button'
-import { logout } from '@/lib/auth'
-import toast from 'react-hot-toast'
+// Logout functionality commented out - no authentication system
+// import { logout } from '@/lib/auth'
+// import toast from 'react-hot-toast'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -27,11 +29,12 @@ export default function Navbar() {
   const pathname = usePathname()
   const router = useRouter()
 
-  const handleLogout = () => {
-    logout()
-    toast.success('Logged out successfully')
-    router.push('/login')
-  }
+  // Logout functionality commented out - no authentication system
+  // const handleLogout = () => {
+  //   logout()
+  //   toast.success('Logged out successfully')
+  //   router.push('/login')
+  // }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -117,7 +120,7 @@ export default function Navbar() {
                   Get Started
                 </Button>
               </motion.div>
-              <motion.button
+              {/* <motion.button
                 onClick={handleLogout}
                 className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-brand-secondary-500 hover:text-brand-primary-500 hover:bg-brand-muted-50 rounded-lg transition-all duration-200"
                 whileHover={{ scale: 1.05 }}
@@ -126,7 +129,7 @@ export default function Navbar() {
               >
                 <ArrowRightOnRectangleIcon className="h-4 w-4" />
                 <span>Logout</span>
-              </motion.button>
+              </motion.button> */}
             </div>
           </div>
 
@@ -203,13 +206,14 @@ export default function Navbar() {
                 <Button href="/admissions" className="w-full">
                   Get Started
                 </Button>
-                <button
+                {/* Logout button commented out - no authentication system */}
+                {/* <button
                   onClick={handleLogout}
                   className="w-full flex items-center justify-center space-x-2 px-4 py-3 text-base font-medium text-brand-secondary-500 hover:text-brand-primary-500 hover:bg-brand-muted-50 rounded-lg transition-all duration-200"
                 >
                   <ArrowRightOnRectangleIcon className="h-5 w-5" />
                   <span>Logout</span>
-                </button>
+                </button> */}
               </motion.div>
             </div>
           </motion.div>

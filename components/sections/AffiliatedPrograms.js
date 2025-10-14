@@ -321,7 +321,7 @@ const gcPrograms = [
     university: 'GCUF',
     duration: '4 Years',
     credits: 130,
-    description: 'Comprehensive computer science program with advanced topics',
+    description: 'Comprehensive computer science program with advanced topics. Admissions open in 1st & 5th semesters.',
     careerProspects: ['Software Development', 'AI/ML', 'Data Science', 'IT Management'],
     fee: 600000, // Total fee for 4 years (8 semesters × 75,000)
     registrationFee: 0,
@@ -334,8 +334,21 @@ const gcPrograms = [
     university: 'GCUF',
     duration: '4 Years',
     credits: 120,
-    description: 'NBEAC-HEC Accredited comprehensive business education',
+    description: 'NBEAC-HEC Accredited comprehensive business education. Admissions open in 1st & 5th semesters.',
     careerProspects: ['Management', 'Marketing', 'Finance', 'Entrepreneurship'],
+    fee: 600000, // Total fee for 4 years (8 semesters × 75,000)
+    registrationFee: 0,
+    admissionFee: 0,
+    feePerCredit: 0,
+    feePerSemester: 75000
+  },
+  {
+    name: 'BS Commerce',
+    university: 'GCUF',
+    duration: '4 Years',
+    credits: 120,
+    description: 'Comprehensive commerce degree program with business and commerce education. Admissions open in 1st & 5th semesters.',
+    careerProspects: ['Accounting', 'Finance', 'Business Law', 'Marketing', 'Management'],
     fee: 600000, // Total fee for 4 years (8 semesters × 75,000)
     registrationFee: 0,
     admissionFee: 0,
@@ -514,8 +527,8 @@ export default function AffiliatedPrograms() {
               {program.fee > 0 && (
                 <div className="border-t border-brand-muted-200 pt-4">
                   <div className="space-y-3 mb-4">
-                    {/* Show total fee only for programs that are NOT BSCS, BBA, or the four ADP programs */}
-                    {!['BS Computer Science', 'BBA (Business Administration)', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
+                    {/* Show total fee only for programs that are NOT BSCS, BBA, BS Commerce, or the four ADP programs */}
+                    {!['BS Computer Science', 'BBA (Business Administration)', 'BS Commerce', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
                       <div className="flex justify-between items-center">
                         <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
                         <span className="text-lg font-bold text-brand-primary-500">
@@ -678,8 +691,8 @@ export default function AffiliatedPrograms() {
                   {program.fee > 0 && (
                     <div className="border-t border-brand-muted-200 pt-4">
                       <div className="space-y-3 mb-4">
-                        {/* Show total fee only for programs that are NOT BSCS, BBA, or the four ADP programs */}
-                        {!['BS Computer Science', 'BBA (Business Administration)', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
+                        {/* Show total fee only for programs that are NOT BSCS, BBA, BS Commerce, or the four ADP programs */}
+                        {!['BS Computer Science', 'BBA (Business Administration)', 'BS Commerce', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
                           <div className="flex justify-between items-center">
                             <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
                             <span className="text-lg font-bold text-brand-primary-500">

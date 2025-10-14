@@ -14,7 +14,7 @@ const ucpPrograms = [
     credits: 67,
     description: 'A two-years and four-semesters degree programme that provides professional proficiency in the fields of accounting and finance. It enables students to start their career in almost every walk of life.',
     careerProspects: ['Accounts Department', 'Audit Firms', 'Banks', 'Debt Collection Agencies', 'Financial Consultancy Firms', 'Corporate Sector', 'Industry'],
-    fee: 249200,
+    fee: 346460,
     registrationFee: 8000,
     admissionFee: 8000,
     feePerCredit: 3600,
@@ -48,7 +48,7 @@ const ucpPrograms = [
     credits: 70,
     description: 'A two-years and four-semesters degree programme that offers students the opportunity to kickstart their career in the fields related to business and entrepreneurship.',
     careerProspects: ['Education Sector', 'Marketing Agencies', 'Human Resource', 'Administration', 'Sales', 'Retail & Production', 'Services Industry'],
-    fee: 253000,
+    fee: 346460,
     registrationFee: 8000,
     admissionFee: 8000,
     feePerCredit: 3500,
@@ -82,7 +82,7 @@ const ucpPrograms = [
     credits: 66,
     description: 'ADP Computer Science is a two-years and four-semesters degree programme that equips students with the right resources to excel in the fields of computer science and technology.',
     careerProspects: ['Software Development', 'Data Centers', 'Network Companies', 'Call Centers', 'Database Agencies', 'Administration', 'Management Information System', 'Corporate Sector'],
-    fee: 258800,
+    fee: 462950,
     registrationFee: 8000,
     admissionFee: 8000,
     feePerCredit: 3800,
@@ -110,13 +110,13 @@ const ucpPrograms = [
     ]
   },
   {
-    name: 'ADP Botany, Zoology & Chemistry',
+    name: 'ADS (Zoolo, Botany & Chem)',
     university: 'UCP',
     duration: '2 Years',
     credits: 74,
     description: 'A two-years and four-semesters degree programme that covers the most modern branches of pure science. It is a diversified programme that can lead to specialization in Botany, Zoology or Chemistry.',
     careerProspects: ['Research', 'Environmental Welfare Org.', 'Science Labs', 'Archaeology Department', 'Forestry', 'Veterinary Hospital', 'Museums', 'Fertilizer & Chemical Industries', 'Pharmaceutical Industries'],
-    fee: 259600,
+    fee: 335834,
     registrationFee: 8000,
     admissionFee: 8000,
     feePerCredit: 3400,
@@ -144,13 +144,13 @@ const ucpPrograms = [
     ]
   },
   {
-    name: 'ADP Double Math & Physics',
+    name: 'ADS (Math A, Math B & Phy)',
     university: 'UCP',
     duration: '2 Years',
     credits: 76,
     description: 'A two-years and four-semesters degree programme that offers professional understanding of Mathematics and Physics. After completing this programme students can further specialize and excel in their relevant field.',
     careerProspects: ['Research', 'Banking', 'Insurance', 'Data Analyst', 'Meteorology Dept'],
-    fee: 258800,
+    fee: 322460,
     registrationFee: 8000,
     admissionFee: 8000,
     feePerCredit: 3300,
@@ -184,10 +184,10 @@ const ucpPrograms = [
     credits: 66,
     description: 'Associate Degree Program in Software Engineering with modern programming languages, software development methodologies, and practical project experience.',
     careerProspects: ['Software Development', 'Web Development', 'Mobile App Development', 'Database Administration', 'System Analysis', 'Quality Assurance'],
-    fee: 240000,
+    fee: 493500,
     registrationFee: 8000,
     admissionFee: 8000,
-    feePerSemester: 120000,
+    // feePerSemester: 0,
     semesters: [
       {
         title: 'Semester I',
@@ -218,10 +218,10 @@ const ucpPrograms = [
     credits: 66,
     description: 'Associate Degree Program in Artificial Intelligence covering machine learning, neural networks, and AI applications in real-world scenarios.',
     careerProspects: ['AI Engineering', 'Machine Learning', 'Data Science', 'Computer Vision', 'Natural Language Processing', 'Robotics', 'AI Research'],
-    fee: 250000,
+    fee: 500000,
     registrationFee: 8000,
     admissionFee: 8000,
-    feePerSemester: 125000,
+    // feePerSemester: 0,
     semesters: [
       {
         title: 'Semester I',
@@ -252,10 +252,10 @@ const ucpPrograms = [
     credits: 66,
     description: 'Associate Degree Program in Data Science focusing on data analysis, statistical modeling, and business intelligence for data-driven decision making.',
     careerProspects: ['Data Analysis', 'Business Intelligence', 'Statistical Analysis', 'Data Engineering', 'Research Analysis', 'Market Research', 'Operations Analysis'],
-    fee: 250000,
+    fee: 519500,
     registrationFee: 8000,
     admissionFee: 8000,
-    feePerSemester: 125000,
+    // feePerSemester: 0,
     semesters: [
       {
         title: 'Semester I',
@@ -286,10 +286,10 @@ const ucpPrograms = [
     credits: 66,
     description: 'Associate Degree Program in Cyber Security covering network security, ethical hacking, and information security management.',
     careerProspects: ['Cyber Security Analysis', 'Information Security', 'Ethical Hacking', 'Security Consulting', 'Network Security', 'Incident Response', 'Security Auditing'],
-    fee: 250000,
+    fee: 500000,
     registrationFee: 8000,
     admissionFee: 8000,
-    feePerSemester: 125000,
+    feePerSemester: 0,
     semesters: [
       {
         title: 'Semester I',
@@ -310,6 +310,41 @@ const ucpPrograms = [
         title: 'Semester IV',
         credits: 15,
         subjects: ['Incident Response & Management', 'Security Policies & Compliance', 'Advanced Penetration Testing', 'Research Methods', 'Cyber Security Project-II (Capstone)']
+      }
+    ]
+  },
+  {
+    name: 'ADP-Home Economics & Culinary Arts',
+    university: 'UCP',
+    duration: '2 Years',
+    credits: 70,
+    description: 'Associate Degree Program in Home Economics & Culinary Arts covering food preparation, nutrition, household management, and culinary techniques.',
+    careerProspects: ['Culinary Arts', 'Food Service', 'Nutrition Counseling', 'Event Planning', 'Hospitality Management', 'Textile Design', 'Family Services'],
+    fee: 376820,
+    registrationFee: 8000,
+    admissionFee: 8000,
+    feePerCredit: 0,
+    feePerSemester: 0,
+    semesters: [
+      {
+        title: 'Semester I',
+        credits: 18,
+        subjects: ['Introduction to Home Economics', 'Food Preparation Basics', 'Nutrition Fundamentals', 'Textile Science', 'Family Studies', 'Communication Skills']
+      },
+      {
+        title: 'Semester II',
+        credits: 18,
+        subjects: ['Advanced Cooking Techniques', 'Meal Planning & Menu Design', 'Clothing Construction', 'Child Development', 'Pakistan & Islamic Studies/Ethics', 'English Writing']
+      },
+      {
+        title: 'Semester III',
+        credits: 17,
+        subjects: ['Culinary Arts & Presentation', 'Food Safety & Sanitation', 'Interior Design Basics', 'Family Resource Management', 'Research Methods']
+      },
+      {
+        title: 'Semester IV',
+        credits: 17,
+        subjects: ['Event Planning & Catering', 'Advanced Nutrition', 'Textile Design & Fashion', 'Entrepreneurship in Home Economics', 'Capstone Project']
       }
     ]
   }
@@ -527,24 +562,24 @@ export default function AffiliatedPrograms() {
               {program.fee > 0 && (
                 <div className="border-t border-brand-muted-200 pt-4">
                   <div className="space-y-3 mb-4">
-                    {/* Show total fee only for programs that are NOT BSCS, BBA, BS Commerce, or the four ADP programs */}
-                    {!['BS Computer Science', 'BBA (Business Administration)', 'BS Commerce', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
+                    {/* Show total fee for ADP programs */}
+                    {(program.name.includes('ADP') || program.name.includes('ADS')) && (
                       <div className="flex justify-between items-center">
-                        <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
+                        <span className="text-sm font-medium text-brand-muted-600">Full Degree Package:</span>
                         <span className="text-lg font-bold text-brand-primary-500">
                           PKR {program.fee.toLocaleString()}
                         </span>
                       </div>
                     )}
                     
-                    {program.feePerSemester && (
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm font-medium text-brand-muted-600">Per Semester:</span>
-                        <span className="text-md font-semibold text-brand-secondary-500">
-                          PKR {program.feePerSemester.toLocaleString()}
-                        </span>
-                      </div>
-                    )}
+                        {(program.feePerSemester && program.feePerSemester > 0) && (
+                          <div className="flex justify-between items-center">
+                            <span className="text-sm font-medium text-brand-muted-600">Per Semester:</span>
+                            <span className="text-md font-semibold text-brand-secondary-500">
+                              PKR {program.feePerSemester.toLocaleString()}
+                            </span>
+                          </div>
+                        )}
                     
                     {program.registrationFee > 0 && (
                       <div className="flex justify-between items-center">
@@ -691,17 +726,17 @@ export default function AffiliatedPrograms() {
                   {program.fee > 0 && (
                     <div className="border-t border-brand-muted-200 pt-4">
                       <div className="space-y-3 mb-4">
-                        {/* Show total fee only for programs that are NOT BSCS, BBA, BS Commerce, or the four ADP programs */}
-                        {!['BS Computer Science', 'BBA (Business Administration)', 'BS Commerce', 'ADP Software Engineering', 'ADP Artificial Intelligence', 'ADP Data Science', 'ADP Cyber Security'].includes(program.name) && (
+                        {/* Show total fee for ADP programs */}
+                        {(program.name.includes('ADP') || program.name.includes('ADS')) && (
                           <div className="flex justify-between items-center">
-                            <span className="text-sm font-medium text-brand-muted-600">Total Fee:</span>
+                            <span className="text-sm font-medium text-brand-muted-600">Full Degree Package:</span>
                             <span className="text-lg font-bold text-brand-primary-500">
                               PKR {program.fee.toLocaleString()}
                             </span>
                           </div>
                         )}
                         
-                        {program.feePerSemester && (
+                        {(program.feePerSemester && program.feePerSemester > 0) && (
                           <div className="flex justify-between items-center">
                             <span className="text-sm font-medium text-brand-muted-600">Per Semester:</span>
                             <span className="text-md font-semibold text-brand-secondary-500">

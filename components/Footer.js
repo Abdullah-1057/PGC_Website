@@ -25,10 +25,9 @@ const navigation = {
     { name: 'FSc Pre-Engineering', href: '/courses/fsc-engineering' },
     { name: 'ICS', href: '/courses/ics' },
     { name: 'F.A (IT)', href: '/courses/fa' },
-    { name: 'BS Computer Science', href: '/pricing' },
-    { name: 'BS Commerce', href: '/pricing' },
-    { name: 'BBA', href: '/pricing' },
-    { name: 'ADP Programs', href: '/pricing' },
+    { name: 'BS', href: '/courses' },
+    { name: 'ADP', href: '/courses' },
+    { name: 'BBA', href: '/courses' },
   ],
 }
 
